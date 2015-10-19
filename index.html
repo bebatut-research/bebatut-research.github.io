@@ -2,22 +2,27 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home" id="home">
+  <h1 class="pageTitle">About</h1>
+  <p class="description">
+    I'm a <b>bioinformatician</b> and <b>computational biologist</b>.
 
-  <h1 class="page-heading">Posts</h1>
+    Currently, in my post-doc, I'm working on the study of gut microbiota using
+    <b>metagenomic</b> and <b>metatranscriptomic</b> approaches. I'm developping
+    <a href="http://asaim.github.io/">ASaiM</a>, a bioinformatic environment to
+    study gut microbiota smaples with an analysis framework using Galaxy, an 
+    expert database and a web interface to interact with the tools.
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    During my PhD, I worked on reductive genome evolution of the cyanobacteria
+    <i>Prochlorococcus</i>. To study this particular phenomenon, I used two 
+    approaches:
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul>
+      <li><b><i>In silico</i> experimental evolution</b> with <a href="http://www.aevol.fr/">aevol platform</a> </li>
+      <li><b>Comparative genomics</b> with <b>phylogeny</b>
+    </u>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    With the combination of these two approaches, I proposed an hypothetic history 
+    for reductive genome evolution of <i>Prochlorococcus</i>
+  </p>
 </div>
