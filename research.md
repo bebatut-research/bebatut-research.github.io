@@ -1,25 +1,59 @@
 ---
 layout: default
-title: About Long Haul
+title: Research
 ---
 
-<div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with <a href="http://sass-lang.com/">SASS</a> + <a href="http://compass-style.org/">COMPASS</a></li>
-  		<li>Layout with <a href="http://susy.oddbird.net/">SUSY Grid</a></li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
-</div>
+# Research
+
+Since January 2015, I'm principally studing [gut microbiota](#gut_microbiota) 
+using metagenomic and metatranscriptomic approaches. Before, I worked during my 
+PhD on [reductive genome evolution](#reductive_genome_evolution) of 
+*Prochlorococus* with *in silico* experimental evolution and comparative genomic 
+approoaches.
+
+---
+
+<a name="gut_microbiota"></a>
+## Gut microbiota 
+
+
+metagenomics/metatranscriptomics
+
+why? how? project? 
+
+ASaiM? other projects (Rejane, Clémence, Thierry)?
+
+illustration?
+
+technological choices
+
+<a name="reductive_genome_evolution"></a>
+## Reductive genome evolution
+
+what is it? NRM?
+
+Prochlorococcus: ovni
+
+approaches --> PhD thesis
+
+<img src="assets/img/phd_banner.png" />
+
+### *In silico* experimental evolution
+
+principle
+
+aevol
+
+methodology (illustration): publi + lien vers page publi
+
+### Comparative genomics and phylogeny
+
+Approaches? why phylogeny?
+
+methods? results? 
+
+illustration from thesis
+
+### Proposed hypothetic history
+
+illustration
