@@ -1,0 +1,19 @@
+-
+    year: 2014-2015
+    lectures:
+    -
+        title: "ASaiM: Lessons learned from developing a framework for biologists"
+        date: "2015-10-17"
+        at: "PyConFr 15, Pau, France"
+        slides_url: http://bebatut-slides.github.io/pycon-fr_2015/#/
+        summary: >
+            With new technologies and reduced costs of DNA sequencing, 
+            biological data are massively generated. Such data are complex and 
+            require multi-step processing. While numerous tools exist, most of 
+            them are only performing one task, not interoperable, not user-friendly, and 
+            so on... That is a big deal for biologists!
+            We are building ASaiM (Auvergne Sequence Analysis of Intestinal Microbiota), a 
+            framework to process and analyze data from intestinal microbiota, designed for
+            biologists: simple yet powerful! 
+            In this talk, I am going to introduce how we created ASaiM, why we chose Python,
+            but also what I have learnt developing such a software.

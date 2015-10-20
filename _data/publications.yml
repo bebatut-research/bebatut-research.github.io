@@ -1,0 +1,13 @@
+-
+    type: Peer-reviewed journals
+    publications:
+    -
+        title: "title"
+        year: "2015"
+        authors: "Batut, B."
+        journal: "journal"
+        doi: "doi"
+        ref: "11"
+        pdf_link: 
+        summary: >
+            blabla

@@ -1,0 +1,58 @@
+-
+    year: 2015
+    talks:
+    -
+        title: "ASaiM: Lessons learned from developing a framework for biologists"
+        date: "2015-10-17"
+        at: "PyConFr 15, Pau, France"
+        slides_url: http://bebatut-slides.github.io/pycon-fr_2015/#/
+        summary: >
+            With new technologies and reduced costs of DNA sequencing, 
+            biological data are massively generated. Such data are complex and 
+            require multi-step processing. While numerous tools exist, most of 
+            them are only performing one task, not interoperable, not user-friendly, and 
+            so on... That is a big deal for biologists!
+            We are building ASaiM (Auvergne Sequence Analysis of Intestinal Microbiota), a 
+            framework to process and analyze data from intestinal microbiota, designed for
+            biologists: simple yet powerful! 
+            In this talk, I am going to introduce how we created ASaiM, why we chose Python,
+            but also what I have learnt developing such a software.
+    - 
+        title: "ASaiM: an environment to analyze intestinal microbiota"
+        date: "2015-07-08"
+        at: "JOBIM 15, Clermont-Fd, France"
+        slides_url: http://fr.slideshare.net/bebatut/asaim-an-environment?related=1
+        summary: >
+            Metatranscriptomic data allow active 
+            microbial communities description by gene products analysis. In comparison to 
+            metagenomic studies, few metatranscriptomic data have been obtained on 
+            environmental ecosystems (soil, water, mine drainage…) as on human-associated 
+            microbiota despite health concerns. This discrepancy is due to difficulties in 
+            RNA recovery but also to a lack of tools dedicated to metatranscriptomic data 
+            processing. Nevertheless, some homemade pipelines adapted from metagenomics 
+            analyses exist but are not freely available and thus not easily accessible. 
+            Here we present ASAIM (Auvergne Sequence Analysis for Intestinal Microbiota), 
+            a pipeline to process metatranscriptomic data from intestinal microbiota. 
+            Starting from raw reads, it generates taxonomic and functional assignments 
+            using databases dedicated to this microbiome. These gut databases become more 
+            and more supplied by large metagenomic projects (like MetaHIT and HMP projects 
+            for microbial reference genomes) and therefore useful for reliable and accurate 
+            assignments. Finally, ASAIM combines taxonomic, functional and abundance 
+            information, coupled to statistical analyses and data mining tools. This 
+            pipeline is designed to be adjustable (personalized or proposed data processing 
+            given the type of data) and intuitive with its web interface, documentation and 
+            tutorials. ASAIM is freely available at http://g2im.u-clermont1.fr/asaim/ and 
+            can be downloaded or directly interrogated through its web interface.
+    -
+        title: "ASaiM : Traitement 'Big Data' en biologie"
+        date: "2015-06-10"
+        at: "API Hour #15, Clermont-Fd, France"
+        slides_url: http://fr.slideshare.net/bebatut/api-hour-100615
+        summary: >
+            Le microbiote intestinal humain permet de 
+            prévenir les infections, de stimuler l’immunité ou encore de réduire les 
+            inflammations. La réduction des coûts de séquençage de l’ADN permet d’étudier 
+            plus facilement ces microorganismes. Cependant, ces techniques génèrent de 
+            grandes quantités de données qui sont complexes à analyser, surtout pour les 
+            biologistes. La plateforme Auvergne Sequence Analyses of Intestinal Microbiota 
+            (ASAIM) est développée afin d’offrir une solution à ces problématiques.
