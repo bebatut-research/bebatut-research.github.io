@@ -1,17 +1,37 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Talks
 ---
 
-<div id="articles">
-  <h1>Articles</h1>
-  <ul class="posts noList">
-    {% for post in site.posts %}
-      <li>
-      	<span class="date">{{ post.date | date_to_string }}</span>
-      	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      	<p class="description">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+# Talks
+
+Most of my talks are available on [Slideshare](http://fr.slideshare.net/bebatut),
+ and the sources can be found at: [bebatut-slides.github.io](http://bebatut-slides.github.io).
+
+---
+
+<ul class="talks">
+  {% for data in site.data.talks %}
+  <h2 class="title">{{ data.year }}</h2>
+
+  <ul class="talks-by-year {{ data.year }}">
+    {% for talk in data.talks %}
+      <li class="talk">
+        <div class="talk-title">
+          <a href="{{ talk.slides_url }}">{{ talk.title }}</a> - {{ talk.at }}
+          {% if talk.video_url %} [<a href="{{ talk.video_url }}">video</a>]{% endif %}{% if talk.post_url %} [<a href="{{ talk.post_url }}">post</a>]{% endif %}
+        </div>
+
+        <div class="toggle">
+          <a class="toggler">&#10148; <em>Summary</em></a>
+          <p class="talk-summary toggled">
+            {{ talk.summary }}
+          </p>
+        </div>
       </li>
     {% endfor %}
   </ul>
-</div>
+  {% endfor %}
+</ul>
+
+
