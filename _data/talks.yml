@@ -6,6 +6,7 @@
         date: "2015-10-17"
         at: "PyConFr 15, Pau, France"
         slides_url: http://bebatut-slides.github.io/pycon-fr_2015/#/
+        source: https://github.com/bebatut-slides/pycon-fr_2015
         summary: >
             With new technologies and reduced costs of DNA sequencing, 
             biological data are massively generated. Such data are complex and 
