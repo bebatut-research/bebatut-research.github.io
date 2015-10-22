@@ -5,6 +5,8 @@ title: Publications
 
 # Publications
 
+[Scholar profile](https://scholar.google.fr/citations?user=q5GpTJYAAAAJ&hl=fr)
+
 Bibtex? Google scholar link?
 
 ---
@@ -17,7 +19,13 @@ Bibtex? Google scholar link?
     {% for publi in data.publications %}
       <li class="publi">
         <div class="publi-description">
-          {{ publi.authors}}. {{ publi.year}}. {{ publi.title }}. <em> {{ publi.journal }} </em>, {{ publi.ref }}. {{ publi.doi }}
+          {{ publi.authors}}. {{ publi.year}}. <a href="{{ publi.link }}">{{ publi.title }}</a>.
+          {% if publi.journal %} <em> {{ publi.journal }} </em>,{% endif %}
+          {% if publi.conf %} <em> {{ publi.conf }} </em>,{% endif %}
+          {% if publi.when %} {{ publi.when }},{% endif %}
+          {% if publi.at %} {{ publi.at }},{% endif %}
+          {% if publi.ref %}{{ publi.ref }}.{% endif %}
+          {% if publi.doi %} doi: {{ publi.doi }}{% endif %}
         </div>
         <div class="toggle">
           <a class="toggler">&#10148; <em>Summary</em></a>

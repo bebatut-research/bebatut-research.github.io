@@ -2,12 +2,171 @@
     type: Peer-reviewed journals
     publications:
     -
-        title: "title"
-        year: "2015"
-        authors: "Batut, B."
-        journal: "journal"
-        doi: "doi"
-        ref: "11"
-        pdf_link: 
+        title: "Reductive genome evolution at both ends of bacterial population size spectrum"
+        year: "2014"
+        authors: "B Batut, C Knibbe, G Marais, V Daubin"
+        journal: "Nat Rev Microb"
+        doi: "10.1038/nrmicro3331"
+        ref: "12, 841-850"
+        link: "http://www.nature.com/nrmicro/journal/v12/n12/full/nrmicro3331.html"
         summary: >
-            blabla
+            Bacterial genomes show substantial variations in size. The smallest 
+            bacterial genomes are those of endocellular symbionts of eukaryotic 
+            hosts, which have undergone massive genome reduction and show patterns
+             that are consistent with the degenerative processes that are predicted
+             to occur in species with small effective population sizes. However,
+             similar genome reduction is found in some free-living marine 
+             cyanobacteria that are characterized by extremely large populations. 
+            In this Opinion article, we discuss the different hypotheses that have 
+            been proposed to account for this reductive genome evolution at both 
+            ends of the bacterial population size spectrum.
+    -
+        title: "In silico experimental evolution: a tool to test evolutionary scenarios"
+        year: "2013"
+        authors: "B Batut, DP Parsons, S Fischer, G Beslon, C Knibbe"
+        journal: "BMC bioinfo"
+        doi: "10.1186/1471-2105-14-S15-S11"
+        ref: "14 (Suppl 15), S11"
+        link: "http://www.biomedcentral.com/1471-2105/14/S15/S11/"
+        summary: >
+            Comparative genomics has revealed that some species have exceptional 
+            genomes, compared to their closest relatives. For instance, some species 
+            have undergone a strong reduction of their genome with a drastic 
+            reduction of their genic repertoire. Deciphering the causes of these 
+            atypical trajectories can be very difficult because of the many 
+            phenomena that are intertwined during their evolution (e.g. changes 
+            of population size, environment structure and dynamics, selection 
+            strength, mutation rates...). Here we propose a methodology based on
+             synthetic experiments to test the individual effect of these phenomena
+             on a population of simulated organisms. We developed an evolutionary 
+             model - aevol - in which evolutionary conditions can be changed one
+             at a time to test their effects on genome size and organization (e.g.
+             coding ratio). To illustrate the proposed approach, we used aevol to 
+            test the effects of a strong reduction in the selection strength on 
+            a population of (simulated) bacteria. Our results show that this 
+            reduction of selection strength leads to a genome reduction of ~35% 
+            with a slight loss of coding sequences (~15% of the genes are lost - 
+            mainly those for which the contribution to fitness is the lowest). 
+            More surprisingly, under a low selection strength, genomes undergo a 
+            strong reduction of the noncoding compartment (~55% of the noncoding 
+            sequences being lost). These results are consistent with what is 
+            observed in reduced Prochlorococcus strains (marine cyanobacteria) 
+            when compared to close relatives.
+-   
+    type: Conference with peer reviews
+    publications:
+    -
+        title: "ASaiM: an environment to analyze intestinal microbiota"
+        year: "2015"
+        authors: "B Batut, C Defois, C Ribière, C Gasc, JF Brugère, E Peyretaillade, CPER consortium Environnement Digestif, P Peyret"
+        conf: "JOBIM"
+        when: "Jul 2015"
+        at: "Clermont-Ferrand, France"
+        link: "https://www6.inra.fr/jobim2015/Post-JOBIM/Les-Actes"
+        summary: >
+            Metatranscriptomic data allow active 
+            microbial communities description by gene products analysis. In comparison to 
+            metagenomic studies, few metatranscriptomic data have been obtained on 
+            environmental ecosystems (soil, water, mine drainage…) as on human-associated 
+            microbiota despite health concerns. This discrepancy is due to difficulties in 
+            RNA recovery but also to a lack of tools dedicated to metatranscriptomic data 
+            processing. Nevertheless, some homemade pipelines adapted from metagenomics 
+            analyses exist but are not freely available and thus not easily accessible. 
+            Here we present ASAIM (Auvergne Sequence Analysis for Intestinal Microbiota), 
+            a pipeline to process metatranscriptomic data from intestinal microbiota. 
+            Starting from raw reads, it generates taxonomic and functional assignments 
+            using databases dedicated to this microbiome. These gut databases become more 
+            and more supplied by large metagenomic projects (like MetaHIT and HMP projects 
+            for microbial reference genomes) and therefore useful for reliable and accurate 
+            assignments. Finally, ASAIM combines taxonomic, functional and abundance 
+            information, coupled to statistical analyses and data mining tools. This 
+            pipeline is designed to be adjustable (personalized or proposed data processing 
+            given the type of data) and intuitive with its web interface, documentation and 
+            tutorials. ASAIM is freely available at http://g2im.u-clermont1.fr/asaim/ and 
+            can be downloaded or directly interrogated through its web interface.
+    -
+        title: "In silico experimental evolution: a tool to test evolutionary scenarios"
+        year: "2013"
+        authors: "B Batut, DP Parsons, S Fischer, G Beslon, C Knibbe"
+        conf: "11th Recomb - Comparative Genomics"
+        when: "Oct 2013"
+        at: "Villeurbanne, France"
+        link: "http://www.biomedcentral.com/1471-2105/14/S15/S11/"
+        summary: >
+            Comparative genomics has revealed that some species have exceptional 
+            genomes, compared to their closest relatives. For instance, some species 
+            have undergone a strong reduction of their genome with a drastic 
+            reduction of their genic repertoire. Deciphering the causes of these 
+            atypical trajectories can be very difficult because of the many 
+            phenomena that are intertwined during their evolution (e.g. changes 
+            of population size, environment structure and dynamics, selection 
+            strength, mutation rates...). Here we propose a methodology based on
+             synthetic experiments to test the individual effect of these phenomena
+             on a population of simulated organisms. We developed an evolutionary 
+             model - aevol - in which evolutionary conditions can be changed one
+             at a time to test their effects on genome size and organization (e.g.
+             coding ratio). To illustrate the proposed approach, we used aevol to 
+            test the effects of a strong reduction in the selection strength on 
+            a population of (simulated) bacteria. Our results show that this 
+            reduction of selection strength leads to a genome reduction of ~35% 
+            with a slight loss of coding sequences (~15% of the genes are lost - 
+            mainly those for which the contribution to fitness is the lowest). 
+            More surprisingly, under a low selection strength, genomes undergo a 
+            strong reduction of the noncoding compartment (~55% of the noncoding 
+            sequences being lost). These results are consistent with what is 
+            observed in reduced Prochlorococcus strains (marine cyanobacteria) 
+            when compared to close relatives.
+    -
+        title: "An alife game to teach evolution of antibiotic resistance"
+        year: "2013"
+        authors: "G Beslon, B Batut, DP Parsons, D Schneider, C Knibbe"
+        conf: "ECAL - 12th European Conference on Artificial Life"
+        when: "Sep 2013"
+        at: "Taormina, Italy"
+        ref: "MIT Press"
+        doi: "10.7551/978-0-262-31709-2-ch007 "
+        link: "http://mitpress.mit.edu/sites/default/files/titles/content/ecal13/ch007.html"
+        summary: >
+            The emergence of antibiotic resistant bacteria is a major threat to 
+            public health and there is a constant need for education to limit 
+            dangerous practices. Here, we propose to use alife software to develop 
+            training media for the public and the physicians. On the basis of the
+             Aevol model we have been developing for more than six years, we built
+             a game in which players fight bacterial infections using antibiotics.
+             In this game the bacteria can evolve resistance traits, making the 
+             infection more and more difficult to cure. The game has been tested
+             with automatic treatment procedures, showing that it behaves correctly.
+             It has been demonstrated during the French "Nuit des Chercheurs" in
+             October 2012.
+-
+    type: Thesis and reports
+    publications:
+    -
+        title: "Étude de l'évolution réductive des génomes bactériens par expériences d'évolution in silico et analyses bioinformatiques"
+        year: "2014"
+        authors: "B Batut"
+        doi: "10.13140/RG.2.1.4363.5925"
+        when: "Nov 2014"
+        at: "INSA de Lyon"
+        link: "https://tel.archives-ouvertes.fr/tel-01092571v2/document"
+        summary: >
+            Given a popular view, evolution is an incremental process based on an 
+            increase of molecular complexity of organisms. However, some organisms 
+            have undergo massive genome reduction like the endosymbionts. In this 
+            case the reduction can be explained by the Muller’s ratchet due to the 
+            endosymbiont lifestyle with small population and lack of recombination. 
+            However, in some marine bacteria, like Prochlorococcus et Pelagibacter, 
+            lineage have undergo up to 30% of genome reduction. Their lifestyle is 
+            almost the opposite to the one of the endosymbionts and reductive genome 
+            evolution can not be easily explicable by the Muller’s ratchet. Some other 
+            hypothesis has been proposed but none can explain all the observed genomic
+             characteristics. In the thesis, I am interested in the reductive 
+             evolution of Prochlorococcus. I used two approaches: a theoretical 
+             one using simulation where different scenarios are tested and an analysis 
+             of Prochlorococcus genomes in a phylogenetic framework to determine 
+             the causes and characteristics of genome reduction. The combination 
+             of these two approaches allows to propose an hypothetical evolutive 
+             history for the reductive genome evolution of Prochlorococcus.
+-
+    type: Other publications
+
