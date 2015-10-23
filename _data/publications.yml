@@ -21,10 +21,10 @@
             been proposed to account for this reductive genome evolution at both 
             ends of the bacterial population size spectrum.
     -
-        title: "In silico experimental evolution: a tool to test evolutionary scenarios"
+        title: "<i>In silico</i> experimental evolution: a tool to test evolutionary scenarios"
         year: "2013"
         authors: "B Batut, DP Parsons, S Fischer, G Beslon, C Knibbe"
-        journal: "BMC bioinfo"
+        journal: "BMC Bioinfo"
         doi: "10.1186/1471-2105-14-S15-S11"
         ref: "14 (Suppl 15), S11"
         link: "http://www.biomedcentral.com/1471-2105/14/S15/S11/"
@@ -50,7 +50,7 @@
             More surprisingly, under a low selection strength, genomes undergo a 
             strong reduction of the noncoding compartment (~55% of the noncoding 
             sequences being lost). These results are consistent with what is 
-            observed in reduced Prochlorococcus strains (marine cyanobacteria) 
+            observed in reduced <i>Prochlorococcus</i> strains (marine cyanobacteria) 
             when compared to close relatives.
 -   
     type: Conference with peer reviews
@@ -64,8 +64,8 @@
         at: "Clermont-Ferrand, France"
         link: "https://www6.inra.fr/jobim2015/Post-JOBIM/Les-Actes"
         summary: >
-            Metatranscriptomic data allow active 
-            microbial communities description by gene products analysis. In comparison to 
+            Metatranscriptomic data allow active microbial communities description 
+            by gene products analysis. In comparison to 
             metagenomic studies, few metatranscriptomic data have been obtained on 
             environmental ecosystems (soil, water, mine drainage…) as on human-associated 
             microbiota despite health concerns. This discrepancy is due to difficulties in 
@@ -82,16 +82,17 @@
             information, coupled to statistical analyses and data mining tools. This 
             pipeline is designed to be adjustable (personalized or proposed data processing 
             given the type of data) and intuitive with its web interface, documentation and 
-            tutorials. ASAIM is freely available at http://g2im.u-clermont1.fr/asaim/ and 
+            tutorials. ASAIM is freely available at 
+            <a href="http://g2im.u-clermont1.fr/asaim/">http://g2im.u-clermont1.fr/asaim/</a> and 
             can be downloaded or directly interrogated through its web interface.
     -
-        title: "In silico experimental evolution: a tool to test evolutionary scenarios"
+        title: "<i>In silico</i> experimental evolution: a tool to test evolutionary scenarios"
         year: "2013"
         authors: "B Batut, DP Parsons, S Fischer, G Beslon, C Knibbe"
         conf: "11th Recomb - Comparative Genomics"
         when: "Oct 2013"
         at: "Villeurbanne, France"
-        link: "http://www.biomedcentral.com/1471-2105/14/S15/S11/"
+        link: "http://rcg2013.sciencesconf.org/resource/page/id/13"
         summary: >
             Comparative genomics has revealed that some species have exceptional 
             genomes, compared to their closest relatives. For instance, some species 
@@ -114,7 +115,7 @@
             More surprisingly, under a low selection strength, genomes undergo a 
             strong reduction of the noncoding compartment (~55% of the noncoding 
             sequences being lost). These results are consistent with what is 
-            observed in reduced Prochlorococcus strains (marine cyanobacteria) 
+            observed in reduced <i>Prochlorococcus</i> strains (marine cyanobacteria) 
             when compared to close relatives.
     -
         title: "An alife game to teach evolution of antibiotic resistance"
@@ -142,7 +143,7 @@
     type: Thesis and reports
     publications:
     -
-        title: "Étude de l'évolution réductive des génomes bactériens par expériences d'évolution in silico et analyses bioinformatiques"
+        title: "Étude de l'évolution réductive des génomes bactériens par expériences d'évolution <i>in silico</i> et analyses bioinformatiques"
         year: "2014"
         authors: "B Batut"
         doi: "10.13140/RG.2.1.4363.5925"
@@ -155,18 +156,133 @@
             have undergo massive genome reduction like the endosymbionts. In this 
             case the reduction can be explained by the Muller’s ratchet due to the 
             endosymbiont lifestyle with small population and lack of recombination. 
-            However, in some marine bacteria, like Prochlorococcus et Pelagibacter, 
+            However, in some marine bacteria, like <i>Prochlorococcus</i> et <i>Pelagibacter</i>, 
             lineage have undergo up to 30% of genome reduction. Their lifestyle is 
             almost the opposite to the one of the endosymbionts and reductive genome 
             evolution can not be easily explicable by the Muller’s ratchet. Some other 
             hypothesis has been proposed but none can explain all the observed genomic
              characteristics. In the thesis, I am interested in the reductive 
-             evolution of Prochlorococcus. I used two approaches: a theoretical 
+             evolution of <i>Prochlorococcus</i>. I used two approaches: a theoretical 
              one using simulation where different scenarios are tested and an analysis 
-             of Prochlorococcus genomes in a phylogenetic framework to determine 
+             of <i>Prochlorococcus</i> genomes in a phylogenetic framework to determine 
              the causes and characteristics of genome reduction. The combination 
              of these two approaches allows to propose an hypothetical evolutive 
-             history for the reductive genome evolution of Prochlorococcus.
+             history for the reductive genome evolution of <i>Prochlorococcus</i>.
 -
-    type: Other publications
-
+    type: Other
+    publications:
+    -
+        title: "Benzo[a]pyrene impacts human gut microbiota function"
+        year: "2015"
+        authors: "C Defois, B Batut, J Ratel, C Ribière, C Gasc, R Beugnot, E Peyretaillade, E Engel, P Peyret"
+        conf: "Targeting Microbiota"
+        when: "Nov 2015"
+        at: "Paris, France"
+        type: "Poster"
+        summary: >
+            Polycyclic Aromatic Hydrocarbons (PAH) are carcinogenic pollutants 
+            arising from oil and derivatives along with incomplete organic matter 
+            combustion. Population exposure occurs mainly with contaminated food 
+            products, leading pollutants to end up in the digestive tract. Benzo[a]pyrene 
+            (B[a]P), being the most studied PAH due to its high toxicity, has been 
+            chosen as marker of PAH occurrence and toxicity. While its metabolism 
+            by host cells is well known (Shimada, 2006), the impact on the gut 
+            microbiota, which play a key role in human health is still unexplored. 
+            By means of 16S barcoding, metatranscriptomics and metabolomics, we 
+            studied, in an <i>in vitro</i> model assay, the impact of B[a]P on two distinct 
+            gut microbiota on a structural, functional, and metabolic side. B[a]P 
+            didn’t shift significantly the microbial structure but some trends appeared 
+            as the increase of the genra <i>Sutterella</i>, <i>Sporanaerobacter</i> and <i>Oscillospira</i> 
+            and the reduction of <i>Rikenellaceae</i> and <i>Blautia</i>. Some functional pathways 
+            were heighten such as protein export, secretion systems, cell wall compound 
+            biogenesis, DNA repair systems and hydrocarbon degradation pathways. 
+            Furthermore, the microbial volatile metabolome was altered. Those primary 
+            findings showed that food pollutants, such as B[a]P, may modify our gut 
+            microbiota and could contribute to disturb the gut homeostasis.
+    -
+        title: "Tracing the roots of genome architecture through <i>in silico</i> experimental evolution"
+        year: "2014"
+        authors: "G Beslon, B Batut, C Knibbe"
+        conf: "EMBO Conference Series: Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems"
+        when: "Oct 2014"
+        at: "EMBL, Heidelberg, Germany"
+        summary: >
+            Genome architecture (size, proportion of coding sequences, polycistronic 
+            mRNAs…) is the consequence of many interacting forces acting over very
+             long time scales. Indeed, selection, mutation biases, drift etc. all 
+             act directly or indirectly on the different genome compartments, either 
+             triggering their increase or decrease in proportions that depend on the 
+            life style of the organisms (e.g., environment complexity, environment 
+            variation, population size…). 
+            Understanding how the intertwining of these pressures leads to particular 
+            architecture is difficult for at least three reasons. First, it is 
+            impossible to experimentally separate these forces to observe their 
+            individual action since they are all interacting one with the others 
+            at the molecular level. Second, they act on time scales that are almost 
+            impossible to access experimentally, even with species reproducing rapidly. 
+            Third, it is not clear how a given change of life-style will affect 
+            these different pressures. 
+            We propose that <i>in silico</i> experimental evolution approaches, in which 
+            simulated species are let evolved in perfectly controlled (simulated) 
+            environments, can be used to study the consequences of a specific change 
+            in life-style on the genome architecture. Indeed, <i>in silico</i> experiments 
+            can escape most of the difficulties listed above: since the organisms 
+            and environment are simulated, they can be precisely tuned, millions of
+             generations can “easily” be simulated and, most importantly, it allows 
+            large parameter explorations that can help understanding the precise 
+            effect of a given environmental parameter on a given genomic structure. 
+            We illustrate the power of in silico experimental evolution using the 
+            aevol software (<a href="www.aevol.fr">www.aevol.fr</a>). We show how different environmental 
+            changes can lead to unexpected consequences on the genome structure 
+            due to the non-linearity of the selective/non-selective pressures. In 
+            particular, we emphasize the overlooked effect of chromosomal rearrangements 
+            on this matter.
+    -
+        title: "Simulating evolutionary scenarios to test whether they can induced reductive evolution"
+        year: "2012"
+        authors: "B Batut, M Dumond, G Marais, G Beslon, C Knibbe"
+        conf: "Annual Conference of Society for Molecular Biology and Evolution"
+        when: "June 2012"
+        at: "Dublin, Irlande"
+        type: "Poster"
+        link: "https://hal.inria.fr/hal-00762597/file/Poster_Berenice_Batut.pdf"
+        summary: >
+            Some bacterial lineages seem to have undergone significant genome shrinkage 
+            over the last millions of years, a process called reductive evolution. 
+            For example, the genome of <i>Buchnera aphidicola</i> is only one-seventh 
+            the size of the genome of its close relative <i>Escherichia coli</i> 
+            (Moran and Mira, Genome Biol. 2001). This reductive evolution was initially
+             thought to be a signature of intracellular lifestyle. Thus, explanatory 
+            mechanisms related to this lifestyle were proposed, like a smaller 
+            effective population size, a lower exposure to horizontal transfer, 
+            or the uselessness of some genes. However, reduced genomes were also 
+            found in some free-living cyanobacteria like <i>Prochlorococcus marinus</i> 
+            (Rocap et al., Nature 2003) or <i>Pelagibacter ubique</i> (Giovannoni 
+            et al., Science 2005). This questions the evolutionary mechanisms underlying
+             reductive evolution: Are they shared by endosymbionts and cyanobacteria? 
+            Predicting the effect of these mechanisms would shed light on the minimal 
+            combination of factors required to observe reductive evolution. We performed 
+            <i>in silico</i> evolutionary experiments to test the effect of a smaller 
+            population size, a higher mutation rate, a less demanding environment, 
+            and a less varying environment. We used the individual-based model aevol 
+            (Knibbe et al., Mol. Biol. Evol. 2007), where virtual genomes undergo 
+            small-scale mutations, rearrangements, and reproduce differentially 
+            based on their performance at a curve-fitting task. Experiments began 
+            with ancestral populations that evolved with standard parameters during 
+            150,000 generations. Then the value of the tested parameter was changed 
+            and evolution continued for 150,000 additional generations. These simulations
+             showed that a higher mutation rate, as well as a less demanding environment,
+             led to both fewer genes and shorter intergenic sequences. Environmental 
+            stabilization triggered reduction in non-coding sequences but not in gene 
+            number. Finally, with a smaller population size, some genes were lost 
+            but the genome expanded because intergenic sequences lengthened, even 
+            with an enforced deletional bias. To explain this surprising effect, 
+            one hypothesis is that the sudden reduction in population size leaves 
+            a less fit population. The selection, now directional, indirectly favors
+             the most evolvable genomes, that is, genomes with longer non-coding 
+             sequences undergoing larger rearrangements. This study is thus a first 
+            step towards predicting the genome structure expected for a given evolutionary 
+            scenario. The next steps are to (i) further analyze the evolutionary 
+            trajectories in these experiments, (ii) test the effect of combined 
+            scenarii with multiple changed parameters, and (iii) find the best scenarii 
+            for intracellular and free-living species with reduced genomes.
