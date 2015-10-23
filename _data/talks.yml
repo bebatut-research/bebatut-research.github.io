@@ -57,3 +57,61 @@
             grandes quantités de données qui sont complexes à analyser, surtout pour les 
             biologistes. La plateforme Auvergne Sequence Analyses of Intestinal Microbiota 
             (ASAIM) est développée afin d’offrir une solution à ces problématiques.
+-
+    year: 2014
+    talks:
+    -
+        title: "Evolution réductive des génomes bactériens par expériences d'évolution <i>in silico</i> et analyses bioinformatiques"
+        date: "2014-21-11"
+        at: "PhD defense, INSA de Lyon, Villeurbanne, France"
+        slides_url: http://fr.slideshare.net/bebatut/evolution-rductive-des-gnomes-bactriens-par-expriences-dvolution-in-silico-et-analyses-bioinformatiques
+        summary: >
+            Given a popular view, evolution is an incremental process based on an 
+            increase of molecular complexity of organisms. However, some organisms 
+            have undergo massive genome reduction like the endosymbionts. In this 
+            case the reduction can be explained by the Muller’s ratchet due to the 
+            endosymbiont lifestyle with small population and lack of recombination. 
+            However, in some marine bacteria, like <i>Prochlorococcus</i> et <i>Pelagibacter</i>, 
+            lineage have undergo up to 30% of genome reduction. Their lifestyle is 
+            almost the opposite to the one of the endosymbionts and reductive genome 
+            evolution can not be easily explicable by the Muller’s ratchet. Some other 
+            hypothesis has been proposed but none can explain all the observed genomic
+             characteristics. In the thesis, I am interested in the reductive 
+             evolution of <i>Prochlorococcus</i>. I used two approaches: a theoretical 
+             one using simulation where different scenarios are tested and an analysis 
+             of <i>Prochlorococcus</i> genomes in a phylogenetic framework to determine 
+             the causes and characteristics of genome reduction. The combination 
+             of these two approaches allows to propose an hypothetical evolutive 
+             history for the reductive genome evolution of <i>Prochlorococcus</i>.
+-
+    year: 2013
+    talks:
+    -
+        title: "<i>In silico</i> experimental evolution: a tool to test evolutionary scenarios"
+        date: "2013-18-10"
+        at: "11th Recomb - Comparative Genomics, Villeurbanne, France"
+        slides_url: http://fr.slideshare.net/bebatut/recombcg-2013-in-silico-experimental-evolution-a-tool-to-test-evolutionary-scenarios
+        summary: >
+            Comparative genomics has revealed that some species have exceptional 
+            genomes, compared to their closest relatives. For instance, some species 
+            have undergone a strong reduction of their genome with a drastic 
+            reduction of their genic repertoire. Deciphering the causes of these 
+            atypical trajectories can be very difficult because of the many 
+            phenomena that are intertwined during their evolution (e.g. changes 
+            of population size, environment structure and dynamics, selection 
+            strength, mutation rates...). Here we propose a methodology based on
+             synthetic experiments to test the individual effect of these phenomena
+             on a population of simulated organisms. We developed an evolutionary 
+             model - aevol - in which evolutionary conditions can be changed one
+             at a time to test their effects on genome size and organization (e.g.
+             coding ratio). To illustrate the proposed approach, we used aevol to 
+            test the effects of a strong reduction in the selection strength on 
+            a population of (simulated) bacteria. Our results show that this 
+            reduction of selection strength leads to a genome reduction of ~35% 
+            with a slight loss of coding sequences (~15% of the genes are lost - 
+            mainly those for which the contribution to fitness is the lowest). 
+            More surprisingly, under a low selection strength, genomes undergo a 
+            strong reduction of the noncoding compartment (~55% of the noncoding 
+            sequences being lost). These results are consistent with what is 
+            observed in reduced <i>Prochlorococcus</i> strains (marine cyanobacteria) 
+            when compared to close relatives.   
