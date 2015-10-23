@@ -1,5 +1,6 @@
 .talk-summary {
     padding-left: 2em;
+    font-size: 90%;
 }
 
 .talks {
@@ -8,6 +9,11 @@
 
 .publications{
     padding-left: 0;
+}
+
+.publi-summary {
+    padding-left: 2em;
+    font-size: 90%;
 }
 
 .lectures{
