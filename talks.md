@@ -5,7 +5,8 @@ title: Talks
 
 # Talks
 
-Most of my talks are available on [Slideshare](http://fr.slideshare.net/bebatut).
+Most of my talks are available on [Slideshare](http://fr.slideshare.net/bebatut) 
+and the sources on [GitHub](https://github.com/bebatut-slides)
 
 ---
 
