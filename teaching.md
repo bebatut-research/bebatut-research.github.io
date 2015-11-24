@@ -5,13 +5,15 @@ title: Teaching
 
 # Teaching
 
-... love teaching
+I like learning and also teaching to pass down my knowledge and passions. So,
+when I had the opportunity, I gave lectures as associate professor at INSA de Lyon
+and at IUT d'Aurillac. The sources of my lectures are available at 
+[bebatut-edu.github.io](http://bebatut-edu.github.io).
 
-Data and Software Carpentry instructor training
-
-monitorat + vacation IUT Aurillac (tableau du nombre d'heures)
-
-The sources can be found at: [bebatut-edu.github.io](http://bebatut-edu.github.io).
+I would like to be a good teacher. So to learn how to teach, I followed the 
+[Data and Software Carpentry](https://software-carpentry.org/) instructor 
+training. I learned so much about pedagogy and teaching techniques. I highly
+recommend this training to everyone who wants to teach computer science. 
 
 ---
 
