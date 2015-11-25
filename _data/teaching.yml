@@ -1,6 +1,6 @@
 -
     year: 2014-2015
-    where:
+    locations:
     -
         at: "IUT (Bioinformatics), Aurillac, France"
         lectures:
@@ -8,8 +8,88 @@
             title: "Initiation to metagenomic data processing"
             lecture_source: ""
             content:
-                - lectures:
-                    - title: "DNA sequencing and data processing"
-                      url: ""
-                    - title: "Metagenomic and data processing"
-                      url: ""
+            - 
+                type: "Lectures"
+                content:
+                - 
+                    title: "DNA sequencing and data processing"
+                    link: ""
+                - 
+                    title: "Metagenomic and data processing"
+                    link: ""
+            - 
+                type: "Practical works"
+                content:
+                - 
+                    title: ""
+                    link: ""
+                    data_link: ""
+        -   
+            title: "Programming in BioPerl"
+            lecture_source: ""
+            content:
+            - 
+                type: "Lectures"
+                content:
+                - 
+                    title: "DNA sequencing and data processing"
+                    link: ""
+                - 
+                    title: "Metagenomic and data processing"
+                    link: ""
+            - 
+                type: "Practical works"
+                content:
+                - 
+                    title: ""
+                    link: ""
+                - 
+                    title: ""
+                    link: ""
+                    data_link: ""
+            -
+                type: "Evaluation"
+                content:
+                - 
+                    title:""
+                    link:""
+                    data_link:""
+-
+    year: 2013-2014
+    locations:
+    -
+        at: "Undergraduate department, INSA, Lyon, France"
+        lectures:
+        -
+            title: "Basis of computer sciences"
+-
+    year: 2012-2013
+    locations:
+    -
+        at: "Undergraduate department, INSA, Lyon, France"
+        lectures:
+        -
+            title: "Algorithmics"
+        -
+            title: "Basic programming in Java"
+        -
+            title: "Relational databases in SQL"
+    -
+        at: "Bioinformatics & Modelling department, INSA, Lyon, France"
+        lectures:
+        -
+            title: "Basic programming in Python"
+-
+    year: 2011-2012
+    location:
+    -
+        at: "Undergraduate department, INSA, Lyon, France"
+        lectures:
+        -
+            title: "Algorithmics"
+        -
+            title: "Basic programming in Java"
+        -
+            title: "Objected oriented programming in Pascal"
+        -
+            title: "Relational databases in SQL"

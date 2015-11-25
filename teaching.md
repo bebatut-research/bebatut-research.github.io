@@ -19,24 +19,41 @@ recommend this training to everyone who wants to teach computer science.
 
 <ul class="lectures">
   {% for data in site.data.teaching %}
-  <h2 class="title">{{ data.year }}</h2>
+    <h2 class="title">{{ data.year }}</h2>
 
-  <ul class="lecture-by-year {{ data.year }}">
-    {% for lecture in data.lectures %}
-      <li class="lecture">
-        <div class="lecture-title">
-          <a href="{{ lecture.slides_url }}">{{ lecture.title }}</a> - {{ lecture.at }}
-          {% if lecture.video_url %} [<a href="{{ lecture.video_url }}">video</a>]{% endif %}{% if lecture.post_url %} [<a href="{{ lecture.post_url }}">post</a>]{% endif %}
-        </div>
+    {% for location in data.locations %}
+      <h3 class="subtitle">{{ location.at }}</h3>
+      <ul class="lecture-by-location">
+      {% for lecture in location.lectures %}
+        <li class="lecture-by-location">{{ lecture.title }}
 
-        <div class="toggle">
-          <a class="toggler">&#10148; <em>Summary</em></a>
-          <p class="lecture-summary toggled">
-            {{ lecture.summary }}
-          </p>
-        </div>
-      </li>
+        {% if lecture.lecture_source %} 
+          (<a href="{{ lecture.lecture_source }}">Sources</a>)
+        {% endif %}
+        
+        <ul class="lecture-content">
+        {% for content in lecture.content %} 
+          <li class="lecture-content"> 
+            {{ content.type }}:
+            <ul class="lecture-detailed-content">
+            {% for detailed_content in content.detailed_content %}
+              <li class="lecture-detailed-content"> 
+                {% if detailed_content.link %}
+                  <a href="{{ detailed_content.link }}">{{ detailed_content.title }}</a>
+                {% else %}
+                  {{ detailed_content.title }}
+                {% endif %}
+
+                {% if detailed_content.data_link %}(<a href="{{ detailed_content.data_link }}">Data</a>){% endif %}
+              </li>
+            {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+        </ul>
+        </li>
+      {% endfor %}
+      </ul>
     {% endfor %}
-  </ul>
   {% endfor %}
-</ul>
+</ul> 
