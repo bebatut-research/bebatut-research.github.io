@@ -10,19 +10,19 @@
             content:
             - 
                 type: "Lectures"
-                content:
+                detailed_content:
                 - 
-                    title: "DNA sequencing and data processing"
-                    link: ""
+                    title: "Séquençage"
+                    link: "assets/files/teaching/2014_2015/Sequencage.pdf"
                 - 
-                    title: "Metagenomic and data processing"
-                    link: ""
+                    title: "Métagénomique"
+                    link: "assets/files/teaching/2014_2015/Metagenomique.pdf"
             - 
                 type: "Practical works"
-                content:
+                detailed_content:
                 - 
-                    title: ""
-                    link: ""
+                    title: "Comparaison des métagénomes intestinaux de patients en rémission d'infection chroniques de l'intestin et d'individus sains"
+                    link: "assets/files/teaching/2014_2015/Metagenomique_TP.pdf"
                     data_link: ""
         -   
             title: "Programming in BioPerl"
@@ -30,30 +30,27 @@
             content:
             - 
                 type: "Lectures"
-                content:
+                detailed_content:
                 - 
-                    title: "DNA sequencing and data processing"
-                    link: ""
-                - 
-                    title: "Metagenomic and data processing"
-                    link: ""
+                    title: "Perl Orienté Objet et BioPerl"
+                    link: "assets/files/teaching/2014_2015/BioPerl.pdf"
             - 
                 type: "Practical works"
-                content:
+                detailed_content:
                 - 
-                    title: ""
-                    link: ""
+                    title: "Références et classes"
+                    link: "assets/files/teaching/2014_2015/BioPerl_TP1.pdf"
                 - 
-                    title: ""
-                    link: ""
-                    data_link: ""
+                    title: "BioPerl"
+                    link: "assets/files/teaching/2014_2015/BioPerl_TP2.pdf"
+                    data_link: "assets/files/teaching/2014_2015/BioPerl_TP2_donnees.zip"
             -
                 type: "Evaluation"
-                content:
+                detailed_content:
                 - 
-                    title:""
-                    link:""
-                    data_link:""
+                    title: "TP noté"
+                    link: "assets/files/teaching/2014_2015/BioPerl_TP_note.pdf"
+                    data_link: "assets/files/teaching/2014_2015/BioPerl_TP_note_donnees.zip"
 -
     year: 2013-2014
     locations:
@@ -81,7 +78,7 @@
             title: "Basic programming in Python"
 -
     year: 2011-2012
-    location:
+    locations:
     -
         at: "Undergraduate department, INSA, Lyon, France"
         lectures:
