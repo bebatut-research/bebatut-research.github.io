@@ -28,7 +28,7 @@ recommend this training to everyone who wants to teach computer science.
         <li class="lecture-by-location">{{ lecture.title }}
 
         {% if lecture.lecture_source %} 
-          (<a href="{{ lecture.lecture_source }}">Sources</a>)
+          [<a href="{{ lecture.lecture_source }}">sources</a>]
         {% endif %}
         
         <ul class="lecture-content">
@@ -43,8 +43,9 @@ recommend this training to everyone who wants to teach computer science.
                 {% else %}
                   {{ detailed_content.title }}
                 {% endif %}
-
-                {% if detailed_content.data_link %}(<a href="{{ detailed_content.data_link }}">Data</a>){% endif %}
+                {% if detailed_content.data_link %}
+                  [<a href="{{ detailed_content.data_link }}">data</a>]
+                {% endif %}
               </li>
             {% endfor %}
             </ul>
