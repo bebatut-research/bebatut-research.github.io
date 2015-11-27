@@ -13,8 +13,6 @@ paginate: 5
 navigation:
  - title: Home
    url: /index.html
- - title: Research
-   url: /research
  - title: Teaching
    url: /teaching
  - title: Publications
