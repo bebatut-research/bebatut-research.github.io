@@ -7,8 +7,7 @@ title: Teaching
 
 I like learning and also teaching to pass down my knowledge and passions. So,
 when I had the opportunity, I gave lectures as associate professor at INSA de Lyon
-and at IUT d'Aurillac. The sources of my lectures are available at 
-[bebatut-edu.github.io](http://bebatut-edu.github.io).
+and at IUT d'Aurillac. 
 
 I would like to be a good teacher. So to learn how to teach, I followed the 
 [Data and Software Carpentry](https://software-carpentry.org/) instructor 
