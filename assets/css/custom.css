@@ -19,3 +19,11 @@
 .lectures{
     padding-left: 0;
 }
+
+.lecture-detailed-content{
+    margin-bottom: 0;
+}
+
+.lecture-content{
+    margin-bottom: 0.5em;
+}
