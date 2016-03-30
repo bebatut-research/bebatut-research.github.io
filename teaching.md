@@ -5,14 +5,9 @@ title: Teaching
 
 # Teaching
 
-I like learning and also teaching to pass down my knowledge and passions. So,
-when I had the opportunity, I gave lectures as associate professor at INSA de Lyon
-and at IUT d'Aurillac. 
-
-I would like to be a good teacher. So to learn how to teach, I followed the 
-[Data and Software Carpentry](https://software-carpentry.org/) instructor 
-training. I learned so much about pedagogy and teaching techniques. I highly
-recommend this training to everyone who wants to teach computer science. 
+I like learning and also teaching to pass down my knowledge and passions. I followed [Software Carpentry](https://software-carpentry.org/) instructor 
+training and get the certificate.
+When I had the opportunity, I gave lectures as associate professor at INSA de Lyon and at IUT d'Aurillac. Slides and materials for these courses are available on [http://bebatut-edu.github.io/](http://bebatut-edu.github.io/).
 
 ---
 
@@ -25,15 +20,16 @@ recommend this training to everyone who wants to teach computer science.
       <ul class="lecture-by-location">
       {% for lecture in location.lectures %}
         <li class="lecture-by-location">{{ lecture.title }}
-
-        {% if lecture.lecture_source %} 
-          [<a href="{{ lecture.lecture_source }}">sources</a>]
-        {% endif %}
         
         <ul class="lecture-content">
         {% for content in lecture.content %} 
-          <li class="lecture-content"> 
-            {{ content.type }}:
+          <li class="lecture-content">
+            {% if content.link %}
+              <a href="{{ content.link }}">{{ content.type }}:</a>
+            {% else %}
+              {{ content.type }}:
+            {% endif %}
+            
             <ul class="lecture-detailed-content">
             {% for detailed_content in content.detailed_content %}
               <li class="lecture-detailed-content"> 
