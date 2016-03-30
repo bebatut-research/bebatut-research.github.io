@@ -1,4 +1,53 @@
 -
+    year: 2015-2016
+    locations:
+    -
+        at: "IUT (Bioinformatics), Aurillac, France"
+        lectures:
+        -
+            title: "Initiation to metagenomic data processing"
+            lecture_source: ""
+            content:
+            - 
+                type: "Lectures"
+                link: "http://bebatut-edu.github.io/metagenomique_cm"
+                detailed_content:
+                - 
+                    title: "Séquençage"
+                    link: "http://bebatut-edu.github.io/metagenomique_cm/sequencage.html#/"
+                - 
+                    title: "Métagénomique"
+                    link: "http://bebatut-edu.github.io/metagenomique_cm/metagenomique.html#/"
+            - 
+                type: "Practical works"
+                detailed_content:
+                - 
+                    title: "Traitement de données métagénomiques issus d'un échantillon d'intestin humain"
+                    link: "https://github.com/bebatut-edu/metagenomique_tp/raw/master/protocol/sujet.pdf"
+        -   
+            title: "Programming in BioPerl"
+            lecture_source: ""
+            content:
+            - 
+                type: "Lectures"
+                link: "http://bebatut-edu.github.io/bioperl-cm"
+                detailed_content:
+                - 
+                    title: "Rappels de Perl"
+                    link: "http://bebatut-edu.github.io/bioperl-cm/rappels.html#/"
+                - 
+                    title: "Programmation orientée objet en Perl"
+                    link: "http://bebatut-edu.github.io/bioperl-cm/poo.html#/"
+                - 
+                    title: "BioPerl"
+                    link: "http://bebatut-edu.github.io/bioperl-cm/bioperl.html#/"
+            - 
+                type: "Practical works"
+                detailed_content:
+                - 
+                    title: "Traitement de données génomiques en Perl Orienté Objet et BioPerl"
+                    link: "https://github.com/bebatut-edu/bioperl-tp/raw/master/protocol/sujet.pdf"
+-
     year: 2014-2015
     locations:
     -
@@ -23,7 +72,6 @@
                 - 
                     title: "Comparaison des métagénomes intestinaux de patients en rémission d'infection chroniques de l'intestin et d'individus sains"
                     link: "assets/files/teaching/2014_2015/Metagenomique_TP.pdf"
-                    data_link: ""
         -   
             title: "Programming in BioPerl"
             lecture_source: ""
