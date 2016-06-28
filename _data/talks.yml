@@ -1,26 +1,41 @@
 -
+    year: 2016
+    talks:
+    -
+        title: "Tool integration in Galaxy environment"
+        date: "2016-05-25"
+        at: "Galaxy workshop, Clermont-Ferrand, France"
+        slides_url: http://bebatut-slides.github.io/galaxy_workshop_05_16/#/
+        source: https://github.com/bebatut-slides/galaxy_workshop_05_16
+    -
+        title: "Analyze your microbiota sequencing data using a Galaxy-based framework"
+        date: "2016-05-10"
+        at: "Bioinformatics group, Freiburg, Germany"
+        slides_url: http://bebatut-slides.github.io/freiburg_05_16/#/
+        source: https://github.com/bebatut-slides/freiburg_05_16
+-
     year: 2015
     talks:
-    - 
+    -
         title: "ASaiM: a Galaxy framework to analyze gut microbiota data"
         date: "2015-11-19"
         at: "GalaxyDayFr 15, Paris, France"
         slides_url: http://bebatut-slides.github.io/galaxy-day_2015/#/
         source: https://github.com/bebatut-slides/galaxy-day_2015
         summary: >
-            Massive sequencing data from intestinal microbiota are available in 
-            public data repositories (Genbank, ENA, …) but are not easy to identify 
-            with associated metadata, query and compare because they are dispatched 
+            Massive sequencing data from intestinal microbiota are available in
+            public data repositories (Genbank, ENA, …) but are not easy to identify
+            with associated metadata, query and compare because they are dispatched
             and possibly underwent different analyses.
-            To extract useful information from these datasets, they need to be 
-            collected and formatted using a similar workflow based on specific 
+            To extract useful information from these datasets, they need to be
+            collected and formatted using a similar workflow based on specific
             gut microbiota databases.
-            To process and analyze data from gut microbiota, we developed a framework 
-            based on a personalized Galaxy instance. In this instance, several tools 
-            are incorporated (PRINSEQ, FastQ-Join, SortMeRNA, Reago, usearch, 
-            framebot, cd-hit, MetaPhlAn, HUMAnN, QIIME), with databases such 
-            as COG (Clusters of Orthologous Groups of proteins) or the catalog of 
-            reference genes in the human gut  microbiome (Li et al, Nature Biotechnology, 
+            To process and analyze data from gut microbiota, we developed a framework
+            based on a personalized Galaxy instance. In this instance, several tools
+            are incorporated (PRINSEQ, FastQ-Join, SortMeRNA, Reago, usearch,
+            framebot, cd-hit, MetaPhlAn, HUMAnN, QIIME), with databases such
+            as COG (Clusters of Orthologous Groups of proteins) or the catalog of
+            reference genes in the human gut  microbiome (Li et al, Nature Biotechnology,
             2014). We defined some standard workflows using these tools and databases.
     -
         title: "ASaiM: Lessons learned from developing a framework for biologists"
@@ -29,41 +44,41 @@
         slides_url: http://bebatut-slides.github.io/pycon-fr_2015/#/
         source: https://github.com/bebatut-slides/pycon-fr_2015
         summary: >
-            With new technologies and reduced costs of DNA sequencing, 
-            biological data are massively generated. Such data are complex and 
-            require multi-step processing. While numerous tools exist, most of 
-            them are only performing one task, not interoperable, not user-friendly, and 
+            With new technologies and reduced costs of DNA sequencing,
+            biological data are massively generated. Such data are complex and
+            require multi-step processing. While numerous tools exist, most of
+            them are only performing one task, not interoperable, not user-friendly, and
             so on... That is a big deal for biologists!
-            We are building ASaiM (Auvergne Sequence Analysis of Intestinal Microbiota), a 
+            We are building ASaiM (Auvergne Sequence Analysis of Intestinal Microbiota), a
             framework to process and analyze data from intestinal microbiota, designed for
-            biologists: simple yet powerful! 
+            biologists: simple yet powerful!
             In this talk, I am going to introduce how we created ASaiM, why we chose Python,
             but also what I have learnt developing such a software.
-    - 
+    -
         title: "ASaiM: an environment to analyze intestinal microbiota"
         date: "2015-07-08"
         at: "JOBIM 15, Clermont-Fd, France"
         slides_url: http://fr.slideshare.net/bebatut/asaim-an-environment?related=1
         summary: >
-            Metatranscriptomic data allow active 
-            microbial communities description by gene products analysis. In comparison to 
-            metagenomic studies, few metatranscriptomic data have been obtained on 
-            environmental ecosystems (soil, water, mine drainage…) as on human-associated 
-            microbiota despite health concerns. This discrepancy is due to difficulties in 
-            RNA recovery but also to a lack of tools dedicated to metatranscriptomic data 
-            processing. Nevertheless, some homemade pipelines adapted from metagenomics 
-            analyses exist but are not freely available and thus not easily accessible. 
-            Here we present ASAIM (Auvergne Sequence Analysis for Intestinal Microbiota), 
-            a pipeline to process metatranscriptomic data from intestinal microbiota. 
-            Starting from raw reads, it generates taxonomic and functional assignments 
-            using databases dedicated to this microbiome. These gut databases become more 
-            and more supplied by large metagenomic projects (like MetaHIT and HMP projects 
-            for microbial reference genomes) and therefore useful for reliable and accurate 
-            assignments. Finally, ASAIM combines taxonomic, functional and abundance 
-            information, coupled to statistical analyses and data mining tools. This 
-            pipeline is designed to be adjustable (personalized or proposed data processing 
-            given the type of data) and intuitive with its web interface, documentation and 
-            tutorials. ASAIM is freely available at http://g2im.u-clermont1.fr/asaim/ and 
+            Metatranscriptomic data allow active
+            microbial communities description by gene products analysis. In comparison to
+            metagenomic studies, few metatranscriptomic data have been obtained on
+            environmental ecosystems (soil, water, mine drainage…) as on human-associated
+            microbiota despite health concerns. This discrepancy is due to difficulties in
+            RNA recovery but also to a lack of tools dedicated to metatranscriptomic data
+            processing. Nevertheless, some homemade pipelines adapted from metagenomics
+            analyses exist but are not freely available and thus not easily accessible.
+            Here we present ASAIM (Auvergne Sequence Analysis for Intestinal Microbiota),
+            a pipeline to process metatranscriptomic data from intestinal microbiota.
+            Starting from raw reads, it generates taxonomic and functional assignments
+            using databases dedicated to this microbiome. These gut databases become more
+            and more supplied by large metagenomic projects (like MetaHIT and HMP projects
+            for microbial reference genomes) and therefore useful for reliable and accurate
+            assignments. Finally, ASAIM combines taxonomic, functional and abundance
+            information, coupled to statistical analyses and data mining tools. This
+            pipeline is designed to be adjustable (personalized or proposed data processing
+            given the type of data) and intuitive with its web interface, documentation and
+            tutorials. ASAIM is freely available at http://g2im.u-clermont1.fr/asaim/ and
             can be downloaded or directly interrogated through its web interface.
     -
         title: "ASaiM : Traitement 'Big Data' en biologie"
@@ -71,12 +86,12 @@
         at: "API Hour #15, Clermont-Fd, France"
         slides_url: http://fr.slideshare.net/bebatut/api-hour-100615
         summary: >
-            Le microbiote intestinal humain permet de 
-            prévenir les infections, de stimuler l’immunité ou encore de réduire les 
-            inflammations. La réduction des coûts de séquençage de l’ADN permet d’étudier 
-            plus facilement ces microorganismes. Cependant, ces techniques génèrent de 
-            grandes quantités de données qui sont complexes à analyser, surtout pour les 
-            biologistes. La plateforme Auvergne Sequence Analyses of Intestinal Microbiota 
+            Le microbiote intestinal humain permet de
+            prévenir les infections, de stimuler l’immunité ou encore de réduire les
+            inflammations. La réduction des coûts de séquençage de l’ADN permet d’étudier
+            plus facilement ces microorganismes. Cependant, ces techniques génèrent de
+            grandes quantités de données qui sont complexes à analyser, surtout pour les
+            biologistes. La plateforme Auvergne Sequence Analyses of Intestinal Microbiota
             (ASAIM) est développée afin d’offrir une solution à ces problématiques.
 -
     year: 2014
@@ -87,22 +102,22 @@
         at: "PhD defense, INSA de Lyon, Villeurbanne, France"
         slides_url: http://fr.slideshare.net/bebatut/evolution-rductive-des-gnomes-bactriens-par-expriences-dvolution-in-silico-et-analyses-bioinformatiques
         summary: >
-            Given a popular view, evolution is an incremental process based on an 
-            increase of molecular complexity of organisms. However, some organisms 
-            have undergo massive genome reduction like the endosymbionts. In this 
-            case the reduction can be explained by the Muller’s ratchet due to the 
-            endosymbiont lifestyle with small population and lack of recombination. 
-            However, in some marine bacteria, like <i>Prochlorococcus</i> et <i>Pelagibacter</i>, 
-            lineage have undergo up to 30% of genome reduction. Their lifestyle is 
-            almost the opposite to the one of the endosymbionts and reductive genome 
-            evolution can not be easily explicable by the Muller’s ratchet. Some other 
+            Given a popular view, evolution is an incremental process based on an
+            increase of molecular complexity of organisms. However, some organisms
+            have undergo massive genome reduction like the endosymbionts. In this
+            case the reduction can be explained by the Muller’s ratchet due to the
+            endosymbiont lifestyle with small population and lack of recombination.
+            However, in some marine bacteria, like <i>Prochlorococcus</i> et <i>Pelagibacter</i>,
+            lineage have undergo up to 30% of genome reduction. Their lifestyle is
+            almost the opposite to the one of the endosymbionts and reductive genome
+            evolution can not be easily explicable by the Muller’s ratchet. Some other
             hypothesis has been proposed but none can explain all the observed genomic
-             characteristics. In the thesis, I am interested in the reductive 
-             evolution of <i>Prochlorococcus</i>. I used two approaches: a theoretical 
-             one using simulation where different scenarios are tested and an analysis 
-             of <i>Prochlorococcus</i> genomes in a phylogenetic framework to determine 
-             the causes and characteristics of genome reduction. The combination 
-             of these two approaches allows to propose an hypothetical evolutive 
+             characteristics. In the thesis, I am interested in the reductive
+             evolution of <i>Prochlorococcus</i>. I used two approaches: a theoretical
+             one using simulation where different scenarios are tested and an analysis
+             of <i>Prochlorococcus</i> genomes in a phylogenetic framework to determine
+             the causes and characteristics of genome reduction. The combination
+             of these two approaches allows to propose an hypothetical evolutive
              history for the reductive genome evolution of <i>Prochlorococcus</i>.
 -
     year: 2013
@@ -113,26 +128,26 @@
         at: "11th Recomb - Comparative Genomics, Villeurbanne, France"
         slides_url: http://fr.slideshare.net/bebatut/recombcg-2013-in-silico-experimental-evolution-a-tool-to-test-evolutionary-scenarios
         summary: >
-            Comparative genomics has revealed that some species have exceptional 
-            genomes, compared to their closest relatives. For instance, some species 
-            have undergone a strong reduction of their genome with a drastic 
-            reduction of their genic repertoire. Deciphering the causes of these 
-            atypical trajectories can be very difficult because of the many 
-            phenomena that are intertwined during their evolution (e.g. changes 
-            of population size, environment structure and dynamics, selection 
+            Comparative genomics has revealed that some species have exceptional
+            genomes, compared to their closest relatives. For instance, some species
+            have undergone a strong reduction of their genome with a drastic
+            reduction of their genic repertoire. Deciphering the causes of these
+            atypical trajectories can be very difficult because of the many
+            phenomena that are intertwined during their evolution (e.g. changes
+            of population size, environment structure and dynamics, selection
             strength, mutation rates...). Here we propose a methodology based on
              synthetic experiments to test the individual effect of these phenomena
-             on a population of simulated organisms. We developed an evolutionary 
+             on a population of simulated organisms. We developed an evolutionary
              model - aevol - in which evolutionary conditions can be changed one
              at a time to test their effects on genome size and organization (e.g.
-             coding ratio). To illustrate the proposed approach, we used aevol to 
-            test the effects of a strong reduction in the selection strength on 
-            a population of (simulated) bacteria. Our results show that this 
-            reduction of selection strength leads to a genome reduction of ~35% 
-            with a slight loss of coding sequences (~15% of the genes are lost - 
-            mainly those for which the contribution to fitness is the lowest). 
-            More surprisingly, under a low selection strength, genomes undergo a 
-            strong reduction of the noncoding compartment (~55% of the noncoding 
-            sequences being lost). These results are consistent with what is 
-            observed in reduced <i>Prochlorococcus</i> strains (marine cyanobacteria) 
-            when compared to close relatives.   
+             coding ratio). To illustrate the proposed approach, we used aevol to
+            test the effects of a strong reduction in the selection strength on
+            a population of (simulated) bacteria. Our results show that this
+            reduction of selection strength leads to a genome reduction of ~35%
+            with a slight loss of coding sequences (~15% of the genes are lost -
+            mainly those for which the contribution to fitness is the lowest).
+            More surprisingly, under a low selection strength, genomes undergo a
+            strong reduction of the noncoding compartment (~55% of the noncoding
+            sequences being lost). These results are consistent with what is
+            observed in reduced <i>Prochlorococcus</i> strains (marine cyanobacteria)
+            when compared to close relatives.
