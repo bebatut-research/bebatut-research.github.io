@@ -5,7 +5,7 @@ title: Talks
 
 # Talks
 
-Most of my talks are available on [Slideshare](http://fr.slideshare.net/bebatut) 
+Most of my talks are available on [Slideshare](http://fr.slideshare.net/bebatut)
 and the sources on [GitHub](https://github.com/bebatut-slides)
 
 ---
@@ -22,16 +22,16 @@ and the sources on [GitHub](https://github.com/bebatut-slides)
           {% if talk.video_url %} [<a href="{{ talk.video_url }}">video</a>]{% endif %}{% if talk.source %} [<a href="{{ talk.source }}">sources</a>]{% endif %}
         </div>
 
-        <div class="toggle">
-          <a class="toggler">&#10148; <em>Summary</em></a>
-          <p class="talk-summary toggled">
-            {{ talk.summary }}
-          </p>
-        </div>
+        {% if talk.summary %}
+          <div class="toggle">
+            <a class="toggler">&#10148; <em>Summary</em></a>
+            <p class="talk-summary toggled">
+              {{ talk.summary }}
+            </p>
+          </div>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
   {% endfor %}
 </ul>
-
-
