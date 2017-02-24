@@ -10,20 +10,22 @@ markdown: redcarpet
 paginate: 5
 
 navigation:
- - title: Home
-   url: /index.html
- - title: Teaching
-   url: /teaching
- - title: Publications
-   url: /publications
- - title: Talks
-   url: /talks
+- title: Home
+  url: /index.html
+- title: Teaching
+  url: /teaching
+- title: Publications
+  url: /publications
+- title: Talks
+  url: /talks
+- title: Contact
+  url: /contact
 
-social:
-   github: bebatut
-   twitter: bebatut
-   email: berenice.batut@gmail.com
-   researchgate: Berenice_Batut
-   linkedin: berenicebatut
-
-google_analytics: 
+social: 
+  github: bebatut
+  twitter: bebatut
+  email: berenice.batut@gmail.com
+  researchgate: Berenice_Batut
+  linkedin: berenicebatut
+  orcid: 0000-0001-9852-1987
+  scienceopen: bebatut
