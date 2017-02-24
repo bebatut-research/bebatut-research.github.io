@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Teaching
+title: Training
 ---
 
-# Teaching
+# Training and teaching
 
-I like learning and also teaching to pass down my knowledge and passions. I followed [Software Carpentry](https://software-carpentry.org/) instructor
-training and get the certificate.
-When I had the opportunity, I gave lectures as associate professor at INSA de Lyon and at IUT d'Aurillac. Slides and materials for these courses are available on [http://bebatut-edu.github.io/](http://bebatut-edu.github.io/).
+I like learning and also teaching to pass down my knowledge and passions. When I had the opportunity, I gave lectures and exercises as associate professor at INSA de Lyon, at IUT d'Aurillac and at the Department of Computer Science of the University of Freiburg. Now, I am giving training, mainly on Galaxy use and development of tools.
+
+Since March 2016, I am a [Software Carpentry](https://software-carpentry.org/) instructor. I am also highly involved in the development of the [Training Material repository](http://galaxyproject.github.io/training-material/) of the [Galaxy Training Network](https://new.galaxyproject.org/teach/gtn/).
 
 ---
 
@@ -16,7 +16,7 @@ When I had the opportunity, I gave lectures as associate professor at INSA de Ly
     <h2 class="title">{{ data.year }}</h2>
 
     {% for location in data.locations %}
-      <h3 class="subtitle">{{ location.at }}</h3>
+      <h4 class="subtitle">{{ location.at }}</h3>
       <ul class="lecture-by-location">
       {% for lecture in location.lectures %}
         <li class="lecture-by-location">

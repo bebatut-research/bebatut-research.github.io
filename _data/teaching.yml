@@ -1,11 +1,53 @@
 -
-    year: 2015-2016
+    year: 2017
     locations:
+    -
+        at: "NGS Galaxy workshop, Freiburg, Germany"
+        lectures:
+        -
+            title: "Quality control of HTS data with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+        -
+            title: "RNA-Seq data analysis with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+    -
+        at: "RNA-Seq Galaxy workshop, Mainz, Germany"
+        lectures:
+        -
+            title: "RNA-Seq data analysis with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+    -
+        at: "European Galaxy Developer Workshop, Strasbourg, France"
+        lectures:
+        -
+            title: "Tool development and integration into Galaxy"
+            link: "https://galaxyproject.github.io/training-material//Dev-Corner/slides/tool_integration#1"
+        -
+            title: "Galaxy Interactive Tour"
+            link: "https://galaxyproject.github.io/training-material//Dev-Corner/slides/interactive_environments#1"
+-
+    year: 2016
+    locations:
+    -
+        at: "RNA-Seq Galaxy workshop, Freiburg, Germany"
+        lectures:
+        -
+            title: "Quality control of HTS data with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+        -
+            title: "RNA-Seq data analysis with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+    -
+        at: "3rd Systems Biology Developers Foundry, Frankfurt, Germany"
+        lectures:
+        -
+            title: "Docker for beginners"
+            link: "https://bebatut-slides.github.io/docker_foundry_ws_12_16/#/"
     -
         at: "Galaxy workshop, Clermont-Ferrand, France"
         lectures:
         -
-            title: "Tool integration in Galaxy environment "
+            title: "Tool integration in Galaxy environment"
             link: "http://bebatut-slides.github.io/galaxy_workshop_05_16/#/"
     -
         at: "IUT (Bioinformatics), Aurillac, France"
@@ -54,7 +96,7 @@
                     title: "Traitement de données génomiques en Perl Orienté Objet et BioPerl"
                     link: "https://github.com/bebatut-edu/bioperl-tp/raw/master/protocol/sujet.pdf"
 -
-    year: 2014-2015
+    year: 2015
     locations:
     -
         at: "IUT (Bioinformatics), Aurillac, France"
@@ -106,41 +148,23 @@
                     link: "assets/files/teaching/2014_2015/BioPerl_TP_note.pdf"
                     data_link: "assets/files/teaching/2014_2015/BioPerl_TP_note_donnees.zip"
 -
-    year: 2013-2014
+    year: 2011-2014
     locations:
     -
         at: "Undergraduate department, INSA, Lyon, France"
         lectures:
         -
             title: "Basis of computer sciences"
--
-    year: 2012-2013
-    locations:
-    -
-        at: "Undergraduate department, INSA, Lyon, France"
-        lectures:
         -
             title: "Algorithmics"
         -
             title: "Basic programming in Java"
         -
             title: "Relational databases in SQL"
+        -
+            title: "Objected oriented programming in Pascal"
     -
         at: "Bioinformatics & Modelling department, INSA, Lyon, France"
         lectures:
         -
             title: "Basic programming in Python"
--
-    year: 2011-2012
-    locations:
-    -
-        at: "Undergraduate department, INSA, Lyon, France"
-        lectures:
-        -
-            title: "Algorithmics"
-        -
-            title: "Basic programming in Java"
-        -
-            title: "Objected oriented programming in Pascal"
-        -
-            title: "Relational databases in SQL"
