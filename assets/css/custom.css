@@ -27,3 +27,22 @@
 .lecture-content{
     margin-bottom: 0.5em;
 }
+
+.social-links {
+    width: 100%;
+}
+
+.social-links,
+.social-links tr,
+.social-links td {
+    background-color: initial;
+    border: none;
+}
+
+.social-links td {
+    text-align: left;
+}
+
+.social-links td:first-child {
+    text-align: center;
+}

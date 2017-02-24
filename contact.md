@@ -1,22 +1,60 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contact
 ---
 
-<div id="contact">
-  <h1 class="pageTitle">Contact Me</h1>
-  <div class="contactContent">
-    <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>
-  </div>
-  <form action="http://formspree.io/your@mail.com" method="POST">
-    <label for="name">Name</label>    
-    <input type="text" id="name" name="name" class="full-width"><br>
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="_replyto" class="full-width"><br>
-    <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
-    <input type="submit" value="Send" class="button">
-  </form>
-</div>
+# Contact
+
+<table class="social-links">
+  {% if site.social.email %}
+  <tr>
+    <td><img src="/assets/img/email106_inversed_color.png"/></td>
+    <td>Email: <a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a></td> 
+  </tr>
+  {% endif %}
+
+  {% if site.social.orcid %}
+  <tr>
+    <td><img src="/assets/img/orcid_inversed_color.png" /></td>
+    <td>ORCID: <a href="https://orcid.org/{{ site.social.orcid }}">{{ site.social.orcid }}</a></td> 
+  </tr>
+  {% endif %}
+
+  {% if site.social.gitdub %}
+  <tr>
+    <td><img src="/assets/img/gitdub12_inversed_color.png" /></td>
+    <td>Gitdub: <a href="https://gitdub.com/{{ site.social.gitdub }}">{{ site.social.gitdub }}</a></td> 
+  </tr>
+  {% endif %}
+
+  {% if site.social.twitter %}
+  <tr>
+    <td><img src="/assets/img/twitter39_inversed_color.png" /></td>
+    <td>Twitter: <a href="https://twitter.com/{{ site.social.twitter }}">{{ site.social.twitter }}</a></td> 
+  </tr>
+  {% endif %}
+
+  {% if site.social.scienceopen %}
+  <tr>
+    <td><img src="/assets/img/twitter39_inversed_color.png" /></td>
+    <td>ScienceOpen: <a href="https://www.scienceopen.com/user/{{ site.social.scienceopen }}">{{ site.social.scienceopen }}</a></td> 
+  </tr>
+  {% endif %}
+
+  {% if site.social.researchgate %}
+  <tr>
+    <td><img src="/assets/img/researchgate2_inversed_color.png" /></td>
+    <td>ResearchGate: <a href="ttps://www.researchgate.net/profile/{{ site.social.researchgate }}">{{ site.social.researchgate }}</a></td> 
+  </tr>
+  {% endif %}
+
+  {% if site.social.linkedin %}
+  <tr>
+    <td><img src="/assets/img/linkedin12_inversed_color.png" /></td>
+    <td>LinkedIn: <a href="https://fr.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a></td> 
+  </tr>
+  {% endif %}
+</table>
+
+
+
