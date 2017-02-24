@@ -5,11 +5,8 @@ title: Publications
 
 # Publications
 
-You can find my publications below and in a [bibtex file](assets/files/berenice_batut_ref.bib).
-And you may also have a look at my
-[ResearchGate](https://www.researchgate.net/profile/{{ site.social.researchgate }})
-and [Google Scholar](https://scholar.google.fr/citations?user=q5GpTJYAAAAJ&hl=fr)
-profiles.
+You can find my publications below. And you may also have a look at my [ORCID](https://orcid.org/{{ site.social.orcid }}">{{ site.social.orcid }}), [ScienceOpen](https://www.scienceopen.com/user/{{ site.social.scienceopen }}), [ResearchGate](https://www.researchgate.net/profile/{{ site.social.researchgate }})
+and [Google Scholar](https://scholar.google.fr/citations?user=q5GpTJYAAAAJ&hl=fr) profiles.
 
 ---
 
