@@ -4,7 +4,7 @@
     -
         title: "ASaiM: a Galaxy-based framework to analyse raw shotgun data from microbiota"
         year: 
-        authors: "B Batut, C Defois, K Gravouil, J-F Brugère, E Peyretaillade, P Peyret"
+        authors: "Batut B, Defois C, Gravouil K et al"
         journal: "Submitted"
         doi: 
         ref: 
@@ -23,16 +23,62 @@
     -
         title: "Environmental pollutant benzo[a]pyrene impacts the volatile metabolome and transcriptome of the human gut microbiota"
         year: 
-        authors: "C Defois, J Ratel, S Denis, B Batut, R Beugnot, E Peyretaillade, E Engel, P Peyret"
-        journal: "Submitted"
+        authors: "Defois C, Ratel J, Denis S, Batut B et al"
+        journal: "Accepted"
         doi: 
         ref: 
         link: 
         summary:  
     -
+        title: "Four simple recommendations to encourage best practices in research software"
+        year: 2017
+        authors: "Jiménez RC, Kuzak M, Alhamdoosh M, Barker M, Batut B et al"
+        journal: "F1000Research"
+        doi: "10.12688/f1000research.11407.1"
+        ref: "6:876"
+        link: "http://f1000research.com/articles/6-876/v1"
+        summary: >
+            Scientific research relies on computer software, yet software is not always developed 
+            following practices that ensure its quality and sustainability. This manuscript does 
+            not aim to propose new software development best practices, but rather to provide 
+            simple recommendations that encourage the adoption of existing best practices. Software 
+            development best practices promote better quality software, and better quality software 
+            improves the reproducibility and reusability of research. These recommendations are 
+            designed around Open Source values, and provide practical suggestions that contribute 
+            to making research software and its source code more discoverable, reusable and 
+            transparent. This manuscript is aimed at developers, but also at organisations, 
+            projects, journals and funders that can increase the quality and sustainability of 
+            research software by encouraging the adoption of these recommendations.
+    -
+        title: "The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy"
+        year: 2017
+        authors: "Grüning BA, Fallmann J, Yusuf D, Will S, Erxleben A, Eggenhofer F, Houwaart T, Batut B et al"
+        journal: "Nucleic Acids Res"
+        doi: "10.1093/nar/gkx409"
+        ref: "gkx409"
+        link: "http://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx409"
+        summary: >
+            RNA-based regulation has become a major research topic in molecular biology. 
+            The analysis of epigenetic and expression data is therefore incomplete if RNA-based 
+            regulation is not taken into account. Thus, it is increasingly important but not yet 
+            standard to combine RNA-centric data and analysis tools with other types of experimental 
+            data such as RNA-seq or ChIP-seq. Here, we present the RNA workbench, a comprehensive 
+            set of analysis tools and consolidated workflows that enable the researcher to combine 
+            these two worlds. Based on the Galaxy framework the workbench guarantees simple access, 
+            easy extension, flexible adaption to personal and security needs, and sophisticated 
+            analyses that are independent of command-line knowledge. Currently, it includes more 
+            than 50 bioinformatics tools that are dedicated to different research areas of RNA 
+            biology including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein 
+            interaction, ribosome profiling, RNA-seq analysis and RNA target prediction. The 
+            workbench is developed and maintained by experts in RNA bioinformatics and the Galaxy 
+            framework. Together with the growing community evolving around this workbench, we are 
+            committed to keep the workbench up-to-date for future standards and needs, providing 
+            researchers with a reliable and robust framework for RNA data analysis. Availability: 
+            The RNA workbench is available at https://github.com/bgruening/galaxy-rna-workbench.
+    -
         title: "Reductive genome evolution at both ends of bacterial population size spectrum"
         year: "2014"
-        authors: "B Batut, C Knibbe, G Marais, V Daubin"
+        authors: "Batut B, Knibbe C, Marais G, Daubin V"
         journal: "Nat Rev Microb"
         doi: "10.1038/nrmicro3331"
         ref: "12, 841-850"
@@ -51,7 +97,7 @@
     -
         title: "<i>In silico</i> experimental evolution: a tool to test evolutionary scenarios"
         year: "2013"
-        authors: "B Batut, DP Parsons, S Fischer, G Beslon, C Knibbe"
+        authors: "Batut B, Parsons DP, Fischer S et al"
         journal: "BMC Bioinfo"
         doi: "10.1186/1471-2105-14-S15-S11"
         ref: "14 (Suppl 15), S11"
@@ -86,7 +132,7 @@
     -
         title: "Tool deployment and sustainability in bioinformatics - Fixed!"
         year: "2016"
-        authors: "B Batut, J Weber, R Backofen, B Grüning"
+        authors: "Batut B, Weber J, Backofen R, Grüning BA"
         conf: "Bioinformatics for Human Health and Disease"
         when: "Nov 2016"
         at: "Heidelberg, Germany"
@@ -129,7 +175,7 @@
     -
         title: "ASaiM: an environment to analyze intestinal microbiota"
         year: "2015"
-        authors: "B Batut, C Defois, C Ribière, C Gasc, JF Brugère, E Peyretaillade, CPER consortium Environnement Digestif, P Peyret"
+        authors: "Batut B, Defois C, Ribière C et al"
         conf: "JOBIM"
         when: "Jul 2015"
         at: "Clermont-Ferrand, France"
@@ -159,7 +205,7 @@
     -
         title: "<i>In silico</i> experimental evolution: a tool to test evolutionary scenarios"
         year: "2013"
-        authors: "B Batut, DP Parsons, S Fischer, G Beslon, C Knibbe"
+        authors: "Batut B, Parsons DP, Fischer S et al"
         conf: "11th Recomb - Comparative Genomics"
         when: "Oct 2013"
         at: "Villeurbanne, France"
@@ -191,7 +237,7 @@
     -
         title: "An alife game to teach evolution of antibiotic resistance"
         year: "2013"
-        authors: "G Beslon, B Batut, DP Parsons, D Schneider, C Knibbe"
+        authors: "Beslon G, Batut B, Parsons DP et al"
         conf: "ECAL - 12th European Conference on Artificial Life"
         when: "Sep 2013"
         at: "Taormina, Italy"
@@ -216,7 +262,7 @@
     -
         title: "Étude de l'évolution réductive des génomes bactériens par expériences d'évolution <i>in silico</i> et analyses bioinformatiques"
         year: "2014"
-        authors: "B Batut"
+        authors: "Batut B"
         doi: "10.13140/RG.2.1.4363.5925"
         when: "Nov 2014"
         at: "INSA de Lyon"
@@ -245,7 +291,7 @@
     -
         title: "Analyze your microbiota sequencing data using a Galaxy-based framework"
         year: "2016"
-        authors: "B Batut, C Defois, K Gravouil, C Gasc, T Eymard, E Peyretaillade, J-F Brugère, P Peyret"
+        authors: "Batut B, Defois C, Gravouil K et al"
         conf: "JOBIM"
         when: "June 2016"
         at: "Lyon, France"
@@ -254,7 +300,7 @@
     -
         title: "Unexpected genome inflation and streamlining in variable environment"
         year: "2016"
-        authors: "B Batut, G Beslon, C Knibbe"
+        authors: "Batut B, Beslon G, Knibbe C"
         conf: "JOBIM"
         when: "June 2016"
         at: "Lyon, France"
@@ -263,7 +309,7 @@
     -
         title: "Stratégies de reconstruction de génomes microbiens à partir de métagenomes"
         year: "2016"
-        authors: "K Gravouil, C Hochart, B Batut, C Defois, C Gasc, P Peyret, D Debroas, M Pailloux"
+        authors: "Gravouil K, Hochart C, Batut B et al"
         conf: "JOBIM"
         when: "June 2016"
         at: "Lyon, France"
@@ -272,7 +318,7 @@
     -
         title: "Benzo[a]pyrene impacts the volatile metabolome and transcriptome of human gut microbiota"
         year: "2016"
-        authors: "C Defois, B Batut, J Ratel, R Beugnot, F Mercier, C Gasc, S Denis, E Peyretaillade, E Engel, P Peyret"
+        authors: "Defois C, Batut B, Ratel J et al"
         conf: "INRA - ROWETT"
         when: "June 2016"
         at: "Clermont-Ferrand, France"
@@ -311,7 +357,7 @@
     -
         title: "Benzo[a]pyrene impacts human gut microbiota function"
         year: "2015"
-        authors: "C Defois, B Batut, J Ratel, C Ribière, C Gasc, R Beugnot, E Peyretaillade, E Engel, P Peyret"
+        authors: "Defois C, Batut B, Ratel J et al"
         conf: "Targeting Microbiota"
         when: "Nov 2015"
         at: "Paris, France"
@@ -339,7 +385,7 @@
     -
         title: "Tracing the roots of genome architecture through <i>in silico</i> experimental evolution"
         year: "2014"
-        authors: "G Beslon, B Batut, C Knibbe"
+        authors: "Beslon G, Batut B, Knibbe C"
         conf: "EMBO Conference Series: Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems"
         when: "Oct 2014"
         at: "EMBL, Heidelberg, Germany"
@@ -377,7 +423,7 @@
     -
         title: "Simulating evolutionary scenarios to test whether they can induced reductive evolution"
         year: "2012"
-        authors: "B Batut, M Dumond, G Marais, G Beslon, C Knibbe"
+        authors: "Batut B, Dumond M, Marais G et al"
         conf: "Annual Conference of Society for Molecular Biology and Evolution"
         when: "June 2012"
         at: "Dublin, Irlande"
