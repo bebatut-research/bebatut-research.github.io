@@ -18,7 +18,7 @@ and [Google Scholar](https://scholar.google.fr/citations?user=q5GpTJYAAAAJ&hl=fr
       {% for publi in data.publications %}
         <li class="publi">
           <div class="publi-description">
-            {{ publi.authors}}. {{ publi.year}}.
+            {{ publi.authors}}.
 
             {% if publi.link %}
               <a href="{{ publi.link }}">{{ publi.title }}</a>.
@@ -26,18 +26,13 @@ and [Google Scholar](https://scholar.google.fr/citations?user=q5GpTJYAAAAJ&hl=fr
               {{ publi.title }}.
             {% endif %}
 
-            {% if publi.journal %} <em>{{ publi.journal }}</em>,{% endif %}
-
+            {% if publi.journal %} <em>{{ publi.journal }}</em>{% endif %}
+            {% if publi.year %} {{ publi.year}}, {% endif %}
             {% if publi.conf %} <em>{{ publi.conf }}</em>,{% endif %}
-
             {% if publi.when %} {{ publi.when }},{% endif %}
-
             {% if publi.at %} {{ publi.at }}.{% endif %}
-
             {% if publi.ref %}{{ publi.ref }}.{% endif %}
-
-            {% if publi.doi %} doi: {{ publi.doi }}{% endif %}
-
+            {% if publi.doi %} (doi: <a href="http://dx.doi.org/{{ publi.doi }}">{{ publi.doi }})</a>{% endif %}
             {% if publi.type %}({{ publi.type }}){% endif %}
           </div>
 
