@@ -16,7 +16,7 @@ Since March 2016, I am a [Software Carpentry](https://software-carpentry.org/) i
     <h2 class="title">{{ data.year }}</h2>
 
     {% for location in data.locations %}
-      <h4 class="subtitle">{{ location.at }}</h3>
+      <h4 class="subtitle">{{ location.at }}</h4>
       <ul class="lecture-by-location">
       {% for lecture in location.lectures %}
         <li class="lecture-by-location">
