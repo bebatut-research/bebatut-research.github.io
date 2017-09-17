@@ -1,6 +1,15 @@
 -
     year: 2017
     locations:
+    - 
+        at: "Galaxy Community Conference, Montpellier, France"
+        lectures:
+        -
+            title: "How to analyze metagenomic and amplicon data in Galaxy"
+            link: "https://gcc2017.sched.com/event/9n0O/how-to-analyze-metagenomic-and-amplicon-data-in-galaxy"
+        -
+            title: "Galaxy for Training and Education"
+            link: "https://gcc2017.sched.com/event/9n1K/galaxy-for-training-and-education"
     -
         at: "NGS Galaxy workshop, Freiburg, Germany"
         lectures:

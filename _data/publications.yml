@@ -5,30 +5,53 @@
         title: "ASaiM: a Galaxy-based framework to analyse raw shotgun data from microbiota"
         year: 
         authors: "Batut B, Defois C, Gravouil K et al"
-        journal: "Submitted"
-        doi: 
+        journal: "Submitted - Preprint to BioRxiv"
+        doi: 10.1101/183970
         ref: 
-        link: 
+        link: http://www.biorxiv.org/content/early/2017/09/04/183970
         summary: >
-            With new generation sequencing platforms, huge amounts of short reads are produced. Inappropriate
-            use of sequence analysis procedures may result in misinterpretation and error propagation. This
-            is particularly true for the analyses of complex microorganism communities. Modular, accessible and sharable
-            user-friendly tools are then urgently needed to conduct efficient and reproducible analyses to explore
-            microbiota data.
-            We developed ASaiM, an open-source Galaxy-based framework dedicated to assist in the microbiota
-            data analyses. It provides an expertly selected collection of tools, (customizable) workflows and databases
-            to focus specifically on the exploitation of taxonomic and metabolic information from raw metagenomic
-            and metatranscriptomic sequences. ASaiM provides a powerful framework to easily and quickly
-            exploit microbiota data in a reproducible and transparent environment
+            New generation of sequencing platforms coupled to numerous bioinformatics tools has led 
+            to rapid technological progress in metagenomics and metatranscriptomics to investigate 
+            complex microorganism communities. Nevertheless, a combination of different bioinformatic 
+            tools remains necessary to draw conclusions out of microbiota studies. Modular and 
+            user-friendly tools would greatly improve such studies. We therefore developed ASaiM, 
+            an Open-Source Galaxy-based framework dedicated to microbiota data analyses. ASaiM 
+            provides a curated collection of tools to explore and visualize taxonomic and functional 
+            information from raw amplicon, metagenomic or metatranscriptomic sequences. To guide 
+            different analyses, several customizable workflows are included. All workflows are 
+            supported by tutorials and Galaxy interactive tours to guide the users through the 
+            analyses step by step. ASaiM is implemented as Galaxy Docker flavour. It is scalable to 
+            many thousand datasets, but also can be used a normal PC. The associated source code is 
+            available under Apache 2 license at https://github.com/ASaiM/framework and documentation 
+            can be found online (http://asaim.readthedocs.io/). Based on the Galaxy framework, ASaiM 
+            offers sophisticated analyses to scientists without command-line knowledge. ASaiM provides 
+            a powerful framework to easily and quickly explore microbiota data in a reproducible and 
+            transparent environment.
     -
         title: "Environmental pollutant benzo[a]pyrene impacts the volatile metabolome and transcriptome of the human gut microbiota"
-        year: 
+        year: 2017
         authors: "Defois C, Ratel J, Denis S, Batut B et al"
-        journal: "Accepted"
-        doi: 
-        ref: 
-        link: 
-        summary:  
+        journal: "Front. Microbiol."
+        doi: 10.3389/fmicb.2017.01562
+        ref: 8, 1562
+        link: http://journal.frontiersin.org/article/10.3389/fmicb.2017.01562
+        summary: >
+            Benzo[a]pyrene (B[a]P) is a ubiquitous, persistent, and carcinogenic pollutant that 
+            belongs to the large family of polycyclic aromatic hydrocarbons. Population exposure 
+            primarily occurs via contaminated food products, which introduces the pollutant to the 
+            digestive tract. Although the metabolism of B[a]P by host cells is well known, its 
+            impacts on the human gut microbiota, which plays a key role in health and disease, 
+            remain unexplored. We performed an in vitro assay using 16S barcoding, metatranscriptomics 
+            and volatile metabolomics to study the impact of B[a]P on two distinct human fecal 
+            microbiota. B[a]P exposure did not induce a significant change in the microbial structure; 
+            however, it altered the microbial volatolome in a dose-dependent manner. The transcript 
+            levels related to several metabolic pathways, such as vitamin and cofactor metabolism, 
+            cell wall compound metabolism, DNA repair and replication systems, and aromatic compound 
+            metabolism, were upregulated, whereas the transcript levels related to the 
+            glycolysis-gluconeogenesis pathway and bacterial chemotaxis toward simple carbohydrates 
+            were downregulated. These primary findings show that food pollutants, such as B[a]P, 
+            alter human gut microbiota activity. The observed shift in the volatolome demonstrates 
+            that B[a]P induces a specific deviation in the microbial metabolism.
     -
         title: "Four simple recommendations to encourage best practices in research software"
         year: 2017
@@ -130,8 +153,75 @@
     type: Talks to conference with peer reviews
     publications:
     -
+        title: "Building an open, collaborative, online infrastructure for bioinformatics training"
+        authors: "Batut B, Galaxy Training Network, Clements D, Grüning B"
+        conf: "Bioinformatics Open Source Conference"
+        when: "July 2017"
+        at: "Prag, Czech Republic"
+        link: "https://bebatut-slides.github.io/bosc_07_17/"
+        summary: >
+            With the advent of high-throughput platforms, analysis of data in life science is highly 
+            linked to the use of bioinformatics tools, resources, and high-performance computing. 
+            However, the scientists who generate the data often do not have the knowledge required 
+            to be fully conversant with such analyses. To involve them in their own data analysis, 
+            these scientists must acquire bioinformatics vocabulary and skills through training.
+            Unfortunately, data analysis and its training are particularly challenging without 
+            computational background. The Galaxy framework addresses this problem by offering a 
+            web-based, intuitive and accessible user interface to numerous bioinformatics tools. It 
+            enables sophisticated bioinformatic analysis without requiring life scientists to learn 
+            programming, command line interfaces, or systems administration. Trainings based on 
+            Galaxy generates significant interest and the number of such events is ever growing, 
+            with more than 70 events in 2016. To federate these events and the involved people, the 
+            Galaxy Training Network (GTN) was created in 2014. GTN now has 32 member groups and 
+            almost 100 individuals.
+            Recently, GTN set up a new open, collaborative, online model for delivering high-quality 
+            bioinformatics training material: http://galaxyproject.github.io/training-material. Each 
+            of the current 12 topics provides tutorials with hands-on, slides and interactive tours. 
+            Tours are a new way to go through an entire analysis, step by step inside Galaxy in an 
+            interactive and explorative way. All material is openly reviewed, and iteratively 
+            developed in one central repository by 40 contributors. Content is written in Markdown 
+            and, similarly to the Software/Data Carpentry, the model separates presentation from 
+            content. It makes easier for community contributions and enables bulk updates and style 
+            changes independently of the training content. This is beneficial for the sustainability 
+            of this project. In addition, the technological infrastructure needed to teach each topic 
+            is also described with an exhaustive list of needed tools. The data (citable via DOI) 
+            required for the hands-on, time and resource estimations and flavored Galaxy Docker 
+            images are also provided.
+            This material is automatically propagated to Elixir’s TeSS portal. With this community 
+            effort, the GTN offers an open, collaborative, FAIR and up-to-date infrastructure for 
+            delivering high-quality bioinformatics training for scientists.
+    -
+        title: "Building an open, collaborative, online infrastructure for bioinformatics training"
+        authors: "Batut B, Galaxy Training Network, Clements D, Grüning B"
+        conf: "Galaxy Community Conference"
+        when: "Jun 2017"
+        at: "Montpellier, France"
+        link: "https://bebatut-slides.github.io/gcc_06_17/"
+        summary: >
+            With the advent of high-throughput platforms, life science data analysis is tightly 
+            linked to the use of bioinformatics tools, resources, and high-performance computing. 
+            However, the scientists who generate the data often do not have the knowledge required 
+            to be fully conversant with such analyses. To involve them in their own data analysis, 
+            these scientists must acquire bioinformatics vocabulary and skills through training.
+            Data analysis training is particularly challenging without a computational background. 
+            The Galaxy framework is addressing this problem by offering a web-based, intuitive and 
+            accessible user interface to numerous bioinformatics tools.
+            Recently, the Galaxy Training Network (GTN) set up a new open, collaborative, online 
+            model for delivering high-quality bioinformatics training material: 
+            http://galaxyproject.github.io/training-material.
+            Each of the current 12 topics provides tutorials with hands-on, slides and interactive 
+            tours. Tours are a new way to go through an entire analysis, step by step inside Galaxy 
+            in an interactive and explorative way. All material is openly reviewed, and iteratively 
+            developed in one central repository by 40 contributors. Content is written in Markdown 
+            and, similarly to Software/Data Carpentry, the model separates presentation from content. 
+            In addition, the technological infrastructure needed to teach each topic is described 
+            with a list of needed tools. The data (citable via DOI) required for the hands-on, time 
+            and resource estimations and flavored Galaxy Docker images are also provided.
+            This material is automatically propagated to Elixir's TeSS portal. With this community 
+            effort, the GTN offers an open, collaborative, FAIR and up-to-date infrastructure for 
+            delivering high-quality bioinformatics training for scientists.
+    -
         title: "Tool deployment and sustainability in bioinformatics - Fixed!"
-        year: "2016"
         authors: "Batut B, Weber J, Backofen R, Grüning BA"
         conf: "Bioinformatics for Human Health and Disease"
         when: "Nov 2016"
@@ -174,7 +264,6 @@
             biomedical research.
     -
         title: "ASaiM: an environment to analyze intestinal microbiota"
-        year: "2015"
         authors: "Batut B, Defois C, Ribière C et al"
         conf: "JOBIM"
         when: "Jul 2015"
@@ -204,7 +293,6 @@
             can be downloaded or directly interrogated through its web interface.
     -
         title: "<i>In silico</i> experimental evolution: a tool to test evolutionary scenarios"
-        year: "2013"
         authors: "Batut B, Parsons DP, Fischer S et al"
         conf: "11th Recomb - Comparative Genomics"
         when: "Oct 2013"
@@ -236,7 +324,6 @@
             when compared to close relatives.
     -
         title: "An alife game to teach evolution of antibiotic resistance"
-        year: "2013"
         authors: "Beslon G, Batut B, Parsons DP et al"
         conf: "ECAL - 12th European Conference on Artificial Life"
         when: "Sep 2013"
@@ -261,7 +348,6 @@
     publications:
     -
         title: "Étude de l'évolution réductive des génomes bactériens par expériences d'évolution <i>in silico</i> et analyses bioinformatiques"
-        year: "2014"
         authors: "Batut B"
         doi: "10.13140/RG.2.1.4363.5925"
         when: "Nov 2014"
@@ -286,43 +372,168 @@
              of these two approaches allows to propose an hypothetical evolutive
              history for the reductive genome evolution of <i>Prochlorococcus</i>.
 -
-    type: Other
+    type: Posters
     publications:
     -
+        title: "Building an open, collaborative, online infrastructure for bioinformatics training"
+        authors: "Batut B, Galaxy Training Network, Clements D, Grüning B"
+        conf: "German Conference on Bioinformatics"
+        when: "Sept 2017"
+        at: "Tübingen, Germany"
+        link: http://pauling.lelab.tailordev.fr/posters/931a6df1-bed2-4fde-b915-55a63afc56d0
+        doi: 
+        summary: >
+            With the advent of high-throughput platforms, life science data analysis is tightly linked 
+            to the use of bioinformatics tools, resources, and high-performance computing. However, 
+            the scientists who generate the data often do not have the knowledge required to be fully 
+            conversant with such analyses. To involve them in their own data analysis, these scientists 
+            must acquire bioinformatics vocabulary and skills through training.
+            Data analysis training is particularly challenging without a computational background. 
+            The Galaxy framework is addressing this problem by offering a web-based, intuitive and 
+            accessible user interface to numerous bioinformatics tools.
+            Recently, the Galaxy Training Network (GTN) set up a new open, collaborative, online model 
+            for delivering high-quality bioinformatics training material: http://training.galaxyproject.org.
+            Each of the current 13 topics provides tutorials with hands-on, slides and interactive 
+            tours. Tours are a new way to go through an entire analysis, step by step inside Galaxy 
+            in an interactive and explorative way. All material is openly reviewed, and iteratively 
+            developed in one central repository by almost 50 contributors. Content is written in 
+            Markdown and, similarly to Software/Data Carpentry, the model separates presentation 
+            from content. In addition, the technological infrastructure needed to teach is described 
+            with a list of needed tools, annotation of public Galaxy instances and Docker images for 
+            each topic. The data are also stored in Zenodo and citable via DOI.
+            All materials are annotated by a rich set of metadata (time and resource estimations) and 
+            automatically propagated to ELIXIR's TeSS portal. This approach creates tutorials that 
+            are accessible, easy to find and (re)use (FAIR) by individuals and by trainers for 
+            workshops.
+            With this community effort, the GTN offers an open, collaborative, FAIR and up-to-date 
+            infrastructure for delivering high-quality bioinformatics training for scientists.
+    -
+        title: "How to analyze raw sequencing data from microbiota? Using ASaiM!"
+        authors: "Batut B, Gravouil K, Defois C et al"
+        conf: "German Conference on Bioinformatics"
+        when: "Sept 2017"
+        at: "Tübingen, Germany"
+        link: http://pauling.lelab.tailordev.fr/posters/0aa51c2e-ac41-4e6e-9301-fe1baf995681
+        doi: 
+        summary: >
+            The study of microbial communities has been facilitated by the evolution of sequencing 
+            techniques and the development of metagenomics and metatranscriptomics. These techniques 
+            are giving insight into phylogenetic properties and metabolic components of microbial 
+            communities. However, meta'omic data exploitation is not trivial: large amount of data, 
+            high variability, incompleteness of reference databases, difficulty to find, configure, 
+            use and combine the dedicated bioinformatics tools, etc. Hence, to extract useful 
+            information, a sequenced microbiota sample has to be processed by sophisticated workflows 
+            with numerous successive bioinformatics steps. Besides, bioinformatics tools are often 
+            manually executed and/or patched together with custom scripts. These practices raise doubts 
+            about a science gold standard: reproducibility. Alternative approaches to improve 
+            accessibility, modularity and reproducibility can be found in Open-Source workflow systems 
+            such as Galaxy. Galaxy is a lightweight environment providing a web-based, intuitive and 
+            accessible user interface to command-line tools, while automatically managing computation 
+            and transparently managing data provenance and workflow scheduling. In this context, we 
+            developed ASaiM, an Open-Source opinionated Galaxy-based framework.
+            ASaiM provides an expertly selected collection of tools to exploit and visualize taxonomic 
+            and functional information from raw amplicon, metagenomic or metatranscriptomic sequences. 
+            To help the analyses, several (customizable) workflows are included. The workflow for 
+            shotgun metagenomic data has been tested on two mock metagenomic datasets with controlled 
+            communities. More accurate and precise taxonomic analyses and more informative metabolic 
+            description have been obtained compared to EBI metagenomics' pipeline on the same datasets.
+            The available workflows are supported by tutorials and Galaxy interactive tours to guide 
+            the users through the analyses. Furthermore, an effort on documentation of ASaiM, its 
+            tools and workflows has been made (http://asaim.readthedocs.io).
+            Based on the Galaxy framework, ASaiM offers sophisticated analyses to scientists without 
+            command-line knowledge, while emphasizing reproducibility, customization and effortless 
+            scale up to larger infrastructures. ASaiM is implemented as Galaxy Docker flavour and 
+            can be easily extended with additional tools or workflows. ASaiM provides then a powerful 
+            framework to easily and quickly exploit microbiota data in a reproducible and transparent 
+            environment.
+    -
+        title: "Scaling Bioinformatics Training: An ELIXIR, GOBLET & Galaxy Training Network Collaboration"
+        authors: "Batut B, Grüning B, Coppens F et al"
+        conf: "ISMB/ECCB"
+        when: "July 2017"
+        at: "Prag, Czech Republic"
+        link: "http://research.bebatut.fr/eccb_2017_training_poster/"
+        doi: 10.7490/f1000research.1114489.1
+        summary: >
+            Scalability is a key challenge in bioinformatics. Data management, analysis pipelines, 
+            compute infrastructure, visualisations, and training must all scale to address ever-larger 
+            experimental designs, and the increasing prevalence of data-intensive life science 
+            research. ELIXIR, GOBLET, and the Galaxy Training Network (GTN) have teamed up to create 
+            reusable and community extensible bioinformatics training materials, available online 
+            for individual life science researchers and trainers.
+            Thanks to this community led effort, a series of Galaxy-based tutorials were developed to 
+            teach numerous data analysis topics, ranging from genomics to proteomics to metabolomics. 
+            Training on Galaxy administration and development is also included in this effort. The 
+            content is developed in Markdown, stored in GitHub and separated from the presentation 
+            on the website, facilitating its development and updating by the community. The 
+            technological infrastructure needed to teach is provided with Docker images for each 
+            topic and the datasets are stored in Zenodo with assigned DOIs. All materials are 
+            annotated by a rich set of metadata and automatically propagated to ELIXIR’s TeSS portal. 
+            This approach creates tutorials that are accessible, easy to find and use (FAIR) by 
+            individuals and by trainers for workshops.
+            This poster highlights the approach taken, how it addresses the scalability of presenting, 
+            creating, and maintaining training materials, as well as the resulting products. We will 
+            also report on the the recently held ELIXIR/GOBLET/GTN hackathon for Galaxy training 
+            material re-use and the community’s future plans.
+    -
+        title: "ASaiM: a Galaxy-based framework to analyze raw sequencing data from microbiota"
+        authors: "Batut B, Defois C, Gravouil K"
+        conf: "Galaxy Community Conference"
+        when: "June 2017"
+        at: "Montpellier, France"
+        link: "http://research.bebatut.fr/gcc_2017_asaim/"
+        doi: 10.7490/f1000research.1114448.1
+        summary: >
+            With the development of the new generation of sequencing platforms and the development of 
+            metagenomics and metatranscriptomics technologies, complex microorganism communities can 
+            be more easily studied. Numerous bioinformatics tools are available for such purpose but 
+            analyses of microbiota data remain difficult: numerous different bioinformatics tools 
+            must be combined to extract useful information. Indeed, modular, accessible and sharable 
+            user-friendly tools are then urgently needed to conduct efficient analyses to explore 
+            microbiota data. We developed then ASaiM, an open-source Galaxy-based framework dedicated 
+            to microbiota data analyses.
+            ASaiM provides an expertly selected collection of tools to exploit and visualize taxonomic
+            and functional information from raw amplicon, metagenomic or metatranscriptomic sequences. 
+            To help the analyses, several (customizable) workflows are included. The main workflow has 
+            been tested on two mock metagenomic datasets with controlled communities. More accurate 
+            and precise taxonomic analyses and more informative metabolic description have been 
+            obtained compared to EBI metagenomics' pipeline on the same datasets.
+            The available workflows are supported by tutorials and Galaxy interactive tours to guide 
+            the users through the analyses. Furthermore, an effort on documentation of ASaiM, its 
+            tools and workflows has been made (http://asaim.readthedocs.io/).
+            Based on the Galaxy framework, ASaiM offers sophisticated analyses to scientists without 
+            command-line knowledge, while emphasizing reproducibility, customization and effortless 
+            scale up to larger infrastructures. ASaiM is implemented as Galaxy Docker flavour and 
+            can be easily extended with additional tools or workflows. ASaiM provides then a powerful 
+            framework to easily and quickly exploit microbiota data in a reproducible and transparent 
+            environment.
+    -
         title: "Analyze your microbiota sequencing data using a Galaxy-based framework"
-        year: "2016"
         authors: "Batut B, Defois C, Gravouil K et al"
         conf: "JOBIM"
         when: "June 2016"
         at: "Lyon, France"
-        type: "Poster"
         link: "http://research.bebatut.fr/jobim_2016_asaim/"
     -
         title: "Unexpected genome inflation and streamlining in variable environment"
-        year: "2016"
         authors: "Batut B, Beslon G, Knibbe C"
         conf: "JOBIM"
         when: "June 2016"
         at: "Lyon, France"
-        type: "Poster"
         link: "http://research.bebatut.fr/jobim_2016_aevol_env_variation/"
     -
         title: "Stratégies de reconstruction de génomes microbiens à partir de métagenomes"
-        year: "2016"
         authors: "Gravouil K, Hochart C, Batut B et al"
         conf: "JOBIM"
         when: "June 2016"
         at: "Lyon, France"
-        type: "Poster"
         link: "http://keuv-grvl.github.io/jobim2016/"
     -
         title: "Benzo[a]pyrene impacts the volatile metabolome and transcriptome of human gut microbiota"
-        year: "2016"
         authors: "Defois C, Batut B, Ratel J et al"
         conf: "INRA - ROWETT"
         when: "June 2016"
         at: "Clermont-Ferrand, France"
-        type: "Poster"
         summary: >
             Polycyclic Aromatic Hydrocarbons (PAH) are ubiquitous persistent
             pollutants arising from oil and derivatives along with incomplete
@@ -356,12 +567,10 @@
             contribute to functional dysbiosis in relation to pathologies.
     -
         title: "Benzo[a]pyrene impacts human gut microbiota function"
-        year: "2015"
         authors: "Defois C, Batut B, Ratel J et al"
         conf: "Targeting Microbiota"
         when: "Nov 2015"
         at: "Paris, France"
-        type: "Poster"
         summary: >
             Polycyclic Aromatic Hydrocarbons (PAH) are carcinogenic pollutants
             arising from oil and derivatives along with incomplete organic matter
@@ -383,51 +592,11 @@
             findings showed that food pollutants, such as B[a]P, may modify our gut
             microbiota and could contribute to disturb the gut homeostasis.
     -
-        title: "Tracing the roots of genome architecture through <i>in silico</i> experimental evolution"
-        year: "2014"
-        authors: "Beslon G, Batut B, Knibbe C"
-        conf: "EMBO Conference Series: Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems"
-        when: "Oct 2014"
-        at: "EMBL, Heidelberg, Germany"
-        summary: >
-            Genome architecture (size, proportion of coding sequences, polycistronic
-            mRNAs…) is the consequence of many interacting forces acting over very
-             long time scales. Indeed, selection, mutation biases, drift etc. all
-             act directly or indirectly on the different genome compartments, either
-             triggering their increase or decrease in proportions that depend on the
-            life style of the organisms (e.g., environment complexity, environment
-            variation, population size…).
-            Understanding how the intertwining of these pressures leads to particular
-            architecture is difficult for at least three reasons. First, it is
-            impossible to experimentally separate these forces to observe their
-            individual action since they are all interacting one with the others
-            at the molecular level. Second, they act on time scales that are almost
-            impossible to access experimentally, even with species reproducing rapidly.
-            Third, it is not clear how a given change of life-style will affect
-            these different pressures.
-            We propose that <i>in silico</i> experimental evolution approaches, in which
-            simulated species are let evolved in perfectly controlled (simulated)
-            environments, can be used to study the consequences of a specific change
-            in life-style on the genome architecture. Indeed, <i>in silico</i> experiments
-            can escape most of the difficulties listed above: since the organisms
-            and environment are simulated, they can be precisely tuned, millions of
-             generations can “easily” be simulated and, most importantly, it allows
-            large parameter explorations that can help understanding the precise
-            effect of a given environmental parameter on a given genomic structure.
-            We illustrate the power of in silico experimental evolution using the
-            aevol software (<a href="www.aevol.fr">www.aevol.fr</a>). We show how different environmental
-            changes can lead to unexpected consequences on the genome structure
-            due to the non-linearity of the selective/non-selective pressures. In
-            particular, we emphasize the overlooked effect of chromosomal rearrangements
-            on this matter.
-    -
         title: "Simulating evolutionary scenarios to test whether they can induced reductive evolution"
-        year: "2012"
         authors: "Batut B, Dumond M, Marais G et al"
         conf: "Annual Conference of Society for Molecular Biology and Evolution"
         when: "June 2012"
         at: "Dublin, Irlande"
-        type: "Poster"
         link: "https://hal.inria.fr/hal-00762597/file/Poster_Berenice_Batut.pdf"
         summary: >
             Some bacterial lineages seem to have undergone significant genome shrinkage
@@ -469,3 +638,43 @@
             trajectories in these experiments, (ii) test the effect of combined
             scenarii with multiple changed parameters, and (iii) find the best scenarii
             for intracellular and free-living species with reduced genomes.
+-
+    type: Other
+    publications:
+    -
+        title: "Tracing the roots of genome architecture through <i>in silico</i> experimental evolution"
+        authors: "Beslon G, Batut B, Knibbe C"
+        conf: "EMBO Conference Series: Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems"
+        when: "Oct 2014"
+        at: "EMBL, Heidelberg, Germany"
+        summary: >
+            Genome architecture (size, proportion of coding sequences, polycistronic
+            mRNAs…) is the consequence of many interacting forces acting over very
+             long time scales. Indeed, selection, mutation biases, drift etc. all
+             act directly or indirectly on the different genome compartments, either
+             triggering their increase or decrease in proportions that depend on the
+            life style of the organisms (e.g., environment complexity, environment
+            variation, population size…).
+            Understanding how the intertwining of these pressures leads to particular
+            architecture is difficult for at least three reasons. First, it is
+            impossible to experimentally separate these forces to observe their
+            individual action since they are all interacting one with the others
+            at the molecular level. Second, they act on time scales that are almost
+            impossible to access experimentally, even with species reproducing rapidly.
+            Third, it is not clear how a given change of life-style will affect
+            these different pressures.
+            We propose that <i>in silico</i> experimental evolution approaches, in which
+            simulated species are let evolved in perfectly controlled (simulated)
+            environments, can be used to study the consequences of a specific change
+            in life-style on the genome architecture. Indeed, <i>in silico</i> experiments
+            can escape most of the difficulties listed above: since the organisms
+            and environment are simulated, they can be precisely tuned, millions of
+             generations can “easily” be simulated and, most importantly, it allows
+            large parameter explorations that can help understanding the precise
+            effect of a given environmental parameter on a given genomic structure.
+            We illustrate the power of in silico experimental evolution using the
+            aevol software (<a href="www.aevol.fr">www.aevol.fr</a>). We show how different environmental
+            changes can lead to unexpected consequences on the genome structure
+            due to the non-linearity of the selective/non-selective pressures. In
+            particular, we emphasize the overlooked effect of chromosomal rearrangements
+            on this matter.
