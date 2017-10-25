@@ -28,6 +28,25 @@
             a powerful framework to easily and quickly explore microbiota data in a reproducible and 
             transparent environment.
     -
+        title: "ENASearch: A Python library for interacting with ENA's API"
+        year: 2017
+        authors: "Batut B & Grüning B"
+        journal: "Journal of Open Source Software"
+        doi: 10.21105/joss.00418
+        ref: 2(18), 418
+        link: http://joss.theoj.org/papers/10.21105/joss.00418
+        summary: >
+            The European Nucleotide Archive (ENA) is a database with a 
+            comprehensive record of nucleotide sequencing information (raw sequencing data, sequence 
+            assembly information and functional annotation). The data contained in ENA can be accessed 
+            manually or programmatically via REST URLs. However, building HTTP-based REST requests 
+            is not always straightforward - a user friendly, high-level access is needed to make it 
+            easier to interact with ENA programmatically.
+            We developed ENASearch, a Python library to search and retrieve data from ENA database. 
+            It also allows for rich querying support by accessing different fields, filters or functions 
+            offered by ENA. ENASearch can be used as a Python package, through a command-line interface 
+            or inside Galaxy.
+    -
         title: "Environmental pollutant benzo[a]pyrene impacts the volatile metabolome and transcriptome of the human gut microbiota"
         year: 2017
         authors: "Defois C, Ratel J, Denis S, Batut B et al"
@@ -374,6 +393,39 @@
 -
     type: Posters
     publications:
+    -
+        title: "Building an open, collaborative, online infrastructure for bioinformatics training"
+        authors: "Batut B, Galaxy Training Network, Clements D, Grüning B"
+        conf: "deNBI Symposium"
+        when: "Nov 2017"
+        at: "Bielefeld, Germany"
+        link: http://pauling.lelab.tailordev.fr/posters/931a6df1-bed2-4fde-b915-55a63afc56d0
+        doi: 
+        summary: >
+            With the advent of high-throughput platforms, life science data analysis is tightly linked 
+            to the use of bioinformatics tools, resources, and high-performance computing. However, 
+            the scientists who generate the data often do not have the knowledge required to be fully 
+            conversant with such analyses. To involve them in their own data analysis, these scientists 
+            must acquire bioinformatics vocabulary and skills through training.
+            Data analysis training is particularly challenging without a computational background. 
+            The Galaxy framework is addressing this problem by offering a web-based, intuitive and 
+            accessible user interface to numerous bioinformatics tools.
+            Recently, the Galaxy Training Network (GTN) set up a new open, collaborative, online model 
+            for delivering high-quality bioinformatics training material: http://training.galaxyproject.org.
+            Each of the current 13 topics provides tutorials with hands-on, slides and interactive 
+            tours. Tours are a new way to go through an entire analysis, step by step inside Galaxy 
+            in an interactive and explorative way. All material is openly reviewed, and iteratively 
+            developed in one central repository by almost 50 contributors. Content is written in 
+            Markdown and, similarly to Software/Data Carpentry, the model separates presentation 
+            from content. In addition, the technological infrastructure needed to teach is described 
+            with a list of needed tools, annotation of public Galaxy instances and Docker images for 
+            each topic. The data are also stored in Zenodo and citable via DOI.
+            All materials are annotated by a rich set of metadata (time and resource estimations) and 
+            automatically propagated to ELIXIR's TeSS portal. This approach creates tutorials that 
+            are accessible, easy to find and (re)use (FAIR) by individuals and by trainers for 
+            workshops.
+            With this community effort, the GTN offers an open, collaborative, FAIR and up-to-date 
+            infrastructure for delivering high-quality bioinformatics training for scientists.
     -
         title: "Building an open, collaborative, online infrastructure for bioinformatics training"
         authors: "Batut B, Galaxy Training Network, Clements D, Grüning B"

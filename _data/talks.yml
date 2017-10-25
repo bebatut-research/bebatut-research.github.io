@@ -2,6 +2,12 @@
     year: 2017
     talks:
     -
+        title: "User-focused programming / development - Example of Galaxy"
+        date: "2017-10-23"
+        at: "deNBIer, Heidelberg, Germany"
+        slides_url: https://bebatut-slides.github.io/de.NBIer_10_17/#/
+        source: https://github.com/bebatut-slides/de.NBIer_10_17
+    -
         title: "Building an open, collaborative, online infrastructure for bioinformatics training"
         date: "2017-07-23"
         at: "Bioinformatics Open Source Conference, Prag, Czech Republic"
