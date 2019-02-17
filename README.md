@@ -1,17 +1,18 @@
-Bérénice Batut research website
-===============================
+Slides for talks - Bérénice Batut
+=================================
 
-Serve locally:
+This repository served the slides for my talks.
 
-```
-$ jekyll serve
-```
+# Usage
 
+## Install the requirements
 
-The current theme is heavily based on [Long Haul](https://github.com/brianmaierjr/long-haul)
+1. Open a Terminal
+2. (If not done yet) Clone the training material GitHub repository: `git clone https://github.com/bebatut/talks.git`
+3. Navigate to the `talks/` folder with `cd`
+4. Install Jekyll and related modules into the conda environment: `make install`
 
-The social icons are made by [Freepik](http://www.freepik.com) from 
-[Flaticon]("http://www.flaticon.com), licensed by 
-[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). The Research icon
-(DNA Code) was made by Aha-Soft from the Noun Project.
+## Generate the site locally
 
+1. Run a local Jekyll server with make serve
+2. Visualize at `http://localhost:4000/talks/`

@@ -1,4 +1,85 @@
 -
+    year: 2019
+    locations:
+    - 
+        at: "Galaxy RNA-seq workshop, Belgrade, Serbia"
+        lectures:
+        -
+            title: "Quality control of HTS data with Galaxy"
+            link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+        -
+            title: "RNA-Seq data analysis with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+    -
+        at: "Introduction to data-driven life science, Freiburg, Germany"
+        lectures:
+        -
+            title: "Data structures for bioinformatics algorithms"
+        -
+            title: "Assembly I"
+        -
+            title: "Assembly II"
+        -
+            title: "Metataxonomics"
+        -
+            title: "Metagenomics"
+-
+    year: 2018
+    locations:
+    - 
+        at: "Galaxy RNA-seq workshop, Freiburg, Germany"
+        lectures:
+        -
+            title: "Quality control of HTS data with Galaxy"
+            link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+        -
+            title: "RNA-Seq data analysis with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+    - 
+        at: "HTS Galaxy workshop, Freiburg, Germany"
+        lectures:
+        -
+            title: "Quality control of HTS data with Galaxy"
+            link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+        -
+            title: "RNA-Seq data analysis with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+    - 
+        at: "Galaxy Community Conference / BOSC, Portland, USA"
+        lectures:
+        -
+            title: "Galaxy 101"
+            link: "https://gccbosc2018.sched.com/event/DmxD/galaxy-101-a-gentle-introduction-to-using-galaxy"
+        -
+            title: "Bioinformatics Training and Education with the Galaxy Training Network"
+            link: "https://gccbosc2018.sched.com/event/Drp9/bioinformatics-training-and-education-with-the-galaxy-training-network"
+    -   
+        at: "Galaxy Africa, Cape Town, South Africa"
+        lectures:
+        - 
+            title: "Metagenomics"
+            link: https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html
+    -
+        at: "HTS Galaxy workshop, Freiburg, Germany"
+        lectures:
+        -
+            title: "Quality control of HTS data with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+        -
+            title: "RNA-Seq data analysis with Galaxy"
+            link: "https://galaxyproject.github.io/training-material//RNA-Seq/tutorials/ref_based"
+    -
+        at: "Introduction to data-driven life science, Freiburg, Germany"
+        lectures:
+        -
+            title: "Assembly I"
+        -
+            title: "Assembly II"
+        -
+            title: "Metataxonomics"
+        -
+            title: "Metagenomics"
+-
     year: 2017
     locations:
     - 

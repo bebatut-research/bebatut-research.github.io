@@ -1,13 +1,15 @@
 ---
-layout: default
-title: Training
+layout: base
+title: Training and teaching
+image: /assets/images/training.jpg
 ---
+<br>
 
-# Training and teaching
+I am passionate about teaching and training. I am regularly gives workshops on data analysis, tool development and also as Carpentries instructor. I co-lead the [Galaxy Training Network](https://new.galaxyproject.org/teach/gtn/) effort to develop and maintain a collection of [Galaxy-related training material](http://galaxyproject.github.io/training-material/). 
 
 I like learning and also teaching to pass down my knowledge and passions. When I had the opportunity, I gave lectures and exercises as associate professor at INSA de Lyon, at IUT d'Aurillac and at the Department of Computer Science of the University of Freiburg. Now, I am giving training, mainly on Galaxy use and development of tools.
 
-Since March 2016, I am a [Software Carpentry](https://software-carpentry.org/) instructor. I am also highly involved in the development of the [Training Material repository](http://galaxyproject.github.io/training-material/) of the [Galaxy Training Network](https://new.galaxyproject.org/teach/gtn/).
+Since March 2016, I am a [Software Carpentry](https://software-carpentry.org/) instructor. Since  I am also highly involved in the development of the [Training Material repository](http://galaxyproject.github.io/training-material/) of the [Galaxy Training Network](https://new.galaxyproject.org/teach/gtn/).
 
 ---
 

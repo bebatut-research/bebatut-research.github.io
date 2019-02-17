@@ -1,28 +1,8 @@
-title: Bérénice Batut
-description: Website of Bérénice Batut
-
-url: http://bebatut-research.github.io
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
-
-navigation:
-- title: Home
-  url: /index.html
-- title: Training
-  url: /training
-- title: Publications
-  url: /publications
-- title: Talks
-  url: /talks
-- title: Contact
-  url: /contact
-
-social: 
-  github: bebatut
-  twitter: bebatut
-  email: berenice.batut@gmail.com
-  researchgate: Berenice_Batut
-  linkedin: berenicebatut
-  orcid: 0000-0001-9852-1987
-  scienceopen: bebatut
+title: Slides for talks - Bérénice Batut
+email: berenice.batut@gmail.com
+repository: bebatut-slides/bebatut-slides.github.io
+twitter: bebatut
+linkedin: berenicebatut
+gitter: bebatut
+orcid: 0000-0001-9852-1987
+scholar: 9sCBSXkAAAAJ
