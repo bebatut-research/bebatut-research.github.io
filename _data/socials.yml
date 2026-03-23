@@ -1,0 +1,18 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+#cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+email: berenice.batut@gmail.com # your email address
+hal_id: berenice-batut # your HAL ID
+orcid_id: 0000-0001-9852-1987 # your ORCID ID
+scholar_userid: q5GpTJYAAAAJ # your Google Scholar ID
+#rss_icon: true # comment this line to hide the RSS icon
+bluesky_url: https://bsky.app/profile/bebatut.bsky.social # your Bluesky URL (e.g., https://bsky.app/profile/johndoe.bsky.social)
+linkedin_username: berenicebatut # your LinkedIn username (e.g., johnd
+github_username: bebatut # your GitHub username
+gitlab_username: bebatut # your GitLab username
+zotero_username: bebatut
+#custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#  title: Custom Social
+#  url: https://www.alberteinstein.com/

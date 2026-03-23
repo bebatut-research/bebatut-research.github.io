@@ -1,34 +1,34 @@
-img{
-    border: 0 !important;
-    box-shadow: none !important;
-    background: none !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
+img {
+  border: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
 
 .requirements li {
-    list-style-type: none;
-    text-align: left;
+  list-style-type: none;
+  text-align: left;
 }
 
 .me {
-    margin: 0 !important;
-    text-align: center !important;
+  margin: 0 !important;
+  text-align: center !important;
 }
 
 .me li {
-    list-style-type: none;
-    text-align: left;
+  list-style-type: none;
+  text-align: left;
 }
 
 .me li a {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
-.reveal pre code{
-    font-size: .8em;
-    line-height: 1em;
-    max-height: 500px;
+.reveal pre code {
+  font-size: 0.8em;
+  line-height: 1em;
+  max-height: 500px;
 }
 
 .image-10 img {
@@ -48,48 +48,69 @@ img{
 }
 
 .reveal .slides {
-    font-size: 0.82em;
+  font-size: 0.82em;
 }
 
 .footnote {
-    position: absolute;
-    bottom: 20px;
-    size: 0.6em;
-    color: #444444;
+  position: absolute;
+  bottom: 20px;
+  size: 0.6em;
+  color: #444444;
 }
 
 .reveal table td {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 
-html.dim-background .slide-background.present {
-    opacity: 0.6 !important;
-    background-color: rgb(255, 255, 255);
-}
-
-
-html.dim-background-2 .slide-background.present {
-    opacity: 0.9 !important;
-    background-color: rgb(255, 255, 255);
+.dim-background .slide-background-content {
+  opacity: 0.4 !important;
+  background-color: rgb(255, 255, 255);
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 #left {
-  left:-8.33%;
+  left: -8.33%;
   text-align: left;
   float: left;
-  width:50%;
-  z-index:-10;
+  width: 50%;
+  z-index: -10;
 }
 
 #right {
-  left:31.25%;
+  left: 31.25%;
   top: 75px;
   float: right;
   text-align: right;
-  z-index:-10;
-  width:50%;
+  z-index: -10;
+  width: 50%;
+}
+
+.slides .footer {
+  position: absolute;
+  left: -10%;
+  font-size: 0.5em;
+  bottom: -90%;
+  list-style-type: none;
+}
+
+.slides .header_icon {
+  position: absolute;
+  right: -10%;
+  top: 0%;
+  width: 10%;
+}
+
+.left_column {
+  margin-right: 2em;
+  float: left;
+  width: 45%;
+}
+
+.right_column {
+  text-align: left;
+  float: right;
+  width: 45%;
 }

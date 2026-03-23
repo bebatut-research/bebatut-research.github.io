@@ -1,0 +1,114 @@
+{% comment %}
+  Render Teaching section from RenderCV nested section data.
+  Supports three types of sub-sections:
+  - Course list (entries with start_date/end_date + description)
+  - Training workshops (entries with intro text OR start_date/end_date + activities list)
+  - Public engagement (entries with start_date/end_date + description)
+{% endcomment %}
+
+{% for teaching_pair in entries %}
+  {% assign teaching_title = teaching_pair[0] %}
+  {% assign teaching_entries = teaching_pair[1] %}
+  {% if teaching_title == 'Under- and graduate courses' %}
+    {% assign date_format = 'month-year' %}
+  {% else %}
+    {% assign date_format = 'year' %}
+  {% endif %}
+  <h4 class="card-text">{{ teaching_title }}</h4>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for entry in teaching_entries %}
+      {% if entry.intro %}
+        <li class="list-group-item">
+          <p class="font-weight-light mb-0">{{ entry.intro | markdownify }}</p>
+        </li>
+      {% elsif entry.activities %}
+        <li class="list-group-item">
+          <div class="row">
+            {% assign period_display = entry.year | append: '' | strip %}
+            {% if period_display != '' %}
+              <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+                <table class="table-cv">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span
+                          class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                          style="min-width: 75px"
+                        >
+                          {{- period_display -}}
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            {% endif %}
+            <div
+              class="{% if period_display != '' %}col-xs-10 col-sm-10 col-md-10{% else %}col-xs-12 col-sm-12 col-md-12{% endif %} mt-2 mt-md-0"
+            >
+              <ul class="items ml-1 ml-md-4">
+                {% for activity in entry.activities %}
+                  <li>
+                    <span class="item">{{ activity.name }}</span>
+                    {% if activity.length or activity.location %}
+                      {% if activity.length and activity.location %}
+                        {% assign activity_format = activity.length | append: ' / ' | append: activity.location %}
+                      {% elsif activity.length %}
+                        {% assign activity_format = activity.length %}
+                      {% else %}
+                        {% assign activity_format = activity.location %}
+                      {% endif %}
+                      {% if activity.repetition %}
+                        {% assign activity_format = activity_format | append: ' (' | append: activity.repetition | append: ')' %}
+                      {% endif %}
+                      <br>
+                      <small class="text-muted">{{ activity_format }}</small>
+                    {% elsif activity.format %}
+                      <br>
+                      <small class="text-muted">{{ activity.format }}</small>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </li>
+      {% elsif entry.description %}
+        <li class="list-group-item">
+          <div class="row">
+            {% capture period_display %}{% include cv/date_range.liquid start_date=entry.start_date end_date=entry.end_date format=date_format %}{% endcapture %}
+            {% assign period_display = period_display | strip %}
+            {% if period_display != '' %}
+              <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+                <table class="table-cv">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span
+                          class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                          style="min-width: 75px"
+                        >
+                          {{- period_display -}}
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            {% endif %}
+            <div
+              class="{% if period_display != '' %}col-xs-10 col-sm-10 col-md-10{% else %}col-xs-12 col-sm-12 col-md-12{% endif %} mt-2 mt-md-0"
+            >
+              <h6 class="title ml-1 ml-md-4" style="font-size: 0.95rem">
+                {{ entry.description }}
+              </h6>
+              {% if entry.institution %}
+                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution }}</h6>
+              {% endif %}
+            </div>
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

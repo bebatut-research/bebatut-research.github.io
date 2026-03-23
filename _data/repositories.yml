@@ -1,0 +1,10 @@
+github_users:
+  - bebatut
+
+repo_description_lines_max: 2
+
+github_repos:
+  - galaxyproject/training-material
+  - galaxyproject/galaxy_codex
+  - research-software-ecosystem/micoreca
+  - galaxyproject/iwc

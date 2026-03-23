@@ -1,0 +1,74 @@
+{% comment %}
+  Render Scientific Recognition as grouped entries.
+  Expected format:
+  - top-level map of groups (e.g. Selected invited talks, Awards)
+  - each group contains a list of entries with:
+    - year and items: list of objects with optional title, type, event, location fields
+    - or description: single string
+{% endcomment %}
+
+{% for recognition_pair in entries %}
+  {% assign recognition_title = recognition_pair[0] %}
+  {% assign recognition_entries = recognition_pair[1] %}
+  <h4 class="card-text">{{ recognition_title }}</h4>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for entry in recognition_entries %}
+      <li class="list-group-item">
+        <div class="row">
+          {% assign date = entry.year | append: '' | strip %}
+          {% if date != '' %}
+            <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+              <table class="table-cv">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          {% endif %}
+          <div class="{% if date != '' %}col-xs-10 col-sm-10 col-md-10{% else %}col-xs-12 col-sm-12 col-md-12{% endif %} mt-2 mt-md-0">
+            {% if entry.items %}
+              <ul class="items ml-1 ml-md-4">
+                {% for item in entry.items %}
+                  {% if item.title or item.type or item.event %}
+                    <li>
+                      <span class="item">
+                        {% if item.type -%}
+                          <b>{{ item.type }}</b>
+                        {%- endif %}
+                        {% if item.title -%}
+                          {%- if item.type %}: {% endif -%}
+                          {{- item.title -}}
+                        {%- endif %}
+                      </span>
+                      {% if item.event or item.location %}
+                        {% if item.event and item.location %}
+                          {% assign item_subtitle = item.event | append: ', ' | append: item.location %}
+                        {% elsif item.event %}
+                          {% assign item_subtitle = item.event %}
+                        {% else %}
+                          {% assign item_subtitle = item.location %}
+                        {% endif %}
+                        <br>
+                        <small class="text-muted">{{ item_subtitle }}</small>
+                      {% endif %}
+                    </li>
+                  {% else %}
+                    <li>
+                      <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% elsif entry.description %}
+              <h6 class="title ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.description }}</h6>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

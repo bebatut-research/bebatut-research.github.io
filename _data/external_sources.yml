@@ -1,0 +1,177 @@
+# External sources.
+# If you have blog posts published on medium.com or other external sources,
+# you can display them in your blog by adding a link to the RSS feed.
+# Optional: Set default categories and tags for posts from each source.
+
+# - name: medium.com
+#   rss_url: https://medium.com/@al-folio/feed
+#   categories: [external-posts]
+#   tags: [medium]
+
+- name: Galaxy
+  posts:
+    - url: https://galaxyproject.org/news/2026-02-19-misconception-paper/
+      published_date: 2026-02-18
+    - url: https://galaxyproject.org/news/2025-10-21-fairymags-hackathon-outcome/
+      published_date: 2025-10-20
+    - url: https://galaxyproject.org/news/2025-09-17-international-microorganism-day/
+      published_date: 2025-09-16
+    - url: https://galaxyproject.org/news/2025-07-21-jobim/
+      published_date: 2025-07-20
+    - url: https://training.galaxyproject.org/training-material/news/2025/07/01/gtn-elixir-life-cycle.html
+      published_date: 2025-06-30
+    - url: https://galaxyproject.org/news/2025-03-21-galaxy-ecology/
+      published_date: 2025-03-20
+    - url: https://galaxyproject.org/news/2025-01-09-bfsp-fairy-mags/
+      published_date: 2025-01-08
+    - url: https://galaxyproject.org/news/2024-07-11-rs-ec-co-dex/
+      published_date: 2024-07-10
+    - url: https://training.galaxyproject.org/training-material/news/2024/06/06/400-tutorials-milestone.html
+      published_date: 2024-06-05
+    - url: https://training.galaxyproject.org/training-material/news/2024/06/06/dada2-tutorial.html
+      published_date: 2024-06-05
+    - url: https://galaxyproject.org/news/2024-04-microgalaxy-hackathon/
+      published_date: 2024-04-29
+    - url: https://galaxyproject.org/news/2023-11-21-2nd-biont-workshop/
+      published_date: 2023-11-20
+    - url: https://galaxyproject.org/news/2023-09-28-biont-workshop/
+      published_date: 2023-09-27
+    - url: https://galaxyproject.org/news/2023-03-21-foodborne-training/
+      published_date: 2023-03-20
+    - url: https://galaxyproject.org/news/2023-03-21-microbial-survey/
+      published_date: 2023-03-20
+    - url: https://galaxyproject.org/news/2023-03-08-gmn-reset/
+      published_date: 2023-03-07
+    - url: https://training.galaxyproject.org/training-material/news/2023/01/26/pathogen-detection-tutorial.html
+      published_date: 2023-01-25
+    - url: https://galaxy-mentor-network.netlify.app/blog/2022/02/26/welcome-launch/
+      published_date: 2022-02-28
+    - url: https://galaxyproject.org/news/2021-12-08-pathogen-detection-eosc-life-grant/
+      published_date: 2021-12-07
+    - url: https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html
+      published_date: 2021-09-28
+    - url: https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html
+      published_date: 2021-09-28
+    - url: https://galaxyproject.org/news/2021-07-21-freiburg-galaxy-team-gcc/
+      published_date: 2021-07-20
+    - url: https://galaxyproject.org/news/2021-07-02-bvcn/
+      published_date: 2021-07-01
+    - url: https://galaxyproject.org/news/2021-07-01-wids/
+      published_date: 2021-06-30
+    - url: https://galaxyproject.org/news/2021-06-ols/
+      published_date: 2021-06-27
+    - url: https://training.galaxyproject.org/training-material/news/2021/03/24/faqs.html
+      published_date: 2021-03-23
+    - url: https://training.galaxyproject.org/training-material/news/2021/03/18/gtn_cofest_may.html
+      published_date: 2021-03-17
+    - url: https://galaxyproject.org/news/2020-12-22-ols/
+      published_date: 2020-12-21
+    - url: https://galaxyproject.org/news/2020-09-07-ols/
+      published_date: 2020-09-06
+    - url: https://galaxyproject.org/news/2019-03-04-galaxy-hts-workshop/
+      published_date: 2019-03-03
+    - url: https://goo.gl/forms/lcPoMt4iZ8hwcdM12
+      published_date: 2019-01-26
+    - url: https://galaxyproject.org/news/2019-01-totm/
+      published_date: 2019-01-14
+    - url: https://galaxyproject.org/news/2018-11-totm/
+      published_date: 2018-11-14
+    - url: https://galaxyproject.org/news/2018-10-totm/
+      published_date: 2018-10-14
+    - url: https://galaxyproject.org/news/2018-09-totm/
+      published_date: 2018-09-27
+    - url: https://galaxyproject.org/news/2018-06-training-material/
+      published_date: 2018-06-14
+  categories: [external-posts]
+  tags: [galaxy]
+
+- name: OLS
+  posts:
+    - url: https://we-are-ols.org/posts/2024/07/22/emmy-farewell/
+      published_date: 2024-07-21
+    - url: https://we-are-ols.org/posts/2023/10/10/ols-8-announcement/
+      published_date: 2023-10-09
+    - url: https://we-are-ols.org/posts/2023/07/23/video-library-launching/
+      published_date: 2023-07-22
+    - url: https://we-are-ols.org/posts/2023/06/12/ols-7-graduations-and-ols-8-call/
+      published_date: 2023-06-11
+    - url: https://we-are-ols.org/posts/2023/03/21/ols-7-announcement/
+      published_date: 2023-03-20
+    - url: https://we-are-ols.org/posts/2022/12/20/ECB-grant-announcement/
+      published_date: 2022-12-19
+    - url: https://we-are-ols.org/posts/2022/12/01/announcing-applications-for-ols-7/
+      published_date: 2022-11-30
+    - url: https://we-are-ols.org/posts/2022/10/24/ols-6-annoucement/
+      published_date: 2022-10-23
+    - url: https://we-are-ols.org/posts/2022/08/10/welcome-paz/
+      published_date: 2022-08-09
+    - url: https://we-are-ols.org/posts/2022/08/10/bienvenida-paz/
+      published_date: 2022-08-09
+    - url: https://we-are-ols.org/posts/2022/06/03/announcing-applications-for-ols-6/
+      published_date: 2022-06-02
+    - url: https://we-are-ols.org/posts/2022/03/03/ols-5-annoucement/
+      published_date: 2022-03-02
+    - url: https://we-are-ols.org/posts/2022/02/18/ols-is-hiring/
+      published_date: 2022-02-17
+    - url: https://we-are-ols.org/posts/2022/01/27/runway-to-sustainability-czi-funding/
+      published_date: 2022-01-26
+    - url: https://we-are-ols.org/posts/2021/12/21/wt-open-research-fund/
+      published_date: 2021-12-20
+    - url: https://we-are-ols.org/posts/2021/12/13/ols-5-promotion/
+      published_date: 2021-12-12
+    - url: https://we-are-ols.org/posts/2021/12/06/announcing-applications-for-ols-5/
+      published_date: 2021-12-05
+    - url: https://we-are-ols.org/posts/2021/09/07/ols-4-annoucement/
+      published_date: 2021-09-06
+    - url: https://we-are-ols.org/posts/2021/06/21/announcing-applications-for-ols-4/
+      published_date: 2021-06-20
+    - url: https://we-are-ols.org/posts/2021/02/04/ols3-announcement/
+      published_date: 2021-02-03
+    - url: https://we-are-ols.org/posts/2020/11/26/announcing-applications-for-ols-3/
+      published_date: 2020-11-25
+    - url: https://we-are-ols.org/posts/2020/11/23/micro-grants-in-2021-ols-3-ols-4/
+      published_date: 2020-11-22
+    - url: https://we-are-ols.org/posts/2020/10/05/ally-skills-training/
+      published_date: 2020-10-04
+    - url: https://we-are-ols.org/posts/2020/10/01/annual-report-part-3/
+      published_date: 2020-09-30
+    - url: https://we-are-ols.org/posts/2020/10/01/annual-report-part-2/
+      published_date: 2020-09-30
+    - url: https://we-are-ols.org/posts/2020/10/01/annual-report-part-1/
+      published_date: 2020-09-30
+    - url: https://we-are-ols.org/posts/2020/09/01/ols2-announcement/
+      published_date: 2020-08-31
+    - url: https://we-are-ols.org/posts/2020/05/27/ols1-wrapup/
+      published_date: 2020-05-26
+    - url: https://we-are-ols.org/posts/2020/04/12/final-presentations-youre-all-invited/
+      published_date: 2020-04-11
+    - url: https://we-are-ols.org/posts/2020/01/13/ols1-announcement/
+      published_date: 2020-01-12
+    - url: https://we-are-ols.org/posts/2019/11/25/expert-review/
+      published_date: 2019-11-24
+    - url: https://we-are-ols.org/posts/2019/10/18/projects/
+      published_date: 2019-10-17
+    - url: https://we-are-ols.org/posts/2019/09/24/application/
+      published_date: 2019-09-23
+  categories: [external-posts]
+  tags: [OLS, training]
+
+- name: Open Bioinformatics Foundation
+  posts:
+    - url: https://www.open-bio.org/2019/11/12/supercharge-your-open-project-with-leadership-training/
+      published_date: 2019-11-12
+  categories: [external-posts]
+  tags: [Open Bioinformatics Foundation]
+
+- name: bioinfo-fr.net
+  posts:
+    - url: https://bioinfo-fr.net/comment-fixer-les-problemes-de-deploiement-et-de-durabilite-des-outils-en-bioinformatique
+      published_date: 2017-03-16
+    - url: https://bioinfo-fr.net/soutiller-et-sorganiser-pour-mieux-travailler
+      published_date: 2016-10-05
+    - url: https://bioinfo-fr.net/software-carpentry-ou-la-transmission-de-bonnes-pratiques-en-informatique
+      published_date: 2016-06-16
+    - url: https://bioinfo-fr.net/automatiser-le-parcours-et-la-manipulation-darbres-phylogenetiques-avec-le-module-bio-phylo-de-biopython
+      published_date: 2016-04-23
+  categories: [external-posts]
+  tags: [bioinfo-fr.net]

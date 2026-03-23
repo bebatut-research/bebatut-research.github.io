@@ -1,0 +1,58 @@
+{% comment %}
+  Unified education entry renderer for both RenderCV and JSONResume formats
+  Handles both:
+  - RenderCV: institution, area, studyType (or degree), start_date, end_date, location, courses, highlights
+  - JSONResume: institution, area, studyType, startDate, endDate, location, courses, highlights
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    {% if entry.intro %}
+      <li class="list-group-item">
+        <p class="font-weight-light mb-0">{{ entry.intro | markdownify }}</p>
+      </li>
+    {% else %}
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+            {% if entry.year %}
+              {% assign date = entry.year | append: '' %}
+            {% else %}
+              {% capture date %}{% include cv/date_range.liquid start_date=entry.start_date startDate=entry.startDate end_date=entry.end_date endDate=entry.endDate format='year' %}{% endcapture %}
+            {% endif %}
+            {% assign date = date | strip %}
+            {% if date == '' %}
+              {% assign date = null %}
+            {% endif %}
+
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    {% if date %}
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                    {% endif %}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+            {% if entry.name %}
+              <h6 class="title ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.name }}</h6>
+            {% endif %}
+            {% if entry.highlights %}
+              <ul class="items">
+                {% for item in entry.highlights %}
+                  <li>
+                    <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
