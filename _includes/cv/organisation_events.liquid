@@ -1,0 +1,14 @@
+{% comment %}
+  Render Organisation of scientific events as grouped role entries.
+  Expected format:
+  - top-level map of groups (e.g. Scientific committee, Organization committee)
+  - each group contains a list of role entries compatible with cv/roles.liquid
+{% endcomment %}
+
+{% for events_pair in entries %}
+  {% assign events_title = events_pair[0] %}
+  {% assign events_entries = events_pair[1] %}
+  <h4 class="card-text">{{ events_title }}</h4>
+  {% assign entries = events_entries %}
+  {% include cv/roles.liquid %}
+{% endfor %}

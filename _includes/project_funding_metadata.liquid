@@ -1,0 +1,32 @@
+{% assign item = include.item %}
+{% capture funding_duration %}{% include cv/date_range.liquid start_date=item.start_date startDate=item.startDate end_date=item.end_date endDate=item.endDate format='month-year' %}{% endcapture %}
+{% assign funding_duration = funding_duration | strip %}
+{% if funding_duration == '' %}
+  {% assign funding_duration = null %}
+{% endif %}
+{% assign has_funding_metadata = funding_duration or item.funder or item.beneficiary or item.role or item.budget %}
+
+{% if has_funding_metadata %}
+  <div class="{% if include.variant == 'page' %}card mt-3 p-3{% else %}mt-2{% endif %}">
+    {% if include.variant == 'page' %}
+      <h5 class="card-title font-weight-medium mb-2">Funding Details</h5>
+    {% endif %}
+    <ul class="list-unstyled {% if include.variant == 'card' %}small mb-0{% else %}mb-0{% endif %}">
+      {% if funding_duration %}
+        <li><strong>Duration:</strong> {{ funding_duration }}</li>
+      {% endif %}
+      {% if item.funder %}
+        <li><strong>Call / Funder:</strong> {{ item.funder }}</li>
+      {% endif %}
+      {% if item.beneficiary %}
+        <li><strong>Beneficiary:</strong> {{ item.beneficiary }}</li>
+      {% endif %}
+      {% if item.role %}
+        <li><strong>Role:</strong> {{ item.role }}</li>
+      {% endif %}
+      {% if item.budget %}
+        <li><strong>Budget:</strong> {{ item.budget }}</li>
+      {% endif %}
+    </ul>
+  </div>
+{% endif %}

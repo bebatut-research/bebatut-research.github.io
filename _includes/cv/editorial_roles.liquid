@@ -1,0 +1,73 @@
+{% comment %}
+  Render Editorial and Evaluation Roles from RenderCV nested section data.
+  Supports:
+  - named entries with optional start/end dates
+  - structured entries (type/name/institution) with optional dates
+  - nested grouped entries (e.g., Journals/Conferences lists)
+{% endcomment %}
+
+{% for editorial_pair in entries %}
+  {% assign editorial_title = editorial_pair[0] %}
+  {% assign editorial_entries = editorial_pair[1] %}
+  <h4 class="card-text">{{ editorial_title }}</h4>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for entry in editorial_entries %}
+      {% capture editorial_date %}{% include cv/date_range.liquid start_date=entry.start_date startDate=entry.startDate end_date=entry.end_date endDate=entry.endDate format='year' %}{% endcapture %}
+      {% assign editorial_date = editorial_date | strip %}
+      {% if editorial_date == '' %}
+        {% assign editorial_date = null %}
+      {% endif %}
+      {% if editorial_title == 'Ad hoc reviewer' %}
+        {% assign editorial_date = null %}
+      {% endif %}
+
+      <li class="list-group-item">
+        <div class="row">
+          {% if editorial_date %}
+            <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+              <table class="table-cv">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                        {{- editorial_date -}}
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          {% endif %}
+
+          <div class="{% if editorial_date %}col-xs-10 col-sm-10 col-md-10{% else %}col-xs-12 col-sm-12 col-md-12{% endif %} mt-2 mt-md-0">
+            {% if entry.type or entry.institution %}
+              <h6 class="title ml-1 ml-md-4" style="font-size: 0.95rem">
+                {% if entry.type %}{{ entry.type }}{% endif %}
+                {% if entry.name %}
+                  {% if entry.type %}: {% endif -%}
+                  {{- entry.name }}
+                {% endif %}
+                {% if entry.institution %}
+                  {% if entry.type or entry.name %} ({% endif -%}
+                  {{- entry.institution -}}
+                  {%- if entry.type or entry.name %}){% endif %}
+                {% endif %}
+              </h6>
+            {% elsif entry.name %}
+              <h6 class="title ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.name }}</h6>
+            {% else %}
+              {% for subrole_pair in entry %}
+                {% assign subrole_title = subrole_pair[0] %}
+                {% assign subrole_entries = subrole_pair[1] %}
+                <div class="ml-1 ml-md-4">
+                  <strong>{{ subrole_title }}:</strong>
+                  {{ subrole_entries | join: ', ' }}
+                </div>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

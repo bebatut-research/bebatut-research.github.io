@@ -1,0 +1,574 @@
+cv:
+  #name: Bérénice Batut
+  #label: Researcher
+  #email: berenice.batut@gmail.com
+  #location: Clermont-Ferrand, France
+  #image: ""
+  #summary: >
+  #  (Aero)Microbiome Data Analysis; Training & Capacity Building; Open Science; FAIR, Open, & Sustainable Infrastructures (e.g. Galaxy): tools, workflows, training, community
+
+  #address:
+  #  street: 1 Impasse Amélie Murat
+  #  city: Aubière
+  #  #region: Auvergne-Rhône-Alpes
+  #  postalCode: 63178
+  #  countryCode: FR
+
+  sections:
+    Education:
+      - institution: INSA Lyon
+        location: Lyon, France
+        area: Computational Microbiology
+        studyType: PhD
+        start_date: 2011
+        end_date: 2014
+        score: ""
+        summary: >
+          My PhD thesis focused on the study of reductive evolution of bacterial genomes using in silico experimental evolution and comparative genomics.
+        highlights:
+          - Study of reductive evolution of bacterial genomes using in silico experimental evolution and comparative genomics
+          - "Supervisors: C. Knibbe (LIRIS), G. Beslon (LIRIS), G. Marais (LBBE), V. Daubin (LBBE)"
+
+      - institution: ENS Lyon
+        location: Lyon, France
+        area: Theoretical Computer Science
+        studyType: Master
+        start_date: 2010
+        end_date: 2011
+        highlights:
+          - Complex system modelling, Networks, Graph theory
+
+      - institution: INSA Lyon
+        location: Lyon, France
+        area: Bioinformatics & Modelling
+        studyType: Master of Engineering
+        start_date: 2008
+        end_date: 2011
+        highlights:
+          - Bioinformatics, Biology, Biostatistics, Mathematics, Modelling, Computer science
+
+    Experience:
+      - company: "<a href='https://www.lmge.cnrs.fr/'>Laboratoire Microorganismes: Génome et Environnement</a>, CNRS"
+        position: Researcher
+        location: Clermont-Fd, France
+        start_date: 2026-04-01
+        end_date: present
+        #summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        #highlights:
+        #  - Relativity
+        #  - Description 2.
+
+      - company: "<a href='https://www.ifb-elixir.fr/'>Institut Francais de Bioinformatique</a> & <a href='https://www.aubi-mesocentre.fr/'>Plateforme AuBi Mésocentre</a>, Université Clermont Auvergne"
+        position: Research Engineer
+        location: Clermont-Fd, France
+        start_date: 2024-01-01
+        end_date: 2026-02-28
+        summary: Computational Microbiology & Training
+        highlights:
+          - "<b>Computational Microbiology:</b> Multi-omics for antibiotic resistance, Agnostic Microbiome"
+          - "<b>Training:</b> Training curriculum & material development, and course delivery, ELIXIR-FR deputy training coordinator"
+          - "<b>Leadership:</b> Co-lead of the <a href='https://elixir-europe.org/communities/microbiome'>ELIXIR Microbiome Community</a>, Co-lead of a French Microbiology Bioinformatics Community, Co-lead of a French WG to catalog metagenomics resources, (Co-)Principal Investigator in 1 international grant, Work Package technical lead in national project, Advisor of 3 Master 1 internships and 2 Master 2 bibliography projects"
+
+      - company: <a href='https://we-are-ols.org/'>OLS</a> (Open Life Science Limited)
+        position: Director of learning and technology
+        location: Remote
+        start_date: 2023-12-31
+        end_date: 2023-01-01
+        highlights:
+          - "<b>Technology:</b> Development of an open knowledge management system"
+          - "<b>Learning:</b> Development of a training program on Open Science"
+          - "<b>Leadership:</b> (Co-)Principal Investigator in 3 international grants"
+          - "<b>Non-executive director:</b> Starting from 2024"
+
+      - company: Freiburg Galaxy Team, <a href='https://www.bioinf.uni-freiburg.de/'>Bioinformatic Group (Prof. Backofen)</a>, University of Freiburg
+        position: Researcher
+        location: Freiburg, Germany
+        start_date: 2016-08-15
+        end_date: 2023-11-15
+        summary: Microbiome Data Analysis & Training
+        highlights:
+          - "<b>Agnostic Microbiome:</b> Multi-omics data analysis, Metagenomics assembled genome building, Host-microbiome, Pathogen detection"
+          - "<b>Training and Capacity Building:</b> Training curriculum, material development, and course delivery, Development of Galaxy Training infrastructure, Participation in international training communities and efforts, ELIXIR-DE deputy training coordinator"
+          - "<b>Leadership:</b> Principal Investigator of 1 industry collaboration grant, Work Package lead in 1 European Commission funded grant, Advisor of 1 PhD student, 5 Master thesis, 4 Master (6-month) Projects"
+          - "10+ invited talks in international events"
+
+      - position: Parental leave
+        location: Freiburg, Germany
+        start_date: 2019-12-22
+        end_date: 2021-02-07
+
+      - company: EA CIDAM, University of Auvergne
+        position: Post-doctoral Researcher
+        location: Clermont-Fd, France
+        start_date: 2015-01-01
+        end_date: 2016-06-30
+        summary: Microbiome Data Analysis
+        highlights:
+          - "<b>Gut Microbiome:</b> Standardized bioinformatic workflows for metagenomic and metatranscriptomic data analysis"
+
+    Volunteer:
+      - company: <a href='https://we-are-ols.org/'>OLS</a> (Open Life Science Limited)
+        position: Non executive director
+        location: Remote
+        start_date: 2024-01-01
+        end_date: 2026-02-28
+
+      - company: <a href='https://we-are-ols.org/'>OLS</a> (Open Life Science Limited)
+        position: Co-Founder and co-organizer
+        location: Remote
+        start_date: 2019-06-26
+        end_date: 2022-12-31
+
+    Supervision:
+      #Postdoctoral researchers:
+      PhD students:
+        - start_date: 2021-04-01
+          name: Engy Nasr
+          title: Enhancing Microbiome Research and Pathogen Surveillance through Sustainable Multi-Omics Approaches within a One Health Context
+          supervision: Co-supervised with Paul Zierep (University of Freiburg, Germany)
+      Master Thesis:
+        - start_date: 2024-07-01
+          end_date: 2022-10-01
+          name: Patrick Bühler
+          title: Design, implementation, and test of Galaxy workflows for building Metagenome-Assembled Genomes and application on real-life cloud microbiome data
+          institution: Computer Science, University of Freiburg, Germany
+          supervision: Co-supervised with Paul Zierep (University of Freiburg, Germany)
+        - start_date: 2022-10-12
+          end_date: 2023-07-09
+          name: Yedil Serzhan
+          title: What is in the microbiome of beers? Aggregation of public beer microbiome data, development and evaluation of FAIR beer microbiome workflows, and implementation of BeerMicroDB, a comprehensive database for beer microbiome
+          institution: Computer Science, University of Freiburg, Germany
+          supervision: Co-supervised with Teresa Müller (University of Freiburg, Germany)
+        - start_date: 2022-04-01
+          end_date: 2022-11-07
+          name: Polina Polunina
+          title: Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples
+          institution: Computer Science, University of Freiburg, Germany
+          supervision: Co-supervised with Wolgang Maier (University of Freiburg, Germany)
+        - start_date: 2019-05-17
+          end_date: 2020-05-27
+          name: Brian Davis
+          title: "How Genomes are Shaped by Direct and Indirect Selection Pressure: A Study in <i>in silico</i> Experimental Evolution"
+          institution: Computer Science, University of Freiburg, Germany
+        #- start_date: 2023-01-01
+        #  end_date: 2023-12-31
+        #  name: S. Jamal
+        #  title: ""
+        #  institution: "Computer Science, University of Freiburg, Germany"
+      Interns:
+        - start_date: 2025-05-19
+          end_date: 2025-07-25
+          name: Nathan Fouchard
+          title: Implementation of a plasmid detection pipeline on the Galaxy platform
+          type: Master 1 (3 months)
+          institution: Bioinformatics, Université Clermont Auvergne, France
+          supervision: Co-supervised with Didier Debroas (LMGE, Université Clermont Auvergne, France)
+        - start_date: 2024-05-13
+          end_date: 2024-07-26
+          name: Hugo Serville
+          title: Implementation of a technical infrastructure for data collection and processing to create a database on the bee microbiome.
+          type: Master 1 (3 months)
+          institution: Bioinformatics, Université Clermont Auvergne, France
+          supervision: Co-supervised with Frédéric Delbac and Hicham El Alaoui (LMGE, Université Clermont Auvergne, France)
+        - start_date: 2024-05-13
+          end_date: 2024-07-26
+          name: Géraldine Piot
+          title: Development of a Galaxy workflow for metagenomic analysis and scripts for exploring and visualizing taxonomic and functional data from the bee microbiome
+          type: Master 1 (3 months)
+          institution: Bioinformatics, Université Clermont Auvergne, France
+          supervision: Co-supervised with Frédéric Delbac and Hicham El Alaoui (LMGE, Université Clermont Auvergne, France)
+        - start_date: 2016-04-11
+          end_date: 2016-06-17
+          name: Thomas Eymard
+          type: IUT (2 months)
+          institution: Bioinformatics, IUT Aurillac, France
+        - start_date: 2015-04-01
+          end_date: 2015-06-30
+          name: Cécile Hilpert
+          title: PYL protein prediction
+          type: IUT (2 months)
+          institution: Bioinformatics, IUT Aurillac, France
+      Student Assistant:
+        - start_date: 2022-06-01
+          end_date: 2023-04-30
+          name: Sophia Hampe
+          title: Creation of GTN microbiome training material
+          institution: Computer Science, University of Freiburg, Germany
+        - start_date: 2022-10-12
+          end_date: 2023-07-09
+          name: Yedil Serzhan
+          title: DNAnalyzer
+          institution: Computer Science, University of Freiburg, Germany
+        - start_date: 2021-06-01
+          end_date: 2022-11-15
+          name: Polina Polunina
+          title: DNAnalyzer
+          institution: Computer Science, University of Freiburg, Germany
+        - start_date: 2018-06-01
+          end_date: 2019-02-28
+          name: Bithiah Yuan
+          title: Galaxy tool integration
+          institution: Computer Science, University of Freiburg, Germany
+        - start_date: 2017-04-01
+          end_date: 2019-02-28
+          name: Ekaterina Polkh
+          institution: Computer Science, University of Freiburg, Germany
+      Mentoring:
+        - start_date:
+          end_date:
+          name:
+          title:
+          institution: <a href="https://we-are-ols.org/">Open Life Science</a>
+        - start_date:
+          end_date:
+          name:
+          title:
+          institution: <a href="https://we-are-ols.org/">Open Life Science</a>
+        - start_date:
+          end_date:
+          name:
+          title:
+          institution: <a href="https://we-are-ols.org/">Open Life Science</a>
+        - start_date:
+          end_date:
+          name:
+          title:
+          institution: <a href="https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/">Mozilla Open Leaders</a>
+        - start_date:
+          end_date:
+          name:
+          title:
+          institution: <a href="https://carpentries.org/">The Carpentries</a>
+
+    Leadership:
+      - start_date: 2024
+        end_date:
+        name: Member of the <a href="https://galaxyproject.org/community/governance/geb/#members">Galaxy Executive Board</a>
+      - start_date: 2022-10-01
+        end_date:
+        name: Co-lead of the <a href="https://elixir-europe.org/communities/microbiome">ELIXIR Microbiome Community</a>
+      - start_date: 2021-06-25
+        end_date:
+        name: Founder and co-lead of the <a href="https://galaxyproject.org/projects/microbial/">microGalaxy community</a>
+      - start_date: 2017
+        end_date:
+        name: Member of the <a href="https://galaxyproject.org/iuc/">Galaxy Intergalactic Utilities Commission</a>
+      - start_date: 2024-12-01
+        end_date: 2026-02-28
+        name: Co-lead of a French Microbiology Bioinformatics Community
+      - start_date: 2024-12-01
+        end_date: 2026-02-28
+        name: Co-lead of a French WG to catalog metagenomics resources
+      - start_date: 2024-12-01
+        end_date: 2026-02-28
+        name: WP technical lead in <a href="https://abromics.fr/">ABRomics</a> (French national project)
+      - start_date: 2024-01-01
+        end_date: 2026-02-28
+        name: Co-deputy training coordinator for <a href="https://www.elixir-europe.org/about-us/who-we-are/nodes/france">ELIXIR France</a>
+      - start_date: 2022-01-01
+        end_date: 2023-11-15
+        name: Co-lead of the <a href="https://galaxy-mentor-network.netlify.app/">Galaxy Mentor Network</a>
+      - start_date: 2022
+        end_date: 2023
+        name: Member of the <a href="https://www.mygoblet.org/">GOBLET Executive Board</a>
+      - start_date: 2019-09-15
+        end_date: 2026-02-28
+        name: Co-founder and co-director of <a href="https://we-are-ols.org/">OLS</a>
+      - start_date: 2019
+        end_date: 2022
+        name: Co-deputy training coordinator for <a href="https://www.denbi.de/elixir-de">ELIXIR Germany</a>
+      - start_date: 2019
+        end_date: 2022
+        name: Co-founder and co-lead of the <a href="https://streetsciencecommunity.github.io/">Street Science Community</a>
+      - start_date: 2016
+        end_date: 2023
+        name: Co-lead of the <a href="https://training.galaxyproject.org/">Galaxy Training Network</a>
+
+    Editorial and Evaluation Roles:
+      Editorial:
+        - name: Editorial Board Member for <a href='https://bmcbioinformatics.biomedcentral.com/about/editorial-board'>BMC Bioinformatics</a>
+          start_date: 2024
+          end_date:
+        - name: Associate Editor for a paper in BMC Supplements
+          start_date: 2026
+          end_date: 2026
+        - name: Advisor for Galaxy Gateway at F1000
+          start_date: 2021
+          end_date:
+      Ad hoc reviewer:
+        - Journals:
+            - Bioinformatics Advances
+            - Trends in Ecology and Evolution
+            - BMC Microbiology
+            - GigaScience
+            - Bioinformatics
+        - Conferences:
+            - RECOMB
+            - ECCB
+            - GCC
+        - Grant Proposals:
+            - OSCARS cascading grants
+            - Sloan Foundation
+      PhD Thesis:
+        - start_date: 2021
+          end_date: 2021
+          type: Reviewer of PhD Thesis
+          name: Giulia Agostinetto
+          institution: University of Milan, Italy
+        - start_date: 2018
+          end_date: 2018
+          type: Participation in Ph.D. Advisory Committee
+          name: Jeanne Bazille
+          institution: INRA Theix, France
+      Selection Committees:
+        - start_date: 2018
+          end_date: 2018
+          type: Engineer Selection Committee
+          institution: INRAE, France
+
+    Organisation of scientific events:
+      Scientific committee:
+        - year: 2023
+          name: <a href="https://galaxyproject.org/events/gcc2022/">Galaxy Community Conference</a>
+        - year: 2022
+          name: <a href="https://galaxyproject.org/events/gcc2022/">Galaxy Community Conference</a>
+        - year: 2018
+          name: <a href="https://galaxyproject.org/events/gccbosc2018/organizers/#gcc2018-scientific-program-committee">GCCBOSC</a> Galaxy User Conference Freiburg
+      Organization committee:
+        - intro: |
+            10+ Hackathons / Collaborative work events, 20+ Training workshops and events at national and European levels, including Train the Trainers
+        - year: 2026
+          name: <a href="https://galaxyproject.org/events/gcc2026/">Galaxy Community Conference</a>
+        - year: 2023
+          name: <a href="https://gallantries.github.io/video-library/events/smorgasbord3/">GTN Smörgåsbord</a> (Global virtual Galaxy Course)
+        - year: 2022
+          name: <a href="https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html">GTN Smörgåsbord</a> (Global virtual Galaxy Course)
+        - year: 2021
+          name: <a href="https://shiltemann.github.io/global-galaxy-course/">GTN Smörgåsbord</a> (Global virtual Galaxy Course)
+        - year: 2019
+          name: <a href="https://galaxyproject.org/events/gcc2019/">Galaxy Community Conference</a>
+
+    Teaching:
+      Under- and graduate courses:
+        - start_date: 2016-08-01
+          end_date: 2023-11-30
+          description: Bioinformatic lectures to Computer Science master students
+          institution: University of Freiburg, Freiburg, Germany
+        - start_date: 2015-01-01
+          end_date: 2016-06-30
+          description: Computer science & Bioinformatic lectures
+          institution: IUT Aurillac, France
+        - start_date: 2011-10-01
+          end_date: 2014-11-30
+          description: Programming practical courses to bachelor and master students
+          institution: INSA Lyon, Lyon, France
+
+      Short-term training delivery activities:
+        - intro: |
+            50+ developed tutorials, 20+ workshops as instructor and/or organizer
+        - year: 2025
+          activities:
+            - name: "Galaxy Training Academy: Microbiome"
+              length: "5-day"
+              location: "Online & Asynchronous"
+            - name: "Artificial Intelligence and Machine Learning in Life Sciences: from foundations to applications "
+              length: "5-day"
+              location: "Aussois, France"
+            - name: "Metagenomics and metatranscriptomics data analysis using Galaxy"
+              length: "2-day"
+              location: "Lyon, France"
+        - year: 2024
+          activities:
+            - name: "ABRomics introduction"
+              length: "2 half-day"
+              location: "Paris, France"
+            - name: "Introduction to microbial data analysis using Galaxy"
+              length: "Half-day"
+              location: "Clermont-Ferrand, France"
+              repetition: "Monthly"
+            - name: "Galaxy Training Academy: Microbiome, Bacterial Genomics"
+              length: "5-day"
+              location: "Online & Asynchronous"
+              repetition: "1 / year"
+        - year: 2023
+          activities:
+            - name: "BioNT: A practical introduction to bioinformatics and RNA-seq using Galaxy"
+              length: "5 half-day"
+              location: "Online"
+            - name: "ELIXIR-GOBLET & Gallantries Train-the-Trainers"
+              length: "4 half-day"
+              location: "Online"
+            - name: "A practical workshop for (foodborne) pathogen detection from (direct Nanopore) sequencing data using Galaxy"
+              length: "1-day"
+              location: "Switzerland & Online"
+            - name: "GTN Smörgåsbord: Microbiome"
+              length: "5-day"
+              location: "Online & Asynchronous"
+        - year: 2022
+          activities:
+            - name: "Gallantries Train-the-Trainers"
+              length: "2-day"
+              location: "Online"
+            - name: "ELIXIR Train-the-Trainers"
+              length: "2-day"
+              location: "Belgium & Online"
+            - name: "GTN Smörgåsbord: RNA-seq"
+              length: "5-day"
+              location: "Online & Asynchronous"
+            - name: "RNA-seq data analysis using Galaxy"
+              length: "2-day"
+              location: "Freiburg, Germany"
+        - year: 2021
+          activities:
+            - name: "GTN Smörgåsbord: RNA-seq"
+              length: "5-day"
+              location: "Online & Asynchronous"
+            - name: "Women in Data Science – Perspectives in Industry and Academia"
+              length: "0.5-day"
+              location: "Online"
+        - year: 2019
+          activities:
+            - name: "RNA-seq workshop for beginners: from sequence to visualisations using Galaxy and R"
+              length: "2-day"
+              location: "Online"
+              repetition: "x2"
+            - name: "Galaxy for Training and Education"
+              length: "2.5 h"
+              location: "Galaxy Community Conference, Freiburg, Germany"
+            - name: "Open source project management"
+              length: "2.5 h"
+              location: "Galaxy Community Conference, Freiburg, Germany"
+            - name: "RNA-seq data analysis using Galaxy"
+              length: "2-day"
+              location: "Belgrade, Serbia"
+            - name: "HTS analysis using Galaxy"
+              length: "5-day"
+              location: "Freiburg, Germany"
+              repetition: "1-2/year"
+        - year: 2018
+          activities:
+            - name: "Data Carpentry workshop"
+              length: "2-day"
+              location: "Dublin, Ireland"
+            - name: "Metagenomics data analysis"
+              length: "0.5-day"
+              location: "Galaxy Africa, Cape Town, South Africa"
+            - name: "Galaxy for Training and Education"
+              length: "2.5 h"
+              location: "GBCC, Portland, USA"
+            - name: "HTS analysis using Galaxy"
+              length: "5-day"
+              location: "Freiburg, Germany"
+              repetition: "1-2/year"
+            - name: "RNA-seq data analysis using Galaxy"
+              length: "2-day"
+              location: "Freiburg, Germany"
+        - year: 2017
+          activities:
+            - name: "Software Carpentry Workshop"
+              length: "2-day"
+              location: "EMBL, Heidelberg, Germany"
+            - name: "Tool development and integration into Galaxy; Galaxy Interactive Tour"
+              length: "5-day"
+              location: "European Galaxy Developer Workshop, Strasbourg, France"
+            - name: "1st Freiburg Software Carpentry Workshop"
+              length: "2-day"
+              location: "Freiburg, Germany"
+            - name: "Metagenomics data analysis"
+              length: "0.5-day"
+              location: "Galaxy Community Conference, Montpellier, France"
+            - name: "RNA-seq data analysis using Galaxy"
+              length: "1-day"
+              location: "Mainz, Germany"
+            - name: "HTS data analysis using Galaxy"
+              length: "5-day"
+              location: "Freiburg, Germany"
+              repetition: "2/year"
+        - year: 2016
+          activities:
+            - name: "Docker for beginners"
+              location: "3rd Systems Biology Developers Foundry, Frankfurt, Germany"
+            - name: "Tool integration in Galaxy environment"
+              location: "Clermont-Ferrand, France"
+            - name: "RNA-seq data analysis using Galaxy"
+              length: "2-day"
+              location: "Freiburg, Germany"
+            - name: "HTS data analysis using Galaxy"
+              length: "5-day"
+              location: "Freiburg, Germany"
+              repetition: "2/year"
+
+      Public engagement:
+        - start_date: 2019
+          end_date: 2022
+          description: "Co-founder and co-lead of <a href='https://streetscience.community/'>Street Science Community</a>, an initiative for interactive, accessible, public-space science outreach"
+        - start_date: 2019
+          end_date: 2019
+          description: "Talk about Beer Microbiome at <a href='https://pintofscience.com/'>Pint of Science</a>"
+        - start_date: 2015
+          end_date: 2018
+          description: "Contributor to <a href='http://bioinfo-fr.net'>bioinfo-fr.net</a>, a collaborative french bioinformatic blog"
+
+    Scientific Recognition:
+      Selected invited talks:
+        - year: 2024
+          items:
+            - title: "Exploring the Microbiome with Galaxy: Tools, Workflows, and Applications"
+              event: "Journée Thématique 'Métagénomique, Microbiome et ADN environnemental' - Groupe de Travail 'Statistique et Génomique' - Réseau Interdisciplinaire autour de la Statistique"
+              location: "Online"
+        - year: 2022
+          items:
+            - title: "Galaxy for your data analysis!"
+              event: "EMBL-EBI / Wellcome Trust Bioinformatics Summer School"
+              location: "Online"
+        - year: 2021
+          items:
+            - title: "How I developed my career in data science: role models, training, mentoring and community"
+              event: "Women in Data Science 2021 - Bayer AG & de.NBI/ELIXIR Germany Event"
+              location: "Online"
+            - title: Galaxy for microbiome
+              event: Functional microbiome analysis training
+              location: "Online"
+        - year: 2020
+          items:
+            - title: "Empowering usable, and comprehensive bioinformatic training"
+              event: "ISMB / ISCB Education COSI"
+              location: "Online"
+        - year: 2019
+          items:
+            - title: "The training effort of the Galaxy community"
+              event: "ELIXIR Bioinformatics Training Tools Workshop"
+              location: "Debrecen, Hungary"
+        - year: 2018
+          items:
+            - title: "Community-driven training for biological data analysis with the Galaxy Training Network"
+              event: "Galaxy Africa"
+              location: "Cape Town, South Africa"
+            - title: "The daily life of a bioinformatician: multi-faceted computational analysis of a biological system"
+              event: "Basel Computational Biology Seminar"
+              location: "Basel, Switzerland"
+
+      Awards:
+        - year: 2023
+          items:
+            - title: "Accessible and Scalable Pipelines for Fast and Easy (Foodborne) Pathogens Detection and Tracking."
+              type: "Best Poster"
+              event: "German Bioinformatic Conference"
+              location: "Hamburg, Germany"
+            - title: "Establishing the ELIXIR Microbiome Community."
+              type: "Best Poster"
+              event: "ELIXIR All Hands Meeting"
+              location: "Dublin, Ireland"
+        - year: 2011
+          items:
+            - type: "PhD Scholarship"
+
+#    Languages:
+#      - name: French
+#        summary: "Native speaker"
+#
+#      - name: English
+#        summary: "Fluent"
+#
+#      - name: German
+#        summary: "Intermediate"

@@ -1,0 +1,35 @@
+{% comment %}
+    Reusable date range formatter for CV entries.
+    Inputs:
+    - start_date / startDate
+    - end_date / endDate
+    - format: 'year' (default)
+  Output: plain text date (e.g. "2021 - 2023", "2021", "2021 - Present")
+{% endcomment %}
+
+{% assign raw_start = include.start_date | default: include.startDate %}
+{% assign raw_end = include.end_date | default: include.endDate %}
+{% assign format = include.format | default: 'year' %}
+
+{% if raw_start != blank %}
+  {% if format == 'year' %}
+    {% assign start_value = raw_start | split: '-' | first %}
+    {% assign end_value = raw_end | split: '-' | first | default: 'Present' %}
+  {% elsif format == 'month-year' %}
+    {% assign start_value = raw_start | date: '%m.%Y' %}
+    {% if raw_end != blank %}
+      {% assign end_value = raw_end | date: '%m.%Y' %}
+    {% else %}
+      {% assign end_value = 'Present' %}
+    {% endif %}
+  {% else %}
+    {% assign start_value = raw_start | date: '%m.%Y' %}
+    {% assign end_value = raw_end | date: '%m.%Y' | default: 'Present' %}
+  {% endif %}
+
+  {% if start_value == end_value %}
+    {{ start_value }}
+  {% else %}
+    {{ start_value }} - {{ end_value }}
+  {% endif %}
+{% endif %}

@@ -1,0 +1,62 @@
+{% comment %}
+  Unified education entry renderer for both RenderCV and JSONResume formats
+  Handles both:
+  - RenderCV: institution, area, studyType (or degree), start_date, end_date, location, courses, highlights
+  - JSONResume: institution, area, studyType, startDate, endDate, location, courses, highlights
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+          {% capture date %}{% include cv/date_range.liquid start_date=entry.start_date startDate=entry.startDate end_date=entry.end_date endDate=entry.endDate format='month.year' %}{% endcapture %}
+          {% assign date = date | strip %}
+          {% if date == '' %}
+            {% assign date = null %}
+          {% endif %}
+
+          <table class="table-cv">
+            <tbody>
+              <tr>
+                <td>
+                  {% if date %}
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                  {% endif %}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          {% if entry.name %}
+            <h6 class="title ml-1 ml-md-4" style="font-size: 0.95rem">
+              <strong>{{ entry.name }}</strong>
+              {%- if entry.institution %} ({{ entry.institution }}){% endif %}
+            </h6>
+          {% endif %}
+
+          {% if entry.title %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+              {{ entry.title }}
+            </h6>
+          {% endif %}
+
+          {% if entry.type or entry.supervision %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+              {{ entry.type }}
+              {% if entry.type and entry.supervision %} - {% endif %}
+              {% if entry.supervision -%}
+                <span style="font-style: italic">{{ entry.supervision }}</span>
+              {%- endif %}
+            </h6>
+          {% endif %}
+
+          {% if entry.institution and entry.name == null %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ entry.institution }}</h6>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
