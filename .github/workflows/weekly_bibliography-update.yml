@@ -1,0 +1,26 @@
+name: Weekly bibliography fetching
+
+on:
+  workflow_dispatch:
+  schedule:
+    #Every Sunday at 8:00 am
+    - cron: "0 8 * * 0"
+
+jobs:
+  fetch:
+    name: Fetch bibliography
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run fetch script
+        run: |
+          wget \
+            -O _bibliography/papers.bib \
+            "https://api.archives-ouvertes.fr/search/?q=*:*&fq=authIdHal_s:berenice-batut&fq=docType_s:(ART%20OR%20UNDEFINED%20OR%20OUV%20OR%20COUV%20OR%20COMM%20OR%20POSTER%20OR%20PROCEEDINGS%20OR%20ISSUE%20OR%20THESE%20OR%20HDR%20OR%20REPORT)&rows=1000&fl=halId_s,version_i,uri_s,docType_s,docSubType_s,doiId_s,title_s,authFullName_s,producedDate_s,thumbId_i,citationRef_s,linkExtUrl_s,linkExtId_s&facet=true&facet.mincount=1&facet.field=openAccess_bool&sort=publicationDateY_i%20desc&wt=bibtex"
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add _bibliography/papers.bib
+          git commit -m "Update bibliography"
+          git push origin HEAD:main
