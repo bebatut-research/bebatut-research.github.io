@@ -10,6 +10,8 @@
 
 - name: Galaxy
   posts:
+    - url: https://galaxyproject.org/news/2026-07-29-gcc-ifb-recap/
+      published_date: 2026-07-29
     - url: https://galaxyproject.org/news/2026-07-13-gcc-microbiome-2026/
       published_date: 2026-07-13
     - url: https://galaxyproject.org/news/2026-02-19-misconception-paper/
