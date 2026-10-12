@@ -122,6 +122,10 @@ cv:
     Supervision:
       #Postdoctoral researchers:
       PhD students:
+        - start_date: 2026-10-01
+          name: Dorian Da Silova
+          title: Exploration of the photosynthetic biodiversity and activity in the clouds
+          supervision: Co-supervised with Pierre Amato (LMGE, France) and Juliette Tison-Rosebery (EABX,Bordeaux)
         - start_date: 2021-04-01
           name: Engy Nasr
           title: Enhancing Microbiome Research and Pathogen Surveillance through Sustainable Multi-Omics Approaches within a One Health Context
