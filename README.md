@@ -6,7 +6,9 @@
 
 Replace `_bibliography/papers.bib` by content from [HAL](<https://api.archives-ouvertes.fr/search/?q=*:*&fq=authIdHal_s:berenice-batut&fq=docType_s:(ART%20OR%20UNDEFINED%20OR%20OUV%20OR%20COUV%20OR%20COMM%20OR%20POSTER%20OR%20PROCEEDINGS%20OR%20ISSUE%20OR%20THESE%20OR%20HDR%20OR%20REPORT)&rows=1000&fl=halId_s,version_i,uri_s,docType_s,docSubType_s,doiId_s,title_s,authFullName_s,producedDate_s,thumbId_i,citationRef_s,linkExtUrl_s,linkExtId_s&facet=true&facet.mincount=1&facet.field=openAccess_bool&sort=publicationDateY_i%20desc&wt=bibtex>)
 
-### Local setup using Docker (Recommended)
+GitHub Action updates the `_bibliography/papers.bib` on a weekly basis.
+
+### Local setup
 
 Using Docker to install Jekyll and Ruby dependencies is the easiest way.
 
@@ -21,3 +23,33 @@ docker compose up
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
+
+### Theme
+
+To use `bebatut-research-theme` in other Jekyll project, follow these steps:
+
+1. Add this line to your Jekyll site's `Gemfile`:
+
+    ```ruby
+    gem 'jekyll-remote-theme'
+    ```
+
+2. Add `jekyll-remote-theme` in the plugins in your Jekyll site's `_config.yml`:
+
+3. Install the gem with
+
+    ```
+   $ bundle install
+    ```
+
+    Or
+
+    ```
+    $ gem install jekyll-remote-theme
+    ```
+
+4. Add this line to your Jekyll site's `_config.yml`:
+
+    ```yaml
+    remote_theme: bebatut-research/bebatut-research-theme
+    ```
