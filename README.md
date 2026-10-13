@@ -31,7 +31,10 @@ To use `bebatut-research-theme` in other Jekyll project, follow these steps:
 1. Add this line to your Jekyll site's `Gemfile`:
 
     ```ruby
-    gem 'jekyll-remote-theme'
+    source "https://rubygems.org"
+
+    gem 'jekyll', "~> 4.3"
+    gem "jekyll-remote-theme"   
     ```
 
 2. Add `jekyll-remote-theme` in the plugins in your Jekyll site's `_config.yml`:

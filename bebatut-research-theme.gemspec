@@ -24,4 +24,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-email-protect"
   spec.add_runtime_dependency "jekyll-twitter-plugin"
   spec.add_runtime_dependency "jemoji"
+
+  # Removed from default gems in recent Ruby versions (3.4+), needed by Jekyll and plugins
+  %w[base64 bigdecimal csv logger observer ostruct].each do |gem_name|
+    spec.add_runtime_dependency gem_name
+  end
 end
