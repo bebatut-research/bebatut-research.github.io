@@ -1,59 +1,78 @@
 ---
 layout: default
 ---
-<div class="col-md-12">
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Title</th>
-        <th class="is-hidden-mobile">Duration</th>
-        <th class="is-hidden-mobile">Event</th>
-        <th class="is-hidden-mobile">Location</th>
-        <th class="is-hidden-mobile">Source</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for page in site.pages %}
-        {% if page.event %}
-          <tr>
-            <td>
-              <span class="text-nowrap">{{ page.event.date | date: date_format }}</span>
-            </td>
-            <td>
-              <span class="text-nowrap">
-                <h5>
-                  <a href="{% if page.external_link %}{{ page.external_link }}{% else %}{{ site.baseurl }}/{{ page.url }}{% endif %}">
-                    {{- page.talk.title | escape -}}
-                  </a>
-                </h5>
-                {% if page.talk.summary %}
-                  <div>{{ event.excerpt }}</div>
-                {% endif %}
-              </span>
-            </td>
-            <td class="is-hidden-mobile">
-              <span class="text-nowrap">{{ page.talk.duration }}</span>
-            </td>
-            <td class="is-hidden-mobile">
-              <span class="text-nowrap">
-                {% if page.event.link %}
-                  <a href="{{ page.event.link }}">{{ page.event.name | escape }}</a>
-                {% else %}
-                  {{ page.event.name | escape }}
-                {% endif %}
-              </span>
-            </td>
-            <td class="is-hidden-mobile">
-              {% if page.event.location.city %} {{ page.event.location.city }}, {% endif %}
-              {{ page.event.location.country }}
-            </td>
-            <td class="is-hidden-mobile">
-              <a href="{{ site.github.repository_url }}/tree/master{{ page.dir }}"><i class="fab fa-github"></i></a>
-            </td>
-          </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
+{% assign date_format = site.date_format | default: '%b %-d, %Y' %}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+
+    {% assign years = '' | split: '' %}
+    {% for entry in site.data.talks.talks %}
+      {% assign years = years | push: entry[0] %}
+    {% endfor %}
+    {% assign years = years | sort | reverse %}
+    {% for year in years %}
+      {% assign year_talks = site.data.talks.talks[year] %}
+      {% unless year_talks %}{% continue %}{% endunless %}
+      {% assign talks = year_talks | sort: 'event.date' | reverse %}
+      <h2 id="{{ year }}">{{ year }}</h2>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Title</th>
+              <th>Duration</th>
+              <th>Event</th>
+              <th>Location</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in talks %}
+              <tr>
+                <td>
+                  <span class="text-nowrap">{{ item.event.date | date: date_format }}</span>
+                </td>
+                <td>
+                  {% capture title_html %}{{ item.talk.title | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+                  {% if item.talk.link %}
+                    <a href="{{ item.talk.link }}">{{ title_html }}</a>
+                  {% else %}
+                    {{ title_html }}
+                  {% endif %}
+                </td>
+                <td>
+                  <span class="text-nowrap">{{ item.talk.duration }}</span>
+                </td>
+                <td>
+                  {% if item.event.link %}
+                    <a href="{{ item.event.link }}">{{ item.event.name }}</a>
+                  {% else %}
+                    {{ item.event.name }}
+                  {% endif %}
+                </td>
+                <td>
+                  {% if item.event.location.city %}{{ item.event.location.city }}, {% endif %}
+                  {{- item.event.location.country -}}
+                </td>
+                <td>
+                  {% if item.talk.source %}
+                    <a href="{{ item.talk.source }}"><i class="fab fa-github"></i></a>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% endfor %}
+  </article>
 </div>
