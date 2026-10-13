@@ -23,36 +23,3 @@ docker compose up
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
-
-### Theme
-
-To use `bebatut-research-theme` in other Jekyll project, follow these steps:
-
-1. Add this line to your Jekyll site's `Gemfile`:
-
-   ```ruby
-   source "https://rubygems.org"
-
-   gem 'jekyll', "~> 4.3"
-   gem "jekyll-remote-theme"
-   ```
-
-2. Add `jekyll-remote-theme` in the plugins in your Jekyll site's `_config.yml`:
-
-3. Install the gem with
-
-   ```bash
-   $ bundle install
-   ```
-
-   Or
-
-   ```bash
-   $ gem install jekyll-remote-theme
-   ```
-
-4. Add this line to your Jekyll site's `_config.yml`:
-
-   ```yaml
-   remote_theme: bebatut-research/bebatut-research-theme
-   ```
