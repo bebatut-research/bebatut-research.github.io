@@ -1,123 +1,123 @@
 talks:
   2026:
-    -
-      event:
-          name: Journée du LMGE
-          location:
-              city: Clermont-Ferrand
-              country: France
-          date: 2026-07-06
+    - event:
+        name: LaMP seminar
+        location:
+          city: Clermont-Ferrand
+          country: France
+        date: 2026-10-06
       talk:
-          title: 'CLOUDBIOME - Integrating Microbial Ecology and Atmospheric Sciences to Understand the Functional Dynamics of the Aeromicrobiome in Clouds'
-          duration: 10min
-          link: https://bebatut-slides.github.io/2026/07_lmge/slides.pdf
-    -
-      event:
-          name: Galaxy Community Conference
-          location:
-              city: Clermont-Ferrand
-              country: France
-          date: 2026-06-03
+        title: "CLOUDBIOME - Integrating Microbial Ecology and Atmospheric Sciences to Understand the Functional Dynamics of the Aeromicrobiome in Clouds"
+        duration: 30min
+        link: https://bebatut-slides.github.io/2026/10_lamp/slides.pdf
+    - event:
+        name: Journée du LMGE
+        location:
+          city: Clermont-Ferrand
+          country: France
+        date: 2026-07-06
       talk:
-          title: 'Galaxy + France = ❤️ '
-          duration: 10min
-          link: https://f1000research.com/slides/15-1124
+        title: "CLOUDBIOME - Integrating Microbial Ecology and Atmospheric Sciences to Understand the Functional Dynamics of the Aeromicrobiome in Clouds"
+        duration: 10min
+        link: https://bebatut-slides.github.io/2026/07_lmge/slides.pdf
+    - event:
+        name: Galaxy Community Conference
+        location:
+          city: Clermont-Ferrand
+          country: France
+        date: 2026-06-03
+      talk:
+        title: "Galaxy + France = ❤️ "
+        duration: 10min
+        link: https://f1000research.com/slides/15-1124
   2025:
-    -
-        event:
-            name: ELIXIR All Hands Meeting
-            location:
-                city: Thessaloniki
-                country: Greece
-            date: 2025-06-03
-        talk:
-            title: "FAIRyMAGS – Optimising Metagenomics Assembled Genomes Building: Workflow Finalisation, Training Material Development, Real Data Evaluation, and Resource Allocation Tool Creation"
-            link: https://f1000research.com/slides/14-595
-            source: https://github.com/bebatut-slides/2025
-            duration: 10min
-    -
-        event:
-            name: European Galaxy Days
-            location: 
-                city: Freiburg
-                country: Germany
-            date: 2025-10-01
-        talk:
-            title: "The Microbiology Galaxy Lab and the effort from the microGalaxy to build the first community-driven gateway for reproducible and FAIR analysis of microbial data"
-            source: https://github.com/bebatut-slides/2025
-            link: https://bebatut-slides.github.io/2025/10_egd_microbiology/
-            duration: 15min
+    - event:
+        name: ELIXIR All Hands Meeting
+        location:
+          city: Thessaloniki
+          country: Greece
+        date: 2025-06-03
+      talk:
+        title: "FAIRyMAGS – Optimising Metagenomics Assembled Genomes Building: Workflow Finalisation, Training Material Development, Real Data Evaluation, and Resource Allocation Tool Creation"
+        link: https://f1000research.com/slides/14-595
+        source: https://github.com/bebatut-slides/2025
+        duration: 10min
+    - event:
+        name: European Galaxy Days
+        location:
+          city: Freiburg
+          country: Germany
+        date: 2025-10-01
+      talk:
+        title: "The Microbiology Galaxy Lab and the effort from the microGalaxy to build the first community-driven gateway for reproducible and FAIR analysis of microbial data"
+        source: https://github.com/bebatut-slides/2025
+        link: https://bebatut-slides.github.io/2025/10_egd_microbiology/
+        duration: 15min
   2024:
-    -
-        event:
-            name: IFB GT-Formation
-            location:
-                country: France
-            date: 2024-01-18
-        talk:
-            title: "My Training Journey"
-            link: https://bebatut-slides.github.io/2024/01_18_ifg_gt_formation/
-            source: https://github.com/bebatut-slides/2024/tree/main/01_18_ifg_gt_formation
-            duration: 10min
-    -
-        event:
-            name: ELIXIR All Hands Meeting
-            location:
-                city: Uppsala
-                country: Sweden
-            date: 2024-06-12
-        talk:
-            title: "Linking Galaxy tools, workflows, training, and support with EDAM and bio.tool IDs"
-            link: https://bebatut-slides.github.io/2024/06_12_elixir_ahm/
-            source: https://github.com/bebatut-slides/2024/tree/main/06_12_elixir_ahm
-            duration: 10min
-    -
-        event:
-            name: Galaxy Community Conference
-            location:
-                city: Brno
-                country: Czech Republic
-            date: 2024-06-24
-        talk:
-            title: "ABRomics: A Galaxy-based One Health Antimicrobial Resistance Platform"
-            link: https://bebatut-slides.github.io/2024/06_gcc_abromics/
-            source: https://github.com/bebatut-slides/2024/tree/main/06_gcc_abromics
-            duration: 10min
-    -
-        event:
-            name: Galaxy Community Conference
-            location:
-                city: Brno
-                country: Czech Republic
-            date: 2024-06-24
-        talk:
-            title: "Galaxy CoDex for finding tools, workflows, and training"
-            link: https://bebatut-slides.github.io/2024/06_gcc_galaxy_codex/
-            source: https://github.com/bebatut-slides/2024/tree/main/06_gcc_galaxy_codex
-            duration: 10min
-    -
-        event:
-            name: Journée Thématique "Métagénomique, Microbiome et ADN environnemental" - Groupe de Travail "Statistique et Génomique" - Réseau Interdisciplinaire autour de la Statistique
-            location:
-                country: France
-            date: 2024-10-10
-        talk:
-            title: "Exploring the Microbiome with Galaxy: Tools, Workflows, and Applications"
-            link: https://bebatut-slides.github.io/2024/10_10_jt_metagenomique/
-            source: https://github.com/bebatut-slides/2024/tree/main/10_10_jt_metagenomique
-            duration: 45min
-    -
-        event:
-            name: Séminaire LMGE
-            location:
-                city: Clermont-Ferrand
-                country: France
-            date: 2024-10-16
-        talk:
-            title: "Enhancing Ecological Understanding through Sustainable Multi-Omics Approaches – A Project Proposal and Collaboration Opportunities at LMGE"
-            link: https://bebatut-slides.github.io/2024/10_16_lmge/
-            source: https://github.com/bebatut-slides/2024/tree/main/10_16_lmge
-            duration: 45min
+    - event:
+        name: IFB GT-Formation
+        location:
+          country: France
+        date: 2024-01-18
+      talk:
+        title: "My Training Journey"
+        link: https://bebatut-slides.github.io/2024/01_18_ifg_gt_formation/
+        source: https://github.com/bebatut-slides/2024/tree/main/01_18_ifg_gt_formation
+        duration: 10min
+    - event:
+        name: ELIXIR All Hands Meeting
+        location:
+          city: Uppsala
+          country: Sweden
+        date: 2024-06-12
+      talk:
+        title: "Linking Galaxy tools, workflows, training, and support with EDAM and bio.tool IDs"
+        link: https://bebatut-slides.github.io/2024/06_12_elixir_ahm/
+        source: https://github.com/bebatut-slides/2024/tree/main/06_12_elixir_ahm
+        duration: 10min
+    - event:
+        name: Galaxy Community Conference
+        location:
+          city: Brno
+          country: Czech Republic
+        date: 2024-06-24
+      talk:
+        title: "ABRomics: A Galaxy-based One Health Antimicrobial Resistance Platform"
+        link: https://bebatut-slides.github.io/2024/06_gcc_abromics/
+        source: https://github.com/bebatut-slides/2024/tree/main/06_gcc_abromics
+        duration: 10min
+    - event:
+        name: Galaxy Community Conference
+        location:
+          city: Brno
+          country: Czech Republic
+        date: 2024-06-24
+      talk:
+        title: "Galaxy CoDex for finding tools, workflows, and training"
+        link: https://bebatut-slides.github.io/2024/06_gcc_galaxy_codex/
+        source: https://github.com/bebatut-slides/2024/tree/main/06_gcc_galaxy_codex
+        duration: 10min
+    - event:
+        name: Journée Thématique "Métagénomique, Microbiome et ADN environnemental" - Groupe de Travail "Statistique et Génomique" - Réseau Interdisciplinaire autour de la Statistique
+        location:
+          country: France
+        date: 2024-10-10
+      talk:
+        title: "Exploring the Microbiome with Galaxy: Tools, Workflows, and Applications"
+        link: https://bebatut-slides.github.io/2024/10_10_jt_metagenomique/
+        source: https://github.com/bebatut-slides/2024/tree/main/10_10_jt_metagenomique
+        duration: 45min
+    - event:
+        name: Séminaire LMGE
+        location:
+          city: Clermont-Ferrand
+          country: France
+        date: 2024-10-16
+      talk:
+        title: "Enhancing Ecological Understanding through Sustainable Multi-Omics Approaches – A Project Proposal and Collaboration Opportunities at LMGE"
+        link: https://bebatut-slides.github.io/2024/10_16_lmge/
+        source: https://github.com/bebatut-slides/2024/tree/main/10_16_lmge
+        duration: 45min
   2023:
     - event:
         name: Galaxy Community Call
@@ -216,7 +216,7 @@ talks:
         location:
           country: Online
       talk:
-        title: 'Empowering usable, and comprehensive bioinformatics training'
+        title: "Empowering usable, and comprehensive bioinformatics training"
         duration: 40min
   2019:
     - event:
@@ -345,7 +345,7 @@ talks:
         source: https://github.com/bebatut-slides/2018/tree/master/05_30_carpentry_con
         duration: "5min"
     - event:
-        name: "\"How to make training FAIR\" workshop - ELIXIR All Hands Meeting"
+        name: '"How to make training FAIR" workshop - ELIXIR All Hands Meeting'
         location:
           city: Berlin
           country: Germany
@@ -513,135 +513,124 @@ talks:
         source: https://github.com/bebatut-slides/2017/tree/master/11_23_backofen_lab_meeting
         duration: 30min
   2016:
-    - 
-        event:
-            name: GalaxyAdmins Meetup (Online)
-            location:
-                country: online
-            date: 2016-12-15
-        talk:
-            title: "Galaxy Training Network - rebooted"
-            link: https://bebatut-slides.github.io/galaxy_admin_meetup_12_16/#/
-            source: https://github.com/bebatut-slides/galaxy_admin_meetup_12_16
-            duration: 
-    -
-        event:
-            name: Bioinformatics for Human Health and Disease
-            location:
-                city: Heidelberg
-                country: Germany
-            date: 2016-11-27
-        talk:
-            title: "Tool deployment and sustainability in bioinformatics - Fixed!"
-            link: https://github.com/bebatut-slides/de_nbi_heidelberg_11_16
-            source: https://bebatut-slides.github.io/de_nbi_heidelberg_11_16/#/
-            duration: 
-    -
-        event:
-            name: Swiss German Galaxy Days
-            location:
-                city: Freiburg
-                country: Germany
-            date: 2016-10-20
-        talk:
-            title: "Galaxy Training Network - rebooted"
-            link: https://bebatut-slides.github.io/swiss_german_galaxy_days_10_16/#/
-            source: https://github.com/bebatut-slides/swiss_german_galaxy_days_10_16
-            duration:
-    -
-        event:
-            name: Galaxy workshop
-            location:
-                city: Clermont-Ferrand
-                country: France
-            date: 2016-05-25
-        talk:
-            title: "Tool integration in Galaxy environment"
-            link: http://bebatut-slides.github.io/galaxy_workshop_05_16/#/
-            source: https://github.com/bebatut-slides/galaxy_workshop_05_16
-            duration: 
-    -
-        event:
-            name: Backofen Lab
-            location:
-                city: Freiburg
-                country: Germany
-            date: 2016-05-10
-        talk:
-            title: "Analyze your microbiota sequencing data using a Galaxy-based framework"
-            link: http://bebatut-slides.github.io/freiburg_05_16/#/
-            source: https://github.com/bebatut-slides/freiburg_05_16
-            duration: 30min
+    - event:
+        name: GalaxyAdmins Meetup (Online)
+        location:
+          country: online
+        date: 2016-12-15
+      talk:
+        title: "Galaxy Training Network - rebooted"
+        link: https://bebatut-slides.github.io/galaxy_admin_meetup_12_16/#/
+        source: https://github.com/bebatut-slides/galaxy_admin_meetup_12_16
+        duration:
+    - event:
+        name: Bioinformatics for Human Health and Disease
+        location:
+          city: Heidelberg
+          country: Germany
+        date: 2016-11-27
+      talk:
+        title: "Tool deployment and sustainability in bioinformatics - Fixed!"
+        link: https://github.com/bebatut-slides/de_nbi_heidelberg_11_16
+        source: https://bebatut-slides.github.io/de_nbi_heidelberg_11_16/#/
+        duration:
+    - event:
+        name: Swiss German Galaxy Days
+        location:
+          city: Freiburg
+          country: Germany
+        date: 2016-10-20
+      talk:
+        title: "Galaxy Training Network - rebooted"
+        link: https://bebatut-slides.github.io/swiss_german_galaxy_days_10_16/#/
+        source: https://github.com/bebatut-slides/swiss_german_galaxy_days_10_16
+        duration:
+    - event:
+        name: Galaxy workshop
+        location:
+          city: Clermont-Ferrand
+          country: France
+        date: 2016-05-25
+      talk:
+        title: "Tool integration in Galaxy environment"
+        link: http://bebatut-slides.github.io/galaxy_workshop_05_16/#/
+        source: https://github.com/bebatut-slides/galaxy_workshop_05_16
+        duration:
+    - event:
+        name: Backofen Lab
+        location:
+          city: Freiburg
+          country: Germany
+        date: 2016-05-10
+      talk:
+        title: "Analyze your microbiota sequencing data using a Galaxy-based framework"
+        link: http://bebatut-slides.github.io/freiburg_05_16/#/
+        source: https://github.com/bebatut-slides/freiburg_05_16
+        duration: 30min
   2015:
-    - 
-        event:
-            name: GalaxyDayFr
-            location:
-                city: Paris
-                country: France
-            date: 2015-11-19
-        talk:
-            title: "ASaiM: a Galaxy framework to analyze gut microbiota data"
-            link: http://bebatut-slides.github.io/galaxy-day_2015/#/
-            source: https://github.com/bebatut-slides/galaxy-day_2015
-            duration: 
-    - 
-        event:
-            name: PyConFr
-            location:
-                city: Pau
-                country: France
-            date: 2015-10-17
-        talk:
-            title: "ASaiM: Lessons learned from developing a framework for biologists"
-            link: http://bebatut-slides.github.io/pycon-fr_2015/#/
-            source: https://github.com/bebatut-slides/pycon-fr_2015
-            duration: 
-    - 
-        event:
-            name: JOBIM
-            location:
-                city: Clermont-Ferrand
-                country: France
-            date: 2015-07-08
-        talk:
-            title: "ASaiM: an environment to analyze intestinal microbiota"
-            link: http://fr.slideshare.net/bebatut/asaim-an-environment?related=1
-            duration:
-    -
-        event:
-            name: "API Hour #15"
-            location:
-                city: Clermont-Ferrand
-                country: France
-            date: 2015-06-10
-        talk:
-            title: "ASaiM : Traitement 'Big Data' en biologie"
-            link: http://fr.slideshare.net/bebatut/api-hour-100615
-            duration:
+    - event:
+        name: GalaxyDayFr
+        location:
+          city: Paris
+          country: France
+        date: 2015-11-19
+      talk:
+        title: "ASaiM: a Galaxy framework to analyze gut microbiota data"
+        link: http://bebatut-slides.github.io/galaxy-day_2015/#/
+        source: https://github.com/bebatut-slides/galaxy-day_2015
+        duration:
+    - event:
+        name: PyConFr
+        location:
+          city: Pau
+          country: France
+        date: 2015-10-17
+      talk:
+        title: "ASaiM: Lessons learned from developing a framework for biologists"
+        link: http://bebatut-slides.github.io/pycon-fr_2015/#/
+        source: https://github.com/bebatut-slides/pycon-fr_2015
+        duration:
+    - event:
+        name: JOBIM
+        location:
+          city: Clermont-Ferrand
+          country: France
+        date: 2015-07-08
+      talk:
+        title: "ASaiM: an environment to analyze intestinal microbiota"
+        link: http://fr.slideshare.net/bebatut/asaim-an-environment?related=1
+        duration:
+    - event:
+        name: "API Hour #15"
+        location:
+          city: Clermont-Ferrand
+          country: France
+        date: 2015-06-10
+      talk:
+        title: "ASaiM : Traitement 'Big Data' en biologie"
+        link: http://fr.slideshare.net/bebatut/api-hour-100615
+        duration:
   2014:
-    - 
-        event:
-            name: PhD defense
-            link: https://example.org   # optional
-            location:
-                city: Villeurbanne
-                country: France
-            date: 2014-11-21
-        talk:
-            title: "Évolution réductive des génomes bactériens par expériences d'évolution *in silico*"
-            link: http://fr.slideshare.net/bebatut/...
-            duration: 50min
-            source: https://github.com/bebatut-slides/...   # optional, shows a GitHub icon
+    - event:
+        name: PhD defense
+        link: https://example.org # optional
+        location:
+          city: Villeurbanne
+          country: France
+        date: 2014-11-21
+      talk:
+        title: "Évolution réductive des génomes bactériens par expériences d'évolution *in silico*"
+        link: http://fr.slideshare.net/bebatut/...
+        duration: 50min
+        source: https://github.com/bebatut-slides/... # optional, shows a GitHub icon
   2013:
-    - 
-        event:
-            name: 11th Recomb - Comparative Genomics
-            location:
-                city: Villeurbanne
-                country: France
-            date: 2013-10-18
-        talk:
-            title: "*In silico* experimental evolution: a tool to test evolutionary scenario"
-            link: http://fr.slideshare.net/bebatut/recombcg-2013-in-silico-experimental-evolution-a-tool-to-test-evolutionary-scenarios
-            duration: 
+    - event:
+        name: 11th Recomb - Comparative Genomics
+        location:
+          city: Villeurbanne
+          country: France
+        date: 2013-10-18
+      talk:
+        title: "*In silico* experimental evolution: a tool to test evolutionary scenario"
+        link: http://fr.slideshare.net/bebatut/recombcg-2013-in-silico-experimental-evolution-a-tool-to-test-evolutionary-scenarios
+        duration:
