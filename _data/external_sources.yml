@@ -91,6 +91,16 @@
   categories: [external-posts]
   tags: [galaxy]
 
+- name: Mésocentre - Université Clermont Auvergne
+  posts:
+    - url: https://mesocentre.uca.fr/actualites/nouvel-article-dans-communications-biology-%C2%AB-microbiology-galaxy-lab-a-community-driven-gateway-for-reproducible-and-fair-analysis-of-microbiological-data-%C2%BB
+      published_date: 2026-11-16
+    - url: https://mesocentre.uca.fr/actualites/aubi-a-jobim2025
+      published_date: 2025-07-17
+    - url: https://mesocentre.uca.fr/actualites/publication-dun-article-dans-biogeosciences-les-nuages-influencent-le-fonctionnement-des-micro-organismes-aeroportes
+      published_date: 2024-04-03
+  categories: [external-posts]
+
 - name: OLS
   posts:
     - url: https://we-are-ols.org/posts/2024/07/22/emmy-farewell/
